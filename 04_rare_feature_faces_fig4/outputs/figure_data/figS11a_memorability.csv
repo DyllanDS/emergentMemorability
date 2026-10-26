@@ -1,0 +1,4 @@
+position,condition,label,mean,ci_low,ci_high,participants,interval
+1,rare_feature_not_carried,"Rare feature, not carried",0.4926666666666668,0.43800000000000006,0.5453333333333333,100,"95% percentile bootstrap over participants, 10,000 resamples per point, one numpy default_rng(0) generator for the panel, points drawn in plotted order"
+2,rare_feature_carried_by_new_face,"Rare feature, carried by a new face",0.31666666666666665,0.24666666666666667,0.3866666666666667,100,"95% percentile bootstrap over participants, 10,000 resamples per point, one numpy default_rng(0) generator for the panel, points drawn in plotted order"
+3,ordinary_features,Ordinary features,0.38800000000000007,0.34933333333333344,0.4260000000000001,100,"95% percentile bootstrap over participants, 10,000 resamples per point, one numpy default_rng(0) generator for the panel, points drawn in plotted order"

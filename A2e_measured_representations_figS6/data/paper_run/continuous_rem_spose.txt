@@ -1,0 +1,30 @@
+CONTINUOUS REM IN THE SPoSE SPACE
+============================================================================================
+Familiarity is a likelihood ratio computed feature by feature, so rarity
+weights every comparison between a probe and a stored trace.
+Criterion is 1.0, which is meaningful because the quantity is a ratio.
+
+1600 THINGS concepts, 49 SPoSE dimensions, 40 studied, 20 old and 20 new tested.
+storage 0.30, stored-correctly 0.60
+
+surprisal vs global crowding rho = -0.294;  vs local crowding rho = -0.767
+
+  sigma      hit      FA     d'    rho vs global   rho vs local   designed d'  hits-FA
+   0.02    0.957    0.040   3.46          -0.095         -0.435        -0.414    -0.052
+   0.03    0.933    0.054   3.11          -0.145         -0.488        -0.436    -0.078
+   0.05    0.895    0.130   2.38          -0.170         -0.523        -0.341    -0.095
+   0.08    0.967    0.797   1.01          -0.177         -0.480        -0.068    -0.046
+
+--------------------------------------------------------------------------------------------
+READING THIS
+--------------------------------------------------------------------------------------------
+  sigma is the only quantity the continuous case adds, given as a fraction of
+  each dimension's standard deviation across the concepts. Fig. S6 shows
+  sigma 0.02, 0.03 and 0.05.
+  The comparable numbers are: REM in the run of Fig. 1 gives rho =
+  -0.551 between memorability and crowding, and the designed-list contrast
+  gives d' -0.132.
+  rho vs local and rho vs global correlate memorability with crowding over
+  the 20 nearest concepts and over all other concepts.
+  designed d' and hits-FA are the changes in d' and in hit rate minus false
+  alarm rate from 0 to 16 close neighbors on the designed lists.

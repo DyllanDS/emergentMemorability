@@ -1,0 +1,4 @@
+x,y,spearman_rho,p_two_sided,n_items
+number of similar items,false alarms,0.7190980615639768,1.7219624118025196e-07,40
+number of similar items,hits,0.43498157504615426,0.00503182524896941,40
+number of similar items,d′,-0.49464534265408877,0.0011764743571532836,40

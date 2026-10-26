@@ -1,0 +1,4 @@
+image_set,sessions,blocks_min,blocks_max,study_items_per_block_min,study_items_per_block_max,test_trials_per_block_min,test_trials_per_block_max,old_test_items_per_block_min,old_test_items_per_block_max,new_test_items_per_block_min,new_test_items_per_block_max,response_values_used,lowest_response,highest_response
+maintained,205,16,16,40,40,40,40,20,20,20,20,6,1,6
+changed,195,16,16,40,40,40,40,20,20,20,20,6,1,6
+reduced,202,16,16,40,40,40,40,20,20,20,20,6,1,6

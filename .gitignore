@@ -1,0 +1,46 @@
+# Python bytecode, system files and MATLAB autosave files
+__pycache__/
+*.pyc
+.DS_Store
+*.asv
+
+# A virtual environment created in the repository (README.md, Quick start)
+.venv/
+
+# Logs that the modules write when they run
+*/outputs/logs/
+
+# Inputs that are not part of the repository (EXTERNAL_INPUTS.md): only the README.txt of each folder is
+# tracked, so downloaded files, restricted inputs and their per-trial and per-face derivatives stay local.
+external/bainbridge_faces/*
+!external/bainbridge_faces/README.txt
+external/isola/*
+!external/isola/README.txt
+external/kramer/*
+!external/kramer/README.txt
+external/kramer_trials/*
+!external/kramer_trials/README.txt
+external/spose_triplets/*
+!external/spose_triplets/README.txt
+external/things_images/*
+!external/things_images/README.txt
+external/*/derived/
+
+# M3: the ten THINGS deep-network spaces that are not part of the repository (computed from the THINGS images)
+shared/embeddings_things/alexnet_early.npz
+shared/embeddings_things/vgg16_early.npz
+shared/embeddings_things/resnet18_early.npz
+shared/embeddings_things/clip_early.npz
+shared/embeddings_things/inception_early.npz
+shared/embeddings_things/inception_late.npz
+shared/embeddings_things/cornet_early.npz
+shared/embeddings_things/cornet_late.npz
+shared/embeddings_things/dinov3_early.npz
+shared/embeddings_things/dinov3_late.npz
+
+# M6: the trial structures built from the Kramer et al. trial file
+A2c_continuous_recognition_figS4/data/trial_templates_400.npz
+
+# M5: the MemToolbox2 package (only the README of the folder is tracked)
+shared/memtoolbox2/*
+!shared/memtoolbox2/README.md

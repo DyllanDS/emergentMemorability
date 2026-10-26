@@ -1,0 +1,18 @@
+CROWDING AMONG THINGS CONCEPTS
+================================================================================================
+26,107 photographs collapsed to 1,854 concepts (median 13 photographs each).
+7,168 concatenated dimensions from 14 network/layer spaces, each z-scored.
+Crowding is computed among concept centroids; memorability is averaged
+within concept. Spearman rho throughout.
+
+Photographs of one object lie close together in these spaces, so the
+nearest neighbors of a photograph are mostly photographs of the same
+object. Crowding is therefore measured among concepts, the level at
+which the SPoSE embedding describes THINGS.
+
+------------------------------------------------------------------------------------------------
+Nearest-neighbor crowding among concepts, by k
+------------------------------------------------------------------------------------------------
+    k                 CR           hit rate            FA rate            d-prime
+    5     +0.028 (p=0.2)   +0.072 (p=0.002)   +0.325 (p=6e-47)   -0.177 (p=2e-14)
+

@@ -1,0 +1,30 @@
+REM predictions for the face design
+============================================================
+
+729 parameter combinations. The ordinary pair shares nothing special, so the
+ordinary condition should behave exactly like the filler condition.
+
+  hits: rare > ordinary                           712/729  98%
+  hits: rare > filler                             720/729  99%
+  hits: filler > ordinary                         359/729  49%
+  FA: rare foil > ordinary foil                   729/729  COMMITMENT
+  FA: rare foil > unrelated                       729/729  COMMITMENT
+  FA: ordinary foil vs unrelated (either way)     337/729  46%
+  rare foil < rare hits                           729/729  COMMITMENT
+  interaction > 0                                 729/729  COMMITMENT
+
+Is the ordinary condition a relabeling of the filler condition?
+  ordinary studied minus filler studied : mean -0.0001 (SD 0.0102)
+  ordinary foil minus unrelated new     : mean +0.0003 (SD 0.0135)
+
+  mean rates: rare_old 0.914  filler_old 0.816  ord_old 0.816  rare_foil 0.706  unrelated 0.407  ord_foil 0.407
+
+Does the rare feature still buy discriminability once each kind of face is
+scored against its own kind of lure?  d_a(rare vs its own foil) - d_a(ordinary
+vs never-studied), across the same grid.
+
+  positive (a net benefit survives)     79/729  11%
+  mean -0.274, SD 0.234, range -0.998 to +0.093
+
+  for comparison, the interaction     mean +0.791, range +0.025 to +2.480
+  share of the rare advantage that is the comparison set: mean 158%

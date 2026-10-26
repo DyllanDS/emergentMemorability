@@ -1,0 +1,56 @@
+WEIGHTS AND FALLOFF FITTED TO THE TRIAL DATA
+================================================================================================
+6,223,953 trials, 21,137 participants, 14 network/layer spaces x 5 falloffs.
+Participants are split in half. The weighting over spaces and the falloff
+are chosen on the fitting half; every number below is from the held-out half.
+Crowding is centered within image before fitting, so the fit cannot learn
+which images are memorable, only what the surrounding stream does.
+
+  2,320,312 fitting trials, 2,320,666 held-out trials
+
+------------------------------------------------------------------------------------------------
+Held-out d-prime across bins of context crowding
+------------------------------------------------------------------------------------------------
+                     measure bin      1 bin      2 bin      3 bin      4 bin      5   bin1-bin5
+    fitted combination d-prime      3.183      3.048      2.942      2.845      2.671       0.512
+    fitted combination hit rate      0.845      0.831      0.809      0.793      0.781       0.063
+    fitted combination FA rate      0.015      0.018      0.019      0.021      0.029      -0.014
+
+best single space (inc d-prime      3.176      3.041      2.950      2.848      2.671       0.505
+best single space (inc hit rate      0.845      0.830      0.810      0.794      0.780       0.065
+best single space (inc FA rate      0.015      0.019      0.019      0.021      0.029      -0.013
+
+------------------------------------------------------------------------------------------------
+Share of the fitted weighting carried by each space
+------------------------------------------------------------------------------------------------
+  resnet18_late           28.4%
+  clip_late               12.1%
+  vgg16_late              11.3%
+  cornet_late              7.0%
+  cornet_early             6.8%
+  clip_early               4.6%
+  inception_late           4.6%
+  dinov3_late              4.5%
+  inception_early          4.3%
+  alexnet_late             3.9%
+  vgg16_early              3.8%
+  alexnet_early            3.5%
+  dinov3_early             3.4%
+  resnet18_early           1.7%
+
+Share carried by each falloff
+  tau 0.5     10.1%
+  tau 1       34.2%
+  tau 2       34.4%
+  tau 4       15.9%
+  tau 8        5.5%
+
+------------------------------------------------------------------------------------------------
+READING THIS
+------------------------------------------------------------------------------------------------
+  bin 1 is the least crowded preceding stream, bin 5 the most crowded, and
+  bins are formed within image, so the same photograph appears in all five.
+  A d-prime drop from bin 1 to bin 5 is caused by the stream, not the item.
+  The best single space and falloff is chosen on the fitting half (the largest
+  bin 1 minus bin 5 d' drop) and scored on the held-out half in the same way as
+  the fitted combination.

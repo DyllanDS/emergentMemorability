@@ -1,0 +1,14 @@
+REPRESENTATIONAL CROWDING AND FACE MEMORABILITY
+================================================================================================
+10,168 faces embedded; 2,222 carry memorability scores.
+Ensemble of 14 network/layer spaces, each z-scored before averaging.
+Crowding is computed over all faces; only scored faces enter the correlations.
+Spearman rho throughout. Prediction: crowding raises false alarms, lowers hits and d'.
+
+------------------------------------------------------------------------------------------------
+Limiting case: mean ensemble distance to every other face (negated)
+------------------------------------------------------------------------------------------------
+  CR         rho = -0.461 (p = 1.55e-117)
+  hit rate   rho = -0.324 (p = 1.81e-55)
+  FA rate    rho = +0.301 (p = 6.83e-48)
+  d'         rho = -0.458 (p = 2.02e-115)

@@ -1,0 +1,18 @@
+Rating counts of the 100 registered participants
+================================================
+
+participants read: 100; passing the registered rule: 100 (of them, the registered sample: yes)
+every participant has 3, 3, 15 and 15 trials of the four kinds: yes
+
+studied_rare       (rare_old    ) trials   300   proportion called old 0.9033   counts [11, 11, 6, 1, 1, 7, 26, 237]
+same_feature_lure  (rare_foil   ) trials   300   proportion called old 0.5867   counts [57, 42, 21, 4, 5, 11, 31, 129]
+studied_ordinary   (ordinary_old) trials  1500   proportion called old 0.7987   counts [31, 110, 135, 26, 19, 104, 339, 736]
+never_studied      (unrelated   ) trials  1500   proportion called old 0.4107   counts [214, 332, 272, 66, 21, 125, 232, 238]
+
+rating use over all trials: [313, 495, 434, 97, 46, 247, 628, 1340] (total 3600)
+
+operating points (share of trials rated 2 or higher, 3 or higher, ..., 8):
+  studied_rare       0.963 0.927 0.907 0.903 0.900 0.877 0.790
+  same_feature_lure  0.810 0.670 0.600 0.587 0.570 0.533 0.430
+  studied_ordinary   0.979 0.906 0.816 0.799 0.786 0.717 0.491
+  never_studied      0.857 0.636 0.455 0.411 0.397 0.313 0.159

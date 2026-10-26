@@ -1,0 +1,9 @@
+PER-IMAGE RATES IN THE ORIGINAL THINGS DATA
+============================================================
+images with >=30 old and >=30 new observations: 26,107
+median opportunities per image: 40 old, 154 new
+hit rate      mean 0.8080  SD 0.0797
+false alarm   mean 0.0201  SD 0.0127
+corrected rec mean 0.7879  SD 0.0797
+corrected recognition vs hit rate:         r = +0.9873  p = < 1e-300
+corrected recognition vs false alarm rate: r = -0.0773  p = 6.15e-36

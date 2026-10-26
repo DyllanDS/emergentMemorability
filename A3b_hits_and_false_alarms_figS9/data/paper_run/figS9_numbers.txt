@@ -1,0 +1,16 @@
+# figS9_numbers.txt: the numbers of the saved run of Fig. S9, the output the paper reports
+# (memorability = hit rate minus false alarm rate).
+#
+# code/make_figureS9.py compares every number it computes with these lines, to the digits printed
+# here. The halves comparison is in data/provided/halves_check.txt.
+NUMBERS
+  (a, b) 50-participant sample; test trials per item 48 to 50; at least 18 old and 17 new
+  level  hit [95% CI]             false alarm [95% CI]       memorability   d-prime [95% CI]
+      0  0.724 [0.676, 0.770]   0.051 [0.030, 0.074]   0.673          2.106 [1.916, 2.288]
+      1  0.746 [0.665, 0.836]   0.266 [0.144, 0.398]   0.481          1.404 [0.950, 1.836]
+      2  0.753 [0.670, 0.841]   0.293 [0.201, 0.394]   0.460          1.290 [1.124, 1.460]
+      4  0.894 [0.837, 0.946]   0.429 [0.277, 0.586]   0.465          1.475 [1.009, 2.008]
+      8  0.847 [0.746, 0.936]   0.570 [0.412, 0.740]   0.278          0.900 [0.406, 1.387]
+  Spearman over 40 items, number of similar items vs: false alarms 0.7191 (p = 1.72e-07), hits 0.4350 (p = 0.00503), d-prime -0.4946 (p = 0.00118)
+  (b) printed on panel: ρ = -0.49, p < 0.01 / n = 40 items
+  (c) THINGS trial-level rates, 26107 images: r(memorability, hit) = +0.9873, r(memorability, FA) = -0.0773; hit mean 0.8080 SD 0.0797; FA mean 0.0201 SD 0.0127

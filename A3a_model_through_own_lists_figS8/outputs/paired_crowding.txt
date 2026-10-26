@@ -1,0 +1,60 @@
+PAIRED WITHIN-IMAGE CROWDING CONTRAST
+============================================================================================
+
+WHAT THIS SHOWS
+--------------------------------------------------------------------------------------------
+  Each of the 1,023 images measured in two or more sets is compared with itself:
+  the set where it sat among the least similar company versus the set where it sat
+  among the most similar company. Every image contributes exactly one difference and
+  every image counts the same amount.
+
+  d-prime is higher by 0.280 [0.239, 0.320] when the same photograph sits
+  in its less crowded set. Hits rise by 0.027 [0.019, 0.034] and false alarms fall by
+  0.041 [0.035, 0.047]; in d-prime units, 0.079 of the change comes from the hits and
+  0.201 from the false alarms. Section 3 below gives the same contrast for the model's
+  predicted rates.
+
+  On the same pairs the model predicts +0.097 in d-prime, against +0.280 observed (35% of
+  the observed change). In the model, false alarms carry 0.169 in d-prime (its total change
+  is 0.097), and it predicts hits falling in the less crowded set (-0.014), while the
+  observed hit rate rose.
+
+============================================================================================
+1. THE PAIRS
+--------------------------------------------------------------------------------------------
+  4,690 image-by-set cells, 3,544 distinct images.
+  1,023 images appear in two or more sets: 900 in two sets, 123 in three.
+  Crowding measure: crowd_near (higher = closer neighbors = more crowded).
+  Cells rebuilt from the trial files: largest difference in trial count 0, in rate 0.00e+00.
+  Participants in datasets_test.csv (450 of them, each in exactly one set).
+
+2. PAIRED CONTRAST: least crowded set minus most crowded set, same image
+--------------------------------------------------------------------------------------------
+  Images weighted equally. CIs are 2.5/97.5 percentiles of 10,000 image resamples.
+
+                 measure     mean        95% CI (images)
+                hit rate   +0.027       [+0.019, +0.034]
+        false alarm rate   -0.041       [-0.047, -0.035]
+                 d-prime   +0.280       [+0.239, +0.320]
+
+3. THE MODEL ON THE SAME PAIRS
+--------------------------------------------------------------------------------------------
+  Model predicted rates for the same cells, contrasted over the same pairs, images
+  weighted the same way.
+
+                 measure                   observed                      model
+                hit rate    +0.027 [+0.019, +0.034]    -0.014 [-0.016, -0.011]
+        false alarm rate    -0.041 [-0.047, -0.035]    -0.032 [-0.036, -0.028]
+                 d-prime    +0.280 [+0.239, +0.320]    +0.097 [+0.085, +0.108]
+
+  Base rates over the paired cells: observed hit 0.719 FA 0.125, model hit 0.720 FA 0.111.
+  Split of the paired d-prime effect: observed 0.079 from hits and 0.201 from false
+  alarms; model -0.040 from hits and 0.169 from false alarms.
+
+  The model's rates carry no item-level intrinsic memorability term, so its paired
+  changes come only from the other images in each set. The split of the d-prime
+  change holds each rate at its mean over the paired cells (the base rates above)
+  and moves it half its mean change either side, so the two parts of the split
+  need not add up to the mean of the per-image d-prime changes in the table above
+  (the 1/(2N) limits use the mean numbers of old and new trials of those cells).
+

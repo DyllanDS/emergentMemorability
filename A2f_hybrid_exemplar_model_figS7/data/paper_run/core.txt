@@ -1,0 +1,91 @@
+THE BASIC SIMULATION AND THE DESIGNED LISTS WITH A GCM AND A HYBRID-SIMILARITY GCM
+============================================================================================
+Design, encoding and distinctiveness measure follow Fig. 1 (g = .65, w = 49, u = .30,
+copy fidelity = .60, 1,600 items, 40 studied, 20 old and 20 new tested). Crowding is mean Euclidean
+distance to the rest of the set, negated, so a NEGATIVE memorability-crowding correlation
+means isolated items are better remembered (REM at the Fig. 1 values: -0.606).
+
+--------------------------------------------------------------------------------------------
+GCM  (c = 2.2646; gamma = 0.0, delta = 0.0, distinctive = frequency in the set < 0.1)
+--------------------------------------------------------------------------------------------
+A. basic simulation, 10,000 runs: hit 0.363, FA 0.157, d' 0.66
+   memorability vs crowding        rho = +0.263
+   hit rate vs crowding            rho = +0.620
+   false alarm rate vs crowding    rho = +0.559
+   feature level (Fig. 1d)         r   = +0.193
+D. designed lists, same critical items, nearest neighbor as foil
+   similar     hit      FA   hits-FA   d'    criterion
+         0   0.316   0.205    0.110  0.343    0.651
+         2   0.329   0.219    0.110  0.332    0.609
+         4   0.347   0.236    0.111  0.325    0.555
+         8   0.372   0.270    0.101  0.284    0.470
+        16   0.418   0.329    0.089  0.235    0.325
+   0 -> 16: hit +0.102, FA +0.124, hits-FA -0.021, d' -0.107
+
+--------------------------------------------------------------------------------------------
+Hybrid GCM, world  (c = 0.9436; gamma = 2.0, delta = 0.0, distinctive = frequency in the world < 0.1)
+--------------------------------------------------------------------------------------------
+A. basic simulation, 10,000 runs: hit 0.509, FA 0.156, d' 1.04
+   memorability vs crowding        rho = -0.339
+   hit rate vs crowding            rho = +0.372
+   false alarm rate vs crowding    rho = +0.717
+   feature level (Fig. 1d)         r   = -0.374
+D. designed lists, same critical items, nearest neighbor as foil
+   similar     hit      FA   hits-FA   d'    criterion
+         0   0.448   0.158    0.289  0.870    0.567
+         2   0.479   0.185    0.295  0.846    0.475
+         4   0.501   0.214    0.287  0.794    0.395
+         8   0.551   0.259    0.292  0.774    0.259
+        16   0.631   0.359    0.271  0.694    0.013
+   0 -> 16: hit +0.183, FA +0.201, hits-FA -0.018, d' -0.176
+
+--------------------------------------------------------------------------------------------
+Hybrid GCM, set  (c = 0.9436; gamma = 2.0, delta = 0.0, distinctive = frequency in the set < 0.1)
+--------------------------------------------------------------------------------------------
+A. basic simulation, 10,000 runs: hit 0.507, FA 0.155, d' 1.03
+   memorability vs crowding        rho = -0.353
+   hit rate vs crowding            rho = +0.343
+   false alarm rate vs crowding    rho = +0.715
+   feature level (Fig. 1d)         r   = -0.435
+D. designed lists, same critical items, nearest neighbor as foil
+   similar     hit      FA   hits-FA   d'    criterion
+         0   0.444   0.156    0.288  0.871    0.577
+         2   0.472   0.184    0.288  0.828    0.484
+         4   0.495   0.214    0.280  0.778    0.402
+         8   0.546   0.269    0.277  0.732    0.251
+        16   0.620   0.369    0.251  0.640    0.014
+   0 -> 16: hit +0.176, FA +0.213, hits-FA -0.037, d' -0.231
+
+--------------------------------------------------------------------------------------------
+Hybrid GCM, list  (c = 1.4153; gamma = 2.0, delta = 0.0, distinctive = frequency in the list < 0.1)
+--------------------------------------------------------------------------------------------
+A. basic simulation, 10,000 runs: hit 0.411, FA 0.148, d' 0.82
+   memorability vs crowding        rho = -0.317
+   hit rate vs crowding            rho = +0.509
+   false alarm rate vs crowding    rho = +0.693
+   feature level (Fig. 1d)         r   = -0.273
+D. designed lists, same critical items, nearest neighbor as foil
+   similar     hit      FA   hits-FA   d'    criterion
+         0   0.386   0.197    0.189  0.563    0.571
+         2   0.400   0.218    0.181  0.524    0.516
+         4   0.411   0.234    0.176  0.499    0.475
+         8   0.423   0.269    0.153  0.420    0.405
+        16   0.443   0.326    0.117  0.308    0.298
+   0 -> 16: hit +0.057, FA +0.129, hits-FA -0.072, d' -0.255
+
+--------------------------------------------------------------------------------------------
+Hybrid GCM, mix  (c = 1.4153; gamma = 2.0, delta = 0.0, distinctive = frequency in the mix < 0.1)
+--------------------------------------------------------------------------------------------
+A. basic simulation, 10,000 runs: hit 0.445, FA 0.153, d' 0.88
+   memorability vs crowding        rho = -0.355
+   hit rate vs crowding            rho = +0.529
+   false alarm rate vs crowding    rho = +0.717
+   feature level (Fig. 1d)         r   = -0.418
+D. designed lists, same critical items, nearest neighbor as foil
+   similar     hit      FA   hits-FA   d'    criterion
+         0   0.417   0.180    0.237  0.706    0.563
+         2   0.432   0.205    0.227  0.652    0.498
+         4   0.441   0.224    0.217  0.611    0.454
+         8   0.453   0.253    0.200  0.547    0.392
+        16   0.478   0.306    0.172  0.452    0.281
+   0 -> 16: hit +0.061, FA +0.126, hits-FA -0.065, d' -0.254

@@ -1,0 +1,5 @@
+bar,dprime_drop_least_to_most_crowded_fifth
+all quartiles,0.4738007407043785
+top quartile,0.48814288175158227
+bottom quartile,0.3257502256042555
+dashed line: bottom minus top quartile dprime,0.10399944751604995

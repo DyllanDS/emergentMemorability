@@ -1,0 +1,21 @@
+table,column,compared,identical,largest_abs_difference,largest_relative_difference,within_1e-6,note
+rem_parameter_sweep.csv (32 cells),g,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),w,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),u,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),c,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),nStudy,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),crit,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),rhoItem,32,32,0,0,yes,rho recomputed in Python from the per-item file differs from the MATLAB table by at most 5.6e-16
+rem_parameter_sweep.csv (32 cells),pItem,32,32,0,0,yes,this run's pItem differs from the saved column by at most 0.0e+00 relative; the p values recomputed from the per-item file with the same t approximation (scipy spearmanr) differ from the saved column by at most 3.6e-13 relative; largest p 4.84e-30 recomputed and 4.84e-30 in the saved table
+rem_parameter_sweep.csv (32 cells),rFeat,32,27,9.99e-16,3.43e-15,yes,
+rem_parameter_sweep.csv (32 cells),pFeat,32,17,9.99e-16,1.08e-14,yes,
+rem_parameter_sweep.csv (32 cells),meanHit,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),meanFA,32,32,0,0,yes,
+rem_parameter_sweep.csv (32 cells),dprime,32,32,0,0,yes,
+rem_parameter_sweep.txt (printed report),every line,56,56,,,yes,text compared line by line
+sweep_rem.csv (54 runs),mean_cr,54,54,0,0,yes,
+sweep_rem.csv (54 runs),r_sim_spearman,54,54,0,0,yes,
+sweep_rem.csv (54 runs),p_sim_spearman,54,54,0,0,yes,
+sweep_rem.csv (54 runs),r_dist_pearson,54,54,0,0,yes,
+sweep_rem.csv (54 runs),r_meta,54,54,0,0,yes,
+sweep_rem.csv (54 runs),p_meta,54,54,0,0,yes,

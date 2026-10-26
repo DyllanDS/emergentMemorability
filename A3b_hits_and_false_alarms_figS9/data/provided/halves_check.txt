@@ -1,0 +1,12 @@
+# halves_check.txt: saved results for the halves comparison (used when input
+# M2 of EXTERNAL_INPUTS.md is not available).
+#
+# The 40 critical items are split by their published score (Kramer et al. 2023) into the 20 more and the
+# 20 less memorable ones. "in THINGS": the mean hit rate and false alarm rate of each half in the
+# original THINGS data, from per-image counts that are not part of the repository (input M2). "here":
+# the same in the memorability inversion experiment (50 participants), which code/make_figureS9.py
+# recomputes from the data of module 03 on every run.
+# code/make_figureS9.py reads the lines below by their labels; with the count table (M2) in
+# external/kramer_trials/ it computes the "in THINGS" values itself.
+  more memorable half: false alarms 0.0175 in THINGS -> 0.454 here; hits 0.832 in THINGS -> 0.839 here
+  less memorable half: false alarms 0.0214 in THINGS -> 0.189 here; hits 0.762 in THINGS -> 0.747 here

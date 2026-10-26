@@ -1,0 +1,2 @@
+experiment,sessions,excluded,excluded_participants,kept_participants,subject_blocks,test_trials_of_kept_participants,test_trials_kept,critical_test_trials_kept,observed_hit_rate_all_test_trials,observed_fa_rate_all_test_trials
+memorability inversion experiment,54,4,S004 S005 S019 S026,50,400,4000,3981,1991,0.7355455002513827,0.1897590361445783

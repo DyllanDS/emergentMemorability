@@ -1,0 +1,4 @@
+curve,target_kind,target_mean,target_sd,lure_kind,lure_mean,lure_sd,d_a
+Rare vs Unrelated New Faces,studied_rare,2.666797713999443,2.028421467504602,never_studied,0.0,1.0,1.6676455547061575
+Rare vs Same-Feature Lure,studied_rare,2.666797713999443,2.028421467504602,same_feature_lure,0.6473544783411189,2.002094649947817,1.002055368620131
+Ordinary vs Unrelated New Faces,studied_ordinary,1.0024091664723498,1.0012710450923747,never_studied,0.0,1.0,1.0017723154059068

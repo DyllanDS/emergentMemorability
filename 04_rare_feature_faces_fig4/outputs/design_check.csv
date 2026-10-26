@@ -1,0 +1,28 @@
+fact,value,source
+study time per face (ms),3000,face_design.json task_constants.study_ms
+gap between study faces (ms),500,face_design.json task_constants.study_isi_ms
+arithmetic filler task (ms),60000,face_design.json task_constants.filler_task_ms
+rare-feature pairs in the stimulus set,6,face_design.json stimulus_manifest.pairs
+rare-feature faces in the stimulus set,12,face_design.json stimulus_manifest.pairs
+rare features,"mohawk, beard, makeup, ink, piercings, eyewear",face_design.json stimulus_manifest.pairs
+rare features other than the mohawk and the beard,4,face_design.json stimulus_manifest.pairs
+ordinary faces in the stimulus set,59,face_design.json stimulus_manifest.ordinary
+different faces studied per session,50,face_trials.csv (the same in all 111 sessions)
+ordinary faces studied per session,44,face_trials.csv (the same in all 111 sessions)
+rare-feature faces studied per session,6,face_trials.csv (the same in all 111 sessions)
+one member of every rare-feature pair studied,yes,face_trials.csv (the same in all 111 sessions)
+study presentations per session (faces + repeats),56,face_trials.csv (the same in all 111 sessions)
+one-back repeats per session,6,face_trials.csv (the same in all 111 sessions)
+repeat task (each repeat directly follows its own first showing),1-back,face_trials.csv (the same in all 111 sessions)
+repeated faces are ordinary faces never tested,yes,face_trials.csv (the same in all 111 sessions)
+test trials per session,36,face_trials.csv (the same in all 111 sessions)
+test: studied rare-feature faces,3,face_trials.csv (the same in all 111 sessions)
+test: new faces carrying a studied rare feature,3,face_trials.csv (the same in all 111 sessions)
+test: studied ordinary faces,15,face_trials.csv (the same in all 111 sessions)
+test: never-studied ordinary faces,15,face_trials.csv (the same in all 111 sessions)
+confidence scale points (one rating after every test trial),4,face_trials.csv (the same in all 111 sessions)
+share of the ordinary test faces that were studied,half,face_trials.csv (the same in all 111 sessions)
+different ordinary faces used over all sessions,59,face_trials.csv
+different rare-feature faces used over all sessions,12,face_trials.csv
+registered participants: pair members studied that were the file named _foil,293 of 600,face_trials.csv role_swapped (100 registered)
+"registered participants tested old on pairs c1, c3, c5 (others: c2, c4, c6)",44 of 100,face_trials.csv test_type (100 registered)

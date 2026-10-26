@@ -1,0 +1,14 @@
+CONTINUOUS-FEATURE REM IN SPoSE: 95% BOOTSTRAP CONFIDENCE INTERVALS
+2000 resamples of the critical items of the designed lists.
+
+ noise   hit     FA    n items   rho (local)  p              n crit   d' change   [95% CI]
+ 0.02  0.957  0.040    1600     -0.435        6.34e-75     120     -0.414    [-0.502, -0.310]
+ 0.03  0.933  0.054    1600     -0.488        1.76e-96     120     -0.436    [-0.551, -0.322]
+ 0.05  0.895  0.130    1600     -0.523        6.98e-113     120     -0.341    [-0.418, -0.264]
+ 0.08  0.967  0.797    1600     -0.480        8.33e-93     120     -0.068    [-0.133, -0.004]
+
+Designed lists, mean rates (0 neighbors -> 16 neighbors):
+ noise 0.02: hit 0.958 -> 0.958, false alarm 0.042 -> 0.093
+ noise 0.03: hit 0.924 -> 0.939, false alarm 0.056 -> 0.148
+ noise 0.05: hit 0.891 -> 0.911, false alarm 0.118 -> 0.233
+ noise 0.08: hit 0.966 -> 0.977, false alarm 0.807 -> 0.864

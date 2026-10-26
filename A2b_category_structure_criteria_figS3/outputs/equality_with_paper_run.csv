@@ -1,0 +1,361 @@
+check,cell_number,label,column,this_run,paper_run,absolute_difference,relative_difference,tolerance,within_tolerance,identical_text
+table,1,reference (crit 20 / 5),label,reference (crit 20 / 5),reference (crit 20 / 5),,,identical text,yes,yes
+table,1,reference (crit 20 / 5),critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),rho,0.355926926943917,0.355926926943917,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),pRho,3.03105331810543e-48,3.03105331810543e-48,0,0,1e-06 of the value,yes,yes
+table,1,reference (crit 20 / 5),simCorr,0.930266783146197,0.930266783146197,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),hitWithin,0.854062435005593,0.854062435005593,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),faWithin,0.373037478738714,0.373037478738714,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),hitAcross,0.83756944019086,0.83756944019086,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),faAcross,0.0540850650781031,0.0540850650781031,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),dWithin,1.37783615835497,1.37783615835497,0,0,1e-06,yes,yes
+table,1,reference (crit 20 / 5),dAcross,2.59099003433969,2.59099003433969,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,label,crit 20 / 5,crit 20 / 5,,,identical text,yes,yes
+table,2,crit 20 / 5,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,rho,0.528472658939881,0.528472658939881,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,pRho,5.14751443841267e-114,5.14751443841267e-114,0,0,1e-06 of the value,yes,yes
+table,2,crit 20 / 5,simCorr,0.869940440928141,0.869940440928141,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,hitWithin,0.866743539695204,0.866743539695204,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,faWithin,0.431543486068328,0.431543486068328,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,hitAcross,0.843812149250449,0.843812149250449,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,faAcross,0.0713204093421284,0.0713204093421284,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,dWithin,1.28357470423916,1.28357470423916,0,0,1e-06,yes,yes
+table,2,crit 20 / 5,dAcross,2.47627705476968,2.47627705476968,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,label,crit 10 / 2.5,crit 10 / 2.5,,,identical text,yes,yes
+table,3,crit 10 / 2.5,critWithin,10.0,10.0,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,critAcross,2.5,2.5,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,rho,0.562442605691947,0.562442605691947,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,pRho,4.50595753860059e-132,4.50595753860059e-132,0,0,1e-06 of the value,yes,yes
+table,3,crit 10 / 2.5,simCorr,0.936175112819931,0.936175112819931,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,hitWithin,0.887429566735133,0.887429566735133,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,faWithin,0.420042757047886,0.420042757047886,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,hitAcross,0.871015238663023,0.871015238663023,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,faAcross,0.0803914454542932,0.0803914454542932,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,dWithin,1.4147552066691,1.4147552066691,0,0,1e-06,yes,yes
+table,3,crit 10 / 2.5,dAcross,2.53364669226068,2.53364669226068,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,label,crit 40 / 10,crit 40 / 10,,,identical text,yes,yes
+table,4,crit 40 / 10,critWithin,40.0,40.0,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,critAcross,10.0,10.0,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,rho,0.420005974979592,0.420005974979592,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,pRho,2.44225756458761e-68,2.44225756458761e-68,0,0,1e-06 of the value,yes,yes
+table,4,crit 40 / 10,simCorr,0.978736539544154,0.978736539544154,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,hitWithin,0.744593372796007,0.744593372796007,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,faWithin,0.125190694836293,0.125190694836293,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,hitAcross,0.788752276204647,0.788752276204647,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,faAcross,0.0212634944588419,0.0212634944588419,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,dWithin,1.80699541390534,1.80699541390534,0,0,1e-06,yes,yes
+table,4,crit 40 / 10,dAcross,2.83042540690633,2.83042540690633,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,label,crit 5 / 5,crit 5 / 5,,,identical text,yes,yes
+table,5,crit 5 / 5,critWithin,5.0,5.0,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,rho,0.244853716647628,0.244853716647628,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,pRho,6.19996939161179e-23,6.19996939161179e-23,0,0,1e-06 of the value,yes,yes
+table,5,crit 5 / 5,simCorr,0.950979162228384,0.950979162228384,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,hitWithin,0.927852168474035,0.927852168474035,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,faWithin,0.549542268321035,0.549542268321035,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,hitAcross,0.836412188632929,0.836412188632929,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,faAcross,0.0489313510810188,0.0489313510810188,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,dWithin,1.33547469116702,1.33547469116702,0,0,1e-06,yes,yes
+table,5,crit 5 / 5,dAcross,2.63512341305966,2.63512341305966,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,label,crit 20 / 20,crit 20 / 20,,,identical text,yes,yes
+table,6,crit 20 / 20,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,critAcross,20.0,20.0,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,rho,0.249803948549002,0.249803948549002,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,pRho,7.81567958359763e-24,7.81567958359763e-24,0,0,1e-06 of the value,yes,yes
+table,6,crit 20 / 20,simCorr,0.873099778740449,0.873099778740449,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,hitWithin,0.812900438455178,0.812900438455178,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,faWithin,0.239907113502718,0.239907113502718,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,hitAcross,0.74197769501634,0.74197769501634,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,faAcross,0.0183431339590778,0.0183431339590778,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,dWithin,1.59523666833105,1.59523666833105,0,0,1e-06,yes,yes
+table,6,crit 20 / 20,dAcross,2.7386929620436,2.7386929620436,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,label,crit 1 / 1,crit 1 / 1,,,identical text,yes,yes
+table,7,crit 1 / 1,critWithin,1.0,1.0,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,critAcross,1.0,1.0,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,rho,0.544077655525543,0.544077655525543,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,pRho,4.71134276612953e-122,4.71134276612953e-122,0,0,1e-06 of the value,yes,yes
+table,7,crit 1 / 1,simCorr,0.942373478262747,0.942373478262748,9.99e-16,1.06e-15,1e-06,yes,no
+table,7,crit 1 / 1,hitWithin,0.992932769776421,0.992932769776421,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,faWithin,0.900363260748819,0.900363260748819,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,hitAcross,0.913837573192314,0.913837573192314,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,faAcross,0.130933804146017,0.130933804146017,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,dWithin,1.17020371404442,1.17020371404442,0,0,1e-06,yes,yes
+table,7,crit 1 / 1,dAcross,2.48675942523309,2.48675942523309,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,label,crit 50 / 50,crit 50 / 50,,,identical text,yes,yes
+table,8,crit 50 / 50,critWithin,50.0,50.0,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,critAcross,50.0,50.0,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,rho,0.316718023232457,0.316718023232457,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,pRho,4.94697035625245e-38,4.94697035625245e-38,0,0,1e-06 of the value,yes,yes
+table,8,crit 50 / 50,simCorr,0.975632602197418,0.975632602197418,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,hitWithin,0.748427244342046,0.748427244342046,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,faWithin,0.164724064388559,0.164724064388559,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,hitAcross,0.685716516463886,0.685716516463886,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,faAcross,0.00897211352338241,0.00897211352338241,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,dWithin,1.64477480153147,1.64477480153147,0,0,1e-06,yes,yes
+table,8,crit 50 / 50,dAcross,2.85051181219225,2.85051181219225,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,label,category-defining features = 3,category-defining features = 3,,,identical text,yes,yes
+table,9,category-defining features = 3,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,catFeatures,3.0,3.0,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,rho,0.50181428723858,0.50181428723858,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,pRho,3.22884348303061e-101,3.22884348303061e-101,0,0,1e-06 of the value,yes,yes
+table,9,category-defining features = 3,simCorr,0.997403957398986,0.997403957398986,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,hitWithin,0.750823769378068,0.750823769378068,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,faWithin,0.0131748528937804,0.0131748528937804,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,hitAcross,0.826811481498972,0.826811481498972,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,faAcross,0.0142549844297393,0.0142549844297393,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,dWithin,2.89810285162096,2.89810285162096,0,0,1e-06,yes,yes
+table,9,category-defining features = 3,dAcross,3.13183667258302,3.13183667258302,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,label,category-defining features = 5,category-defining features = 5,,,identical text,yes,yes
+table,10,category-defining features = 5,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,catFeatures,5.0,5.0,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,rho,0.438546774921452,0.438546774921452,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,pRho,5.04298905075614e-75,5.04298905075614e-75,0,0,1e-06 of the value,yes,yes
+table,10,category-defining features = 5,simCorr,0.975193830378751,0.975193830378751,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,hitWithin,0.771091871140661,0.771091871140661,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,faWithin,0.0528961424427267,0.0528961424427267,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,hitAcross,0.830885714231553,0.830885714231553,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,faAcross,0.0168009303013721,0.0168009303013721,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,dWithin,2.35984600670172,2.35984600670172,0,0,1e-06,yes,yes
+table,10,category-defining features = 5,dAcross,3.08248852530843,3.08248852530843,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,label,category-defining features = 10,category-defining features = 10,,,identical text,yes,yes
+table,11,category-defining features = 10,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,rho,0.328012656828027,0.328012656828027,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,pRho,8.00570436475243e-41,8.00570436475243e-41,0,0,1e-06 of the value,yes,yes
+table,11,category-defining features = 10,simCorr,0.967869487279552,0.967869487279552,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,hitWithin,0.840938637616931,0.840938637616931,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,faWithin,0.310136882403218,0.310136882403218,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,hitAcross,0.83632726288953,0.83632726288953,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,faAcross,0.0464198953451626,0.0464198953451626,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,dWithin,1.49378545777739,1.49378545777739,0,0,1e-06,yes,yes
+table,11,category-defining features = 10,dAcross,2.66007906681936,2.66007906681936,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,label,category-defining features = 15,category-defining features = 15,,,identical text,yes,yes
+table,12,category-defining features = 15,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,catFeatures,15.0,15.0,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,rho,0.601239536781949,0.601239536781949,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,pRho,1.94499038798911e-155,1.94499038798911e-155,0,0,1e-06 of the value,yes,yes
+table,12,category-defining features = 15,simCorr,0.857070973260332,0.857070973260332,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,hitWithin,0.945492907630179,0.945492907630179,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,faWithin,0.75420332402621,0.75420332402621,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,hitAcross,0.850933300800249,0.850933300800249,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,faAcross,0.135043965450119,0.135043965450119,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,dWithin,0.914863081814818,0.914863081814818,0,0,1e-06,yes,yes
+table,12,category-defining features = 15,dAcross,2.14330466535849,2.14330466535849,0,0,1e-06,yes,yes
+table,13,categories = 10,label,categories = 10,categories = 10,,,identical text,yes,yes
+table,13,categories = 10,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,13,categories = 10,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,13,categories = 10,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,13,categories = 10,nCat,10.0,10.0,0,0,1e-06,yes,yes
+table,13,categories = 10,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,13,categories = 10,rho,0.76100681695903,0.76100681695903,0,0,1e-06,yes,yes
+table,13,categories = 10,pRho,1.03239450960022e-142,1.03239450960022e-142,0,0,1e-06 of the value,yes,yes
+table,13,categories = 10,simCorr,0.886635873352767,0.886635873352767,0,0,1e-06,yes,yes
+table,13,categories = 10,hitWithin,0.849875354449819,0.849875354449819,0,0,1e-06,yes,yes
+table,13,categories = 10,faWithin,0.366635755734819,0.366635755734819,0,0,1e-06,yes,yes
+table,13,categories = 10,hitAcross,0.850400108785423,0.850400108785423,0,0,1e-06,yes,yes
+table,13,categories = 10,faAcross,0.117403143747313,0.117403143747313,0,0,1e-06,yes,yes
+table,13,categories = 10,dWithin,1.37667588266492,1.37667588266492,0,0,1e-06,yes,yes
+table,13,categories = 10,dAcross,2.22621979885044,2.22621979885044,0,0,1e-06,yes,yes
+table,14,categories = 21,label,categories = 21,categories = 21,,,identical text,yes,yes
+table,14,categories = 21,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,14,categories = 21,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,14,categories = 21,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,14,categories = 21,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,14,categories = 21,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,14,categories = 21,rho,0.458879056953966,0.458879056953966,0,0,1e-06,yes,yes
+table,14,categories = 21,pRho,7.55010115872871e-83,7.55010115872871e-83,0,0,1e-06 of the value,yes,yes
+table,14,categories = 21,simCorr,0.911669985583988,0.911669985583988,0,0,1e-06,yes,yes
+table,14,categories = 21,hitWithin,0.872644631594905,0.872644631594905,0,0,1e-06,yes,yes
+table,14,categories = 21,faWithin,0.442140133127128,0.442140133127128,0,0,1e-06,yes,yes
+table,14,categories = 21,hitAcross,0.847004468264262,0.847004468264262,0,0,1e-06,yes,yes
+table,14,categories = 21,faAcross,0.071502256435853,0.071502256435853,0,0,1e-06,yes,yes
+table,14,categories = 21,dWithin,1.28452722936621,1.28452722936621,0,0,1e-06,yes,yes
+table,14,categories = 21,dAcross,2.48836389461799,2.48836389461799,0,0,1e-06,yes,yes
+table,15,categories = 40,label,categories = 40,categories = 40,,,identical text,yes,yes
+table,15,categories = 40,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,15,categories = 40,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,15,categories = 40,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,15,categories = 40,nCat,40.0,40.0,0,0,1e-06,yes,yes
+table,15,categories = 40,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,15,categories = 40,rho,0.24269316863899,0.24269316863899,0,0,1e-06,yes,yes
+table,15,categories = 40,pRho,1.80380546502806e-41,1.80380546502806e-41,0,0,1e-06 of the value,yes,yes
+table,15,categories = 40,simCorr,0.869994787036539,0.86999478703654,9.99e-16,1.15e-15,1e-06,yes,no
+table,15,categories = 40,hitWithin,0.853203982291247,0.853203982291247,0,0,1e-06,yes,yes
+table,15,categories = 40,faWithin,0.364473281237198,0.364473281237198,0,0,1e-06,yes,yes
+table,15,categories = 40,hitAcross,0.834687929773288,0.834687929773288,0,0,1e-06,yes,yes
+table,15,categories = 40,faAcross,0.0373756577388493,0.0373756577388493,0,0,1e-06,yes,yes
+table,15,categories = 40,dWithin,1.39680143969154,1.39680143969154,0,0,1e-06,yes,yes
+table,15,categories = 40,dAcross,2.75484470153435,2.75484470153435,0,0,1e-06,yes,yes
+table,16,items per category = 150,label,items per category = 150,items per category = 150,,,identical text,yes,yes
+table,16,items per category = 150,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,16,items per category = 150,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,16,items per category = 150,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,16,items per category = 150,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,16,items per category = 150,nPerCat,150.0,150.0,0,0,1e-06,yes,yes
+table,16,items per category = 150,rho,0.507809615970997,0.507809615970997,0,0,1e-06,yes,yes
+table,16,items per category = 150,pRho,1.56670721124408e-53,1.56670721124408e-53,0,0,1e-06 of the value,yes,yes
+table,16,items per category = 150,simCorr,0.824080194934832,0.824080194934832,0,0,1e-06,yes,yes
+table,16,items per category = 150,hitWithin,0.865103945995311,0.865103945995311,0,0,1e-06,yes,yes
+table,16,items per category = 150,faWithin,0.407524557533424,0.407524557533424,0,0,1e-06,yes,yes
+table,16,items per category = 150,hitAcross,0.842469308261607,0.842469308261607,0,0,1e-06,yes,yes
+table,16,items per category = 150,faAcross,0.0652154579383814,0.0652154579383814,0,0,1e-06,yes,yes
+table,16,items per category = 150,dWithin,1.33745882166787,1.33745882166787,0,0,1e-06,yes,yes
+table,16,items per category = 150,dAcross,2.51706315843084,2.51706315843084,0,0,1e-06,yes,yes
+table,17,items per category = 300,label,items per category = 300,items per category = 300,,,identical text,yes,yes
+table,17,items per category = 300,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,17,items per category = 300,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,17,items per category = 300,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,17,items per category = 300,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,17,items per category = 300,nPerCat,300.0,300.0,0,0,1e-06,yes,yes
+table,17,items per category = 300,rho,0.441911060307813,0.441911060307813,0,0,1e-06,yes,yes
+table,17,items per category = 300,pRho,2.78220052531362e-76,2.78220052531362e-76,0,0,1e-06 of the value,yes,yes
+table,17,items per category = 300,simCorr,0.824802929471874,0.824802929471874,0,0,1e-06,yes,yes
+table,17,items per category = 300,hitWithin,0.835785564890221,0.835785564890221,0,0,1e-06,yes,yes
+table,17,items per category = 300,faWithin,0.324771965235312,0.324771965235312,0,0,1e-06,yes,yes
+table,17,items per category = 300,hitAcross,0.835928159112808,0.835928159112808,0,0,1e-06,yes,yes
+table,17,items per category = 300,faAcross,0.0582033308424499,0.0582033308424499,0,0,1e-06,yes,yes
+table,17,items per category = 300,dWithin,1.43167925893574,1.43167925893574,0,0,1e-06,yes,yes
+table,17,items per category = 300,dAcross,2.54789609661362,2.54789609661362,0,0,1e-06,yes,yes
+table,18,items per category = 600,label,items per category = 600,items per category = 600,,,identical text,yes,yes
+table,18,items per category = 600,critWithin,20.0,20.0,0,0,1e-06,yes,yes
+table,18,items per category = 600,critAcross,5.0,5.0,0,0,1e-06,yes,yes
+table,18,items per category = 600,catFeatures,10.0,10.0,0,0,1e-06,yes,yes
+table,18,items per category = 600,nCat,21.0,21.0,0,0,1e-06,yes,yes
+table,18,items per category = 600,nPerCat,600.0,600.0,0,0,1e-06,yes,yes
+table,18,items per category = 600,rho,0.420657489424681,0.420657489424681,0,0,1e-06,yes,yes
+table,18,items per category = 600,pRho,2.55227724662201e-135,2.55227724662201e-135,0,0,1e-06 of the value,yes,yes
+table,18,items per category = 600,simCorr,0.794576497094304,0.794576497094304,0,0,1e-06,yes,yes
+table,18,items per category = 600,hitWithin,0.855324244073445,0.855324244073445,0,0,1e-06,yes,yes
+table,18,items per category = 600,faWithin,0.382803881164029,0.382803881164029,0,0,1e-06,yes,yes
+table,18,items per category = 600,hitAcross,0.841899420027434,0.841899420027434,0,0,1e-06,yes,yes
+table,18,items per category = 600,faAcross,0.0674876446176608,0.0674876446176608,0,0,1e-06,yes,yes
+table,18,items per category = 600,dWithin,1.35767029486926,1.35767029486926,0,0,1e-06,yes,yes
+table,18,items per category = 600,dAcross,2.49706184577478,2.49706184577478,0,0,1e-06,yes,yes
+per-target file,1,reference (crit 20 / 5),targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,1,reference (crit 20 / 5),targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,1,reference (crit 20 / 5),rho,0.35592692694391664,0.355926926943917,3.33e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,1,reference (crit 20 / 5),pRho,3.031053318104368e-48,3.03105331810543e-48,1.06e-60,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,1,reference (crit 20 / 5),simCorr,0.9302667831461964,0.930266783146197,6.66e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,2,crit 20 / 5,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,2,crit 20 / 5,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,2,crit 20 / 5,rho,0.5284726589398812,0.528472658939881,1.11e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,2,crit 20 / 5,pRho,5.147514438411218e-114,5.14751443841267e-114,1.45e-126,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,2,crit 20 / 5,simCorr,0.869940440928141,0.869940440928141,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,3,crit 10 / 2.5,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,3,crit 10 / 2.5,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,3,crit 10 / 2.5,rho,0.5624426056919473,0.562442605691947,2.22e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,3,crit 10 / 2.5,pRho,4.505957538598065e-132,4.50595753860059e-132,2.53e-144,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,3,crit 10 / 2.5,simCorr,0.936175112819932,0.936175112819931,9.99e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,4,crit 40 / 10,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,4,crit 40 / 10,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,4,crit 40 / 10,rho,0.4200059749795925,0.420005974979592,5e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,4,crit 40 / 10,pRho,2.4422575645868592e-68,2.44225756458761e-68,7.51e-81,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,4,crit 40 / 10,simCorr,0.9787365395441532,0.978736539544154,7.77e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,5,crit 5 / 5,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,5,crit 5 / 5,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,5,crit 5 / 5,rho,0.24485371664762817,0.244853716647628,1.67e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,5,crit 5 / 5,pRho,6.199969391609643e-23,6.19996939161179e-23,2.15e-35,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,5,crit 5 / 5,simCorr,0.9509791622283842,0.950979162228384,2.22e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,6,crit 20 / 20,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,6,crit 20 / 20,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,6,crit 20 / 20,rho,0.2498039485490021,0.249803948549002,8.33e-17,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,6,crit 20 / 20,pRho,7.815679583595006e-24,7.81567958359763e-24,2.62e-36,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,6,crit 20 / 20,simCorr,0.8730997787404491,0.873099778740449,1.11e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,7,crit 1 / 1,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,7,crit 1 / 1,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,7,crit 1 / 1,rho,0.5440776555255434,0.544077655525543,4.44e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,7,crit 1 / 1,pRho,4.711342766127539e-122,4.71134276612953e-122,1.99e-134,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,7,crit 1 / 1,simCorr,0.9423734782627476,0.942373478262747,6.66e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,8,crit 50 / 50,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,8,crit 50 / 50,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,8,crit 50 / 50,rho,0.31671802323245696,0.316718023232457,5.55e-17,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,8,crit 50 / 50,pRho,4.94697035625095e-38,4.94697035625245e-38,1.5e-50,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,8,crit 50 / 50,simCorr,0.9756326021974179,0.975632602197418,1.11e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,9,category-defining features = 3,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,9,category-defining features = 3,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,9,category-defining features = 3,rho,0.50181428723858,0.50181428723858,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,9,category-defining features = 3,pRho,3.2288434830296214e-101,3.22884348303061e-101,9.89e-114,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,9,category-defining features = 3,simCorr,0.9974039573989861,0.997403957398986,1.11e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,10,category-defining features = 5,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,10,category-defining features = 5,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,10,category-defining features = 5,rho,0.43854677492145194,0.438546774921452,5.55e-17,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,10,category-defining features = 5,pRho,5.042989050754659e-75,5.04298905075614e-75,1.48e-87,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,10,category-defining features = 5,simCorr,0.9751938303787516,0.975193830378751,6.66e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,11,category-defining features = 10,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,11,category-defining features = 10,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,11,category-defining features = 10,rho,0.32801265682802727,0.328012656828027,2.78e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,11,category-defining features = 10,pRho,8.00570436474941e-41,8.00570436475243e-41,3.02e-53,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,11,category-defining features = 10,simCorr,0.9678694872795524,0.967869487279552,3.33e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,12,category-defining features = 15,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,12,category-defining features = 15,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,12,category-defining features = 15,rho,0.6012395367819487,0.601239536781949,2.22e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,12,category-defining features = 15,pRho,1.9449903879887485e-155,1.94499038798911e-155,3.61e-168,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,12,category-defining features = 15,simCorr,0.8570709732603313,0.857070973260332,6.66e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,13,categories = 10,targets,750,750,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,13,categories = 10,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,13,categories = 10,rho,0.7610068169590299,0.76100681695903,1.11e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,13,categories = 10,pRho,1.0323945095998325e-142,1.03239450960022e-142,3.87e-155,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,13,categories = 10,simCorr,0.8866358733527665,0.886635873352767,4.44e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,14,categories = 21,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,14,categories = 21,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,14,categories = 21,rho,0.4588790569539655,0.458879056953966,5e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,14,categories = 21,pRho,7.550101158726163e-83,7.55010115872871e-83,2.55e-95,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,14,categories = 21,simCorr,0.911669985583988,0.911669985583988,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,15,categories = 40,targets,3000,3000,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,15,categories = 40,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,15,categories = 40,rho,0.24269316863898985,0.24269316863899,1.39e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,15,categories = 40,pRho,1.8038054650312215e-41,1.80380546502806e-41,3.16e-53,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,15,categories = 40,simCorr,0.8699947870365397,0.869994787036539,6.66e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,16,items per category = 150,targets,798,798,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,16,items per category = 150,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,16,items per category = 150,rho,0.5078096159709968,0.507809615970997,2.22e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,16,items per category = 150,pRho,1.5667072112444509e-53,1.56670721124408e-53,3.71e-66,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,16,items per category = 150,simCorr,0.824080194934832,0.824080194934832,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,17,items per category = 300,targets,1575,1575,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,17,items per category = 300,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,17,items per category = 300,rho,0.4419110603078133,0.441911060307813,2.78e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,17,items per category = 300,pRho,2.782200525313037e-76,2.78220052531362e-76,5.83e-89,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,17,items per category = 300,simCorr,0.8248029294718743,0.824802929471874,3.33e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,18,items per category = 600,targets,3150,3150,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,18,items per category = 600,targets left out,0,0,0,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,18,items per category = 600,rho,0.4206574894246812,0.420657489424681,1.67e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,18,items per category = 600,pRho,2.5522772466247712e-135,2.55227724662201e-135,2.76e-147,,1e-12 (p: 1e-6 of the value; counts exact),yes,
+per-target file,18,items per category = 600,simCorr,0.7945764970943042,0.794576497094304,2.22e-16,,1e-12 (p: 1e-6 of the value; counts exact),yes,

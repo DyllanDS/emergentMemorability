@@ -1,0 +1,31 @@
+figure,panels,module,module_folder,script,output_folder,mode
+Fig. 1,a to d,01,01_rem_simulation_fig1,01_rem_simulation_fig1/code/fig1_makeFigure1.m,01_rem_simulation_fig1/outputs/figures/,rerun
+Fig. 2,"a, b",02,02_bylinskii_simulation_fig2,02_bylinskii_simulation_fig2/code/bylinskii_makeFigure2.m,02_bylinskii_simulation_fig2/outputs/figures/,rerun
+Fig. 3,"d, e",03,03_inversion_experiment_fig3,03_inversion_experiment_fig3/code/inversion_analysis.m,03_inversion_experiment_fig3/outputs/figures/,rerun
+Fig. 4,"a, b",04,04_rare_feature_faces_fig4,04_rare_feature_faces_fig4/code/make_figure4.py,04_rare_feature_faces_fig4/outputs/figures/,rerun
+Fig. 4,c,A3c,A3c_face_study_model_and_sdt_figS10_S11,A3c_face_study_model_and_sdt_figS10_S11/code/make_figureS11.py,A3c_face_study_model_and_sdt_figS10_S11/outputs/figures/,rerun_and_provided (M5)
+Fig. 5,a to d,05,05_things_reanalysis_fig5,05_things_reanalysis_fig5/code/things_reanalysis.m,05_things_reanalysis_fig5/outputs/figures/,rerun
+Fig. 6,a to h,06,06_image_set_experiments_fig6_fig7,06_image_set_experiments_fig6_fig7/code/maintained_vs_changed.m,06_image_set_experiments_fig6_fig7/outputs/figures/,rerun
+Fig. 7,a,06,06_image_set_experiments_fig6_fig7,06_image_set_experiments_fig6_fig7/code/make_figure7a_pca.m,06_image_set_experiments_fig6_fig7/outputs/figures/,rerun
+Fig. 7,b to d,06,06_image_set_experiments_fig6_fig7,06_image_set_experiments_fig6_fig7/code/maintained_vs_reduced_variance.m,06_image_set_experiments_fig6_fig7/outputs/figures/,rerun
+"SI Appendix, Fig. S1",,A1,A1_measuring_memory_figS1,A1_measuring_memory_figS1/code/make_figureS1.py,A1_measuring_memory_figS1/outputs/figures/,rerun
+"SI Appendix, Fig. S2","a, b",A2a,A2a_rem_parameter_sweep_figS2,A2a_rem_parameter_sweep_figS2/code/make_figureS2.py,A2a_rem_parameter_sweep_figS2/outputs/figures/,rerun
+"SI Appendix, Fig. S3",,A2b,A2b_category_structure_criteria_figS3,A2b_category_structure_criteria_figS3/code/make_figureS3.py,A2b_category_structure_criteria_figS3/outputs/figures/,rerun
+"SI Appendix, Fig. S4","a, b",A2c,A2c_continuous_recognition_figS4,A2c_continuous_recognition_figS4/code/make_figureS4.py,A2c_continuous_recognition_figS4/outputs/figures/,"provided (M1, M6)"
+"SI Appendix, Fig. S5","a, b",A2d,A2d_list_context_figS5,A2d_list_context_figS5/code/make_figureS5.py,A2d_list_context_figS5/outputs/figures/,rerun
+"SI Appendix, Fig. S6",,A2e,A2e_measured_representations_figS6,A2e_measured_representations_figS6/code/make_figureS6.py,A2e_measured_representations_figS6/outputs/figures/,rerun
+"SI Appendix, Fig. S7",a to c,A2f,A2f_hybrid_exemplar_model_figS7,A2f_hybrid_exemplar_model_figS7/code/make_figureS7.py,A2f_hybrid_exemplar_model_figS7/outputs/figures/,rerun
+"SI Appendix, Fig. S8",a to c,A3a,A3a_model_through_own_lists_figS8,A3a_model_through_own_lists_figS8/code/make_figureS8.py,A3a_model_through_own_lists_figS8/outputs/figures/,rerun
+"SI Appendix, Fig. S9","a, b",A3b,A3b_hits_and_false_alarms_figS9,A3b_hits_and_false_alarms_figS9/code/make_figureS9.py,A3b_hits_and_false_alarms_figS9/outputs/figures/,rerun
+"SI Appendix, Fig. S9",c,A3b,A3b_hits_and_false_alarms_figS9,A3b_hits_and_false_alarms_figS9/code/make_figureS9.py,A3b_hits_and_false_alarms_figS9/outputs/figures/,provided (M1)
+"SI Appendix, Fig. S10",a,A3c,A3c_face_study_model_and_sdt_figS10_S11,A3c_face_study_model_and_sdt_figS10_S11/code/make_figureS10.py,A3c_face_study_model_and_sdt_figS10_S11/outputs/figures/,rerun
+"SI Appendix, Fig. S10",b,A3c,A3c_face_study_model_and_sdt_figS10_S11,A3c_face_study_model_and_sdt_figS10_S11/code/make_figureS10.py,A3c_face_study_model_and_sdt_figS10_S11/outputs/figures/,provided (M5)
+"SI Appendix, Fig. S11",a,04,04_rare_feature_faces_fig4,04_rare_feature_faces_fig4/code/make_figure4.py,04_rare_feature_faces_fig4/outputs/figures/,rerun
+"SI Appendix, Fig. S11",b,A3c,A3c_face_study_model_and_sdt_figS10_S11,A3c_face_study_model_and_sdt_figS10_S11/code/make_figureS11.py,A3c_face_study_model_and_sdt_figS10_S11/outputs/figures/,provided (M5)
+"SI Appendix, Fig. S12",a to c,A4a,A4a_crowding_across_scales_figS12_tableS2,A4a_crowding_across_scales_figS12_tableS2/code/make_figureS12.py,A4a_crowding_across_scales_figS12_tableS2/outputs/figures/,rerun_and_provided (M1)
+"SI Appendix, Fig. S13",a to c,A5,A5_things_context_effects_figS13_S14,A5_things_context_effects_figS13_S14/code/make_figureS13.py,A5_things_context_effects_figS13_S14/outputs/figures/,provided (M1)
+"SI Appendix, Fig. S14","a, b",A5,A5_things_context_effects_figS13_S14,A5_things_context_effects_figS13_S14/code/make_figureS14.py,A5_things_context_effects_figS13_S14/outputs/figures/,provided (M1)
+"SI Appendix, Fig. S15","a, b",A6a,A6a_faces_and_scenes_figS15,A6a_faces_and_scenes_figS15/code/make_figureS15.py,A6a_faces_and_scenes_figS15/outputs/figures/,rerun_and_provided (M4)
+"SI Appendix, Fig. S16",,A6b,A6b_embedding_size_figS16,A6b_embedding_size_figS16/code/make_figureS16.py,A6b_embedding_size_figS16/outputs/figures/,rerun
+"SI Appendix, Table S1",,A3d,A3d_exclusions_tableS1,A3d_exclusions_tableS1/code/make_tableS1.py,A3d_exclusions_tableS1/outputs/,rerun
+"SI Appendix, Table S2",,A4a,A4a_crowding_across_scales_figS12_tableS2,A4a_crowding_across_scales_figS12_tableS2/code/locality_analyses.py,A4a_crowding_across_scales_figS12_tableS2/outputs/,rerun_and_provided (M1)

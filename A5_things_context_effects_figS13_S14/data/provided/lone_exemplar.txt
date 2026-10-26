@@ -1,0 +1,79 @@
+THE LONE-EXEMPLAR CONTRAST, WITHIN IMAGE AND AT MATCHED SERIAL POSITION
+====================================================================================================
+6,223,953 trials, 21,137 participants; trials require at least 20 preceding items.
+A trial is 'lone' when no item of the probe's THINGS higher-level category has yet
+appeared in that participant's stream. Rates are standardized to a common
+image-by-position distribution (10 position deciles), so the two kinds of
+trial are compared over the same images at the same positions. Regressions are
+per participant, with the lone indicator centered within image and serial position
+(and lag, for hits) entered alongside it.
+
+----------------------------------------------------------------------------------------------------
+ALL CONCEPTS
+----------------------------------------------------------------------------------------------------
+  first showings: 3,586,410 trials, 7.8% of them lone
+  false alarm rate, standardized:   category-mate preceded 0.0186  (n=763,434)   lone 0.0175  (n=277,048)   over 73,223 image-by-position cells
+  false alarm rate, raw:            category-mate preceded 0.0213   lone 0.0166
+  hit rate, standardized:           category-mate preceded 0.8150  (n=113,114)   lone 0.8139  (n=54,583)   over 33,015 cells
+  d' from standardized rates:       category-mate preceded 2.980   lone 3.000   (difference +0.019)
+
+  false alarms on first showings: per-participant regression
+    lone (within image, + position)    b=-0.00045 [-0.00096, +0.00006]  t(21129)=-1.73  p=0.0842  d=-0.012
+    lone, with feature crowding entered b=+0.00051 [-0.00000, +0.00103]  t(21129)=+1.95  p=0.0507  d=+0.013
+    feature crowding (z), same model   b=+0.00275 [+0.00242, +0.00308]  t(21129)=+16.39  p=5.1e-60  d=+0.113
+
+  hits on target repeats: per-participant regression
+    lone (within image, + position)    b=+0.00366 [-0.00003, +0.00734]  t(21082)=+1.94  p=0.0519  d=+0.013
+    lone, with feature crowding entered b=+0.00430 [+0.00054, +0.00805]  t(21082)=+2.24  p=0.025  d=+0.015
+    feature crowding (z), same model   b=+0.00158 [-0.00018, +0.00334]  t(21082)=+1.76  p=0.079  d=+0.012
+
+----------------------------------------------------------------------------------------------------
+TYPICAL CONCEPTS (crowded half of the SPoSE space: nearest neighbors close)
+----------------------------------------------------------------------------------------------------
+  first showings: 1,800,502 trials, 7.1% of them lone
+  false alarm rate, standardized:   category-mate preceded 0.0196  (n=373,937)   lone 0.0171  (n=127,383)   over 35,423 image-by-position cells
+  false alarm rate, raw:            category-mate preceded 0.0235   lone 0.0168
+  hit rate, standardized:           category-mate preceded 0.8145  (n=52,071)   lone 0.8137  (n=24,552)   over 15,047 cells
+  d' from standardized rates:       category-mate preceded 2.956   lone 3.009   (difference +0.053)
+
+  false alarms on first showings: per-participant regression
+    lone (within image, + position)    b=-0.00114 [-0.00192, -0.00036]  t(21115)=-2.86  p=0.00418  d=-0.020
+    lone, with feature crowding entered b=+0.00029 [-0.00051, +0.00109]  t(21115)=+0.72  p=0.473  d=+0.005
+    feature crowding (z), same model   b=+0.00293 [+0.00253, +0.00333]  t(21115)=+14.34  p=1.96e-46  d=+0.099
+
+  hits on target repeats: per-participant regression
+    lone (within image, + position)    b=+0.00423 [-0.01394, +0.02241]  t(2790)=+0.46  p=0.648  d=+0.009
+    lone, with feature crowding entered b=+0.00756 [-0.01090, +0.02602]  t(2790)=+0.80  p=0.422  d=+0.015
+    feature crowding (z), same model   b=+0.00335 [-0.00172, +0.00842]  t(2790)=+1.29  p=0.196  d=+0.024
+
+----------------------------------------------------------------------------------------------------
+ATYPICAL CONCEPTS (isolated half of the SPoSE space)
+----------------------------------------------------------------------------------------------------
+  first showings: 1,785,908 trials, 8.4% of them lone
+  false alarm rate, standardized:   category-mate preceded 0.0176  (n=389,497)   lone 0.0180  (n=149,665)   over 37,800 image-by-position cells
+  false alarm rate, raw:            category-mate preceded 0.0191   lone 0.0163
+  hit rate, standardized:           category-mate preceded 0.8154  (n=61,043)   lone 0.8141  (n=30,031)   over 17,968 cells
+  d' from standardized rates:       category-mate preceded 3.003   lone 2.991   (difference -0.013)
+
+  false alarms on first showings: per-participant regression
+    lone (within image, + position)    b=+0.00009 [-0.00060, +0.00078]  t(21115)=+0.25  p=0.805  d=+0.002
+    lone, with feature crowding entered b=+0.00050 [-0.00021, +0.00120]  t(21115)=+1.38  p=0.168  d=+0.009
+    feature crowding (z), same model   b=+0.00101 [+0.00064, +0.00137]  t(21115)=+5.38  p=7.63e-08  d=+0.037
+
+  hits on target repeats: per-participant regression
+    lone (within image, + position)    b=+0.00296 [-0.01509, +0.02101]  t(1907)=+0.32  p=0.748  d=+0.007
+    lone, with feature crowding entered b=+0.00322 [-0.01535, +0.02180]  t(1907)=+0.34  p=0.734  d=+0.008
+    feature crowding (z), same model   b=+0.00334 [-0.00269, +0.00936]  t(1907)=+1.08  p=0.278  d=+0.025
+
+----------------------------------------------------------------------------------------------------
+READING THIS
+----------------------------------------------------------------------------------------------------
+  The standardized rows compare lone and not-lone trials over the same images at
+  the same serial positions (the image-by-position cells that hold both kinds of
+  trial). The regression rows give the same contrast in rate units per
+  participant, with inference across participants; the second model adds feature
+  crowding (the top-10 SPoSE measure, z-scored and centered within image) to the
+  lone indicator. The TYPICAL and ATYPICAL blocks repeat the analysis in the
+  halves of the concepts at or above and below the median of a concept's mean
+  SPoSE correlation with its ten most similar concepts (over all 1,854
+  concepts).

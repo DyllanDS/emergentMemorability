@@ -1,0 +1,21 @@
+DISATTENUATED CORRELATION, INVERSION EXPERIMENT
+==============================================================================
+40 critical items, from outputs/fit_inversion_items.csv
+
+TRIAL COUNTS
+  median old (studied) trials per item: 25.5
+  median new (lure) trials per item:    24
+
+RELIABILITY OF OBSERVED CORRECTED RECOGNITION
+  mean per-item binomial sampling variance of CR: 0.01242
+  between-item variance of observed CR (sample, ddof=1): 0.04900
+  sampling variance as a share of between-item variance: 0.253 (25.3%)
+  reliability = 1 - share = 0.7466
+
+CORRELATIONS (Spearman rho, item level)
+                                         raw   disattenuated     model
+  CR vs original THINGS memorability    -0.500              --    -0.592
+  model vs observed CR                 0.268           0.310        --
+
+WHAT THE CORRECTION MEANS
+  Each item's observed CR rests on about two dozen old and two dozen new trials, so part of the spread of observed CR across items is binomial sampling noise. Dividing the raw correlation of the model's predictions with observed CR by the square root of the reliability estimates that correlation for observed CR measured without this noise; the model's predictions are treated as noise-free. The first row gives the published score (original THINGS memorability) against observed CR (raw) and against the model's CR (model).

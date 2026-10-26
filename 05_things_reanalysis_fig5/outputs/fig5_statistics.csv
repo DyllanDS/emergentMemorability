@@ -1,0 +1,3 @@
+space,number_of_features,concepts_with_memorability,concepts_with_summed_similarity,pearson_r,line_slope,line_intercept,paper_run_r,panel_text
+human,49,1853,1854,-0.611699090513251,-0.57543203783707,-0.0434438517259187,-0.611699090513251,r = -0.612
+monkey,49,1853,1854,-0.295832575289674,-0.22661768964837,0.00687795191716601,-0.295832575289674,r = -0.296

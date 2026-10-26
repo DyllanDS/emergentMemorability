@@ -1,0 +1,9 @@
+stats_figS1.py: uncertainty statistics T21 and T22 (SI Appendix, Section 1, Fig. S1)
+seed 20261013, 10000 resamples per bootstrap
+participants kept: maintained 150, changed 150, reduced 150 (450); test trials kept: 282100
+point values: 2453 usable concept scores, identical to outputs/concept_scores.csv (largest difference 0); measured z-ROC slope 0.5917 (rounded 0.59)
+participant bootstrap (10000 resamples): of the 2453 analyzed concept scores, a resample leaves out of the criterion 0 to 0 (no hit or no false alarm rate)
+  statistic                    estimate   bootstrap mean         2.5%        97.5%
+  c_paper_all                  0.292801         0.292958     0.261251     0.325414
+  zroc_slope_all               0.591722         0.591664     0.565738     0.617237
+  scores_in_criterion       2453.000000      2453.000000  2453.000000  2453.000000

@@ -1,0 +1,23 @@
+d_a with ONE criterion set across the intermixed test
+==========================================================================
+
+100 participants, 36 test trials each. Never-studied unrelated faces anchor the
+axis at N(0, 1); studied ordinary faces, studied rare faces and rare foils are
+placed on it, and all four share one set of 7 criteria, because the test is
+intermixed and a participant cannot know which kind of item is in front of them.
+
+WHERE EACH ITEM TYPE SITS
+  item type          mean       SD
+  unrelated         0.000    1.000   (anchor)
+  ordinary_old      1.002    1.001
+  rare_old          2.667    2.028
+  rare_foil         0.647    2.002
+
+DISCRIMINABILITY (d_a), frequentist, 10000 participant bootstrap resamples
+  rare vs its own foil                 1.002  [+0.755, +1.254]
+  rare vs never-studied                1.668  [+1.475, +1.892]
+  ordinary studied vs never-studied    1.002  [+0.899, +1.107]
+
+  INTERACTION (rare: never-studied minus own foil)     +0.666  [+0.458, +0.917]  two-sided p = 0.0000
+  WHAT THE FEATURE BUYS (rare own-foil minus ordinary) +0.000  [-0.232, +0.236]  two-sided p = 0.9910
+

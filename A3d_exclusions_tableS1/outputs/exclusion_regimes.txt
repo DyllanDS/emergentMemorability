@@ -1,0 +1,65 @@
+TABLE S1 (SI APPENDIX, SECTION 3). DOES THE IMAGE-SET RESULT DEPEND ON THE PARTICIPANT EXCLUSIONS?
+Input: the 602 sessions run (205 maintained, 195 changed, 202 reduced; 06_image_set_experiments_fig6_fig7/data).
+
+PARTICIPANTS
+image set     run  same key  too fast  too slow   CR<0.05  excl 0.05   kept (cap)  excl 0.10    kept 0.10
+maintained    205         4        44         1        43         55   150 -> 150         58          147
+changed       195         4        32         0        29         45   150 -> 150         52          143
+reduced       202         8        40         0        26         52   150 -> 150         54          148
+total: 602 run, 152 excluded by the rules, 450 pass, 450 kept after the 150-per-set cap, 0 passing participants not used because of the cap
+participants meeting more than one rule: 75
+maintained + changed excluded by the rules: 100 (nExcluded of the saved Fig. 6 run of module 06)
+maintained + reduced excluded by the rules: 107 (nExcluded of the saved Fig. 7d run of module 06)
+the same 152 participants are excluded by shared/python/imageset_loader.py (the paper's rules)
+
+----------------------------------------------------------------------------------------------------
+IMAGE SET: maintained
+  every participant run, nothing excluded        participants 205  trials 131200  concepts  970
+      concept level: rho(CR, summed similarity to study list) = -0.4435  p = 5.2e-48
+      feature level: r(original THINGS, this set) = +0.8149; r(summed sim, memorability) human = -0.9038, monkey = -0.6078
+  rules as reported (CR floor 0.05) + 150 cap    participants 150  trials  94003  concepts  970
+      concept level: rho(CR, summed similarity to study list) = -0.4762  p = 4.65e-56
+      feature level: r(original THINGS, this set) = +0.8403; r(summed sim, memorability) human = -0.8932, monkey = -0.6346
+  stricter CR floor 0.10 + 150 cap               participants 147  trials  92309  concepts  970
+      concept level: rho(CR, summed similarity to study list) = -0.4789  p = 9.14e-57
+      feature level: r(original THINGS, this set) = +0.8392; r(summed sim, memorability) human = -0.8914, monkey = -0.6396
+----------------------------------------------------------------------------------------------------
+IMAGE SET: changed
+  every participant run, nothing excluded        participants 195  trials 124800  concepts  527
+      concept level: rho(CR, summed similarity to study list) = -0.3332  p = 3.97e-15
+      feature level: r(original THINGS, this set) = -0.2914; r(summed sim, memorability) human = -0.7023, monkey = -0.4458
+  rules as reported (CR floor 0.05) + 150 cap    participants 150  trials  94095  concepts  527
+      concept level: rho(CR, summed similarity to study list) = -0.3690  p = 1.9e-18
+      feature level: r(original THINGS, this set) = -0.3273; r(summed sim, memorability) human = -0.7451, monkey = -0.4460
+  stricter CR floor 0.10 + 150 cap               participants 143  trials  90005  concepts  527
+      concept level: rho(CR, summed similarity to study list) = -0.3693  p = 1.78e-18
+      feature level: r(original THINGS, this set) = -0.3403; r(summed sim, memorability) human = -0.7574, monkey = -0.4486
+----------------------------------------------------------------------------------------------------
+IMAGE SET: reduced
+  every participant run, nothing excluded        participants 202  trials 129280  concepts 1057
+      concept level: rho(CR, summed similarity to study list) = -0.1536  p = 5.21e-07
+  rules as reported (CR floor 0.05) + 150 cap    participants 150  trials  94002  concepts 1057
+      concept level: rho(CR, summed similarity to study list) = -0.1921  p = 3.05e-10
+  stricter CR floor 0.10 + 150 cap               participants 148  trials  92843  concepts 1057
+      concept level: rho(CR, summed similarity to study list) = -0.1912  p = 3.66e-10
+----------------------------------------------------------------------------------------------------
+FIG. 7d STATISTIC: drop in summed squared feature-memorability correlation, maintained -> reduced
+(1000 participant resamples per set, numpy seed 7)
+  rules as reported (CR floor 0.05) + 150 cap    maintained 0.5510, reduced 0.3898, drop 28.1%, one-sided p = 0.031
+      95% bootstrap intervals: maintained [0.4260, 0.6931], reduced [0.2952, 0.4944]
+  every participant run, nothing excluded        maintained 0.3940, reduced 0.2953, drop 23.0%, one-sided p = 0.104
+      95% bootstrap intervals: maintained [0.2741, 0.5206], reduced [0.2089, 0.3899]
+----------------------------------------------------------------------------------------------------
+COMPARISON WITH THE SAVED RUN OF MODULE 06 (06_image_set_experiments_fig6_fig7/data/paper_run/; regime "reported")
+statistic                                         saved   recomputed      paper
+Fig. 6c r(original, maintained)                  0.8403       0.8403       0.84
+Fig. 6d r(summed sim, maintained) human         -0.8932      -0.8932      -0.89
+Fig. 6e r(summed sim, maintained) monkey        -0.6346      -0.6346      -0.63
+Fig. 6f r(original, changed)                    -0.3273      -0.3273      -0.33
+Fig. 6g r(summed sim, changed) human            -0.7451      -0.7451      -0.75
+Fig. 6h r(summed sim, changed) monkey           -0.4460      -0.4460      -0.45
+Fig. 7d percent drop (bootstrap mean)           27.3121      28.1329        27%
+Fig. 7d one-sided p                              0.0360       0.0310      0.036
+maintained participants kept                   150.0000     150.0000        150
+changed participants kept                      150.0000     150.0000        150
+reduced participants kept                      150.0000     150.0000        150

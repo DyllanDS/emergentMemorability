@@ -1,0 +1,293 @@
+function numbersRows = fig1_numbers(rerunMeasures, paperRunMeasures, rerunEqualsPaperRun)
+%FIG1_NUMBERS  Writes this module's outputs/numbers.csv (each number of the paper that the module
+%   computes, with the computed value and whether it agrees with the printed value) and
+%   outputs/summed_similarity_measures.csv (the four measures of item similarity side by side,
+%   with the two the paper reports marked).
+%
+%   Usage (run_module.m calls it after the rerun)
+%     fig1_numbers(rerunMeasures, paperRunMeasures, rerunEqualsPaperRun)
+%     fig1_numbers                 numbers from the saved run in data/paper_run/ only (no rerun,
+%                                  mode saved_run). The saved run does not store the number of
+%                                  items studied per experiment, so the three rows that print it
+%                                  (L1-007, L1-018, L5-011) are then marked documented.
+%
+%   Inputs
+%     rerunMeasures        fig1_measures() of the rerun with seed 12345 (the run whose values go
+%                          into numbers.csv)
+%     paperRunMeasures     fig1_measures() of the saved run (data/paper_run/)
+%     rerunEqualsPaperRun  true when run_module.m found every stored array of the rerun identical
+%                          to the saved run (outputs/rerun_vs_paper_run.csv)
+%
+%   Outputs (in 01_rem_simulation_fig1/outputs/)
+%     numbers.csv                      one row per ledger item (shared/ledger/paper_numbers.csv
+%                                      supplies the printed value, location and quote; the match
+%                                      is judged by shared/matlab/write_numbers_csv.m)
+%     summed_similarity_measures.csv   measure, statistic, value in the rerun, value in the saved
+%                                      run, reported in the paper (yes/no), where it is used
+%   The rows of the two correlations of Fig. 1 (L1-019, L1-021, L1-022, L1-024), which print a
+%   bootstrap interval, are written by stats_fig1.py into the same numbers.csv.
+
+addpath(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'shared', 'matlab'));
+paths = release_paths(mfilename('fullpath'));
+
+if nargin == 0
+    loaded = load(fullfile(paths.paperRun, 'fig1_paper_run.mat'), 'figureData');
+    paperRunMeasures = fig1_measures(loaded.figureData);
+    rerunMeasures = paperRunMeasures;
+    valueMode = 'saved_run';
+    fprintf('No rerun given: the numbers come from the saved run in data/paper_run/.\n');
+else
+    valueMode = 'rerun';
+    if ~rerunEqualsPaperRun
+        fprintf('The rerun is not identical to the saved run in data/paper_run/ (outputs/rerun_vs_paper_run.csv).\n');
+    end
+end
+m = rerunMeasures;
+
+%% The four similarity measures, side by side
+measureNames = {
+    'similarity = 1 / mean Euclidean distance to the other items'
+    'summed similarity = sum over the other items of 1 / Euclidean distance'
+    'mean Euclidean distance to the other items'
+    'negated mean Euclidean distance (same ranks as 1 / mean distance)'};
+statisticNames = {'Pearson r'; 'Pearson r'; 'Pearson r'; 'Spearman rho'};
+rerunValues = [
+    m.pearsonMemorabilityVsInverseMeanDistance
+    m.pearsonMemorabilityVsSummedInverseDistance
+    m.pearsonMemorabilityVsMeanDistance
+    m.spearmanMemorabilityVsNegatedMeanDistance];
+paperRunValues = [
+    paperRunMeasures.pearsonMemorabilityVsInverseMeanDistance
+    paperRunMeasures.pearsonMemorabilityVsSummedInverseDistance
+    paperRunMeasures.pearsonMemorabilityVsMeanDistance
+    paperRunMeasures.spearmanMemorabilityVsNegatedMeanDistance];
+reportedInPaper = {'yes'; 'no'; 'no'; 'yes'};
+whereUsed = {
+    'the r = -0.56 of the Fig. 1 caption (panel b) and of Simulations of Memorability as an Emergent Property'
+    'the x axis of Fig. 1b (Summed Similarity)'
+    'the distance of Methods, Basic REM Simulation of Memorability (larger = more distinctive)'
+    'the rho = -0.55 of Methods, Basic REM Simulation of Memorability; the measure of SI Appendix, Fig. S2'};
+measuresTable = table(measureNames, statisticNames, rerunValues, paperRunValues, reportedInPaper, whereUsed, ...
+    'VariableNames', {'measure', 'statistic', 'value_rerun_seed12345', 'value_paper_run', ...
+    'reported_in_paper', 'where_used'});
+writetable(measuresTable, fullfile(paths.outputs, 'summed_similarity_measures.csv'));
+
+fprintf('\nItem memorability against item similarity, every measure (1,600 items):\n');
+for measureIndex = 1:numel(measureNames)
+    if strcmp(reportedInPaper{measureIndex}, 'yes')
+        marker = '<- reported in the paper';
+    else
+        marker = '';
+    end
+    fprintf('  %-72s %-12s rerun %+.4f  saved run %+.4f  %s\n', measureNames{measureIndex}, ...
+        statisticNames{measureIndex}, rerunValues(measureIndex), paperRunValues(measureIndex), marker);
+end
+fprintf('wrote outputs/summed_similarity_measures.csv\n\n');
+
+%% The 49 dimensions of the SPoSE embedding (the "49 features" of Hebart et al., 2020)
+sposeEmbedding = load(fullfile(paths.sharedThings, 'spose_embedding_49d_sorted.txt'), '-ascii');
+sposeDimensions = size(sposeEmbedding, 2);
+
+%% One row per ledger item
+simulationScript = 'code/fig1_remSim.m';
+figureScript = 'code/fig1_makeFigure1.m';
+numbersScript = 'code/fig1_numbers.m';
+parameterText = sprintf('w = %d, g = %.2f, u = %.1f, c = %.1f, criterion %g, seed %d', ...
+    m.numberOfFeatures, m.baseRateOfFeatures, m.probEncoding, m.correctEncodeProb, m.criterion, m.seed);
+
+rows = struct('ledger_id', {}, 'computed_value', {}, 'mode', {}, 'note', {}, 'script', {}, 'match_type', {});
+
+% The saved run does not store the number of items studied per experiment (studied items that are
+% not tested leave no trace in it). Without a rerun, the three rows that print it are therefore
+% marked documented; with a rerun, fig1_remSim.m returns it and the ledger's match type applies
+% (an empty match type below means the ledger's).
+if isnan(m.studySize)
+    studySizeMatchType = 'documented';
+    studySizeNote = ' (not stored in the saved run; run_module.m takes it from the rerun)';
+else
+    studySizeMatchType = '';
+    studySizeNote = '';
+end
+
+% Design and parameters of the simulation
+rows = addRow(rows, 'L1-003', [sposeDimensions m.numberOfFeatures], valueMode, ...
+    'First value: dimensions of the SPoSE embedding in shared/things/spose_embedding_49d_sorted.txt; second: features per simulated item', ...
+    numbersScript);
+rows = addRow(rows, 'L1-105', sposeDimensions, valueMode, ...
+    'Dimensions of the SPoSE embedding of the THINGS concepts (shared/things/spose_embedding_49d_sorted.txt)', ...
+    numbersScript);
+if isnan(m.itemsGeneratedBeforeDrawingTheSet)
+    poolText = 'Items in the simulated image set (the saved run does not store the number of generated items they are drawn from)';
+else
+    poolText = sprintf('Items in the simulated image set, drawn at random from %d generated items (the number of THINGS images)', ...
+        m.itemsGeneratedBeforeDrawingTheSet);
+end
+rows = addRow(rows, 'L1-004', m.numberOfItems, valueMode, poolText, simulationScript);
+rows = addRow(rows, 'L1-005', m.numberOfFeatures, valueMode, sprintf( ...
+    'Features per simulated item; each value is a geometric draw (g = %.2f) plus 1 (values %d to %d in this run)', ...
+    m.baseRateOfFeatures, m.smallestFeatureValue, m.largestFeatureValue), simulationScript);
+rows = addRow(rows, 'L1-006', m.numberOfSimulations, valueMode, sprintf( ...
+    ['Simulated recognition experiments; each item is a tested ' ...
+    'old item in %d to %d of them and a foil in %d to %d'], m.fewestTimesTestedOld, m.mostTimesTestedOld, ...
+    m.fewestTimesTestedAsFoil, m.mostTimesTestedAsFoil), simulationScript);
+rows = addRow(rows, 'L1-007', m.studySize, valueMode, ['Items studied in each simulated experiment' studySizeNote], ...
+    simulationScript, studySizeMatchType);
+if m.itemOldAndNewInSameSimulation
+    overlapText = 'some item is both an old test item and a foil in the same experiment';
+else
+    overlapText = 'no item is both an old test item and a foil in the same experiment';
+end
+rows = addRow(rows, 'L1-008', [m.testItemsPerSimulation m.oldTestItemsPerSimulation m.newTestItemsPerSimulation], ...
+    valueMode, sprintf(['Test items, old test items and new foils in each of the %d simulated experiments; ' ...
+    'the old items are the first 20 of the 40 studied items and the foils are items of the set not studied in ' ...
+    'that experiment (%s)'], m.numberOfSimulations, overlapText), simulationScript);
+rows = addRow(rows, 'L1-009', m.numberOfFeatures, valueMode, ['Features per simulated item (w); settings of the run: ' parameterText], ...
+    simulationScript);
+rows = addRow(rows, 'L1-011', m.numberOfSimulations, valueMode, sprintf( ...
+    'The %d simulated experiments over which each item''s hit rate and false alarm rate are computed (mean hit rate %.3f, mean false alarm rate %.3f)', ...
+    m.numberOfSimulations, m.meanHitRate, m.meanFalseAlarmRate), simulationScript);
+rows = addRow(rows, 'L1-012', m.criterion, valueMode, ...
+    'Decision criterion of the simulation: an item is called old when its mean likelihood ratio is greater than 1 (odds of 1 to 1), the same for every item and every simulated experiment', simulationScript);
+rows = addRow(rows, 'L1-018', [m.numberOfItems m.numberOfFeatures m.numberOfSimulations m.studySize], valueMode, ...
+    ['Items in the simulated set, features per item, simulated experiments, and items studied per experiment' ...
+    studySizeNote], simulationScript, studySizeMatchType);
+rows = addRow(rows, 'L5-001', m.numberOfFeatures, valueMode, 'Features per simulated item (w)', simulationScript);
+rows = addRow(rows, 'L5-002', [m.baseRateOfFeatures m.smallestFeatureValue], valueMode, ...
+    'g of the geometric distribution, and the smallest feature value among the 1,600 items', simulationScript);
+rows = addRow(rows, 'L5-003', m.probEncoding, valueMode, 'u, the probability that a feature of a studied item is stored', ...
+    simulationScript);
+rows = addRow(rows, 'L5-004', m.correctEncodeProb, valueMode, ...
+    'c, the probability that a stored feature is copied correctly', simulationScript);
+rows = addRow(rows, 'L5-009', m.numberOfItems, valueMode, 'Items in the simulated image set', ...
+    simulationScript);
+rows = addRow(rows, 'L5-010', m.numberOfSimulations, valueMode, ...
+    'Simulated recognition experiments', simulationScript);
+rows = addRow(rows, 'L5-011', m.studySize, valueMode, ['Items studied in each simulated experiment' studySizeNote], ...
+    simulationScript, studySizeMatchType);
+rows = addRow(rows, 'L5-012', [m.oldTestItemsPerSimulation m.newTestItemsPerSimulation], valueMode, ...
+    'Old test items and new foils in each simulated experiment', simulationScript);
+rows = addRow(rows, 'L5-013', sprintf('%d of %d items; tested as old items in %d to %d simulations, as foils in %d to %d', ...
+    m.itemsWithHitAndFalseAlarmRate, m.numberOfItems, m.fewestTimesTestedOld, m.mostTimesTestedOld, ...
+    m.fewestTimesTestedAsFoil, m.mostTimesTestedAsFoil), valueMode, ...
+    'Items with both a hit rate and a false alarm rate, and the range of the number of simulated experiments in which an item is tested as an old item and as a foil', simulationScript);
+rows = addRow(rows, 'L5-014', m.criterion, valueMode, ...
+    'Decision criterion: an item is called old when its mean likelihood ratio over the 40 memory traces is greater than 1', ...
+    simulationScript);
+rows = addRow(rows, 'L5-015', [m.meanHitRate m.meanFalseAlarmRate], valueMode, ...
+    'Mean hit rate and mean false alarm rate over the 1,600 items; memorability is hit rate minus false alarm rate', ...
+    simulationScript);
+
+if isnan(m.studySize)
+    traceText = sprintf('mean over the memory traces of the studied items; called old when greater than %g', m.criterion);
+else
+    traceText = sprintf('mean over the %d memory traces; called old when greater than %g', m.studySize, m.criterion);
+end
+rows = addRow(rows, 'L1-103', traceText, valueMode, ...
+    'Decision rule: the familiarity of a test item is its mean likelihood ratio over the memory traces of the studied items', ...
+    simulationScript);
+
+% Item similarity and the correlations of Fig. 1 that print no interval (the rows of the Fig. 1b and
+% Fig. 1d correlations are written by stats_fig1.py)
+rows = addRow(rows, 'L5-007', m.spearmanMemorabilityVsNegatedMeanDistance, valueMode, ...
+    ['Spearman rho across the 1,600 simulated items between memorability and the negated mean ' ...
+    'Euclidean distance to the other items (the measure of SI Appendix, Fig. S2), at the parameter ' ...
+    'values of Fig. 1'], simulationScript);
+rows = addRow(rows, 'L5-016', m.numberOfFeatures, valueMode, sprintf( ...
+    ['Dimensions of the feature space in which the Euclidean distances between items are computed (the %d features of each item); ' ...
+    'Pearson r of memorability with the mean distance %+.4f and with 1 / mean distance %+.4f (outputs/summed_similarity_measures.csv)'], ...
+    m.numberOfFeatures, m.pearsonMemorabilityVsMeanDistance, m.pearsonMemorabilityVsInverseMeanDistance), ...
+    simulationScript);
+rows = addRow(rows, 'L1-104', sprintf('Pearson r of memorability with the mean distance %+.4f', ...
+    m.pearsonMemorabilityVsMeanDistance), valueMode, ...
+    'Mean Euclidean distance to the other items, larger for more distinctive items; it correlates positively with memorability', ...
+    simulationScript);
+
+rows = addRow(rows, 'L1-020', m.featuresCorrelatedWithMemorabilityP05, valueMode, sprintf( ...
+    ['Number of generated features whose Spearman correlation with memorability across the 1,600 items ' ...
+    'has p < 0.05 (%d of %d positive, rho %.3f to %.3f)'], m.featuresPositivelyCorrelatedWithMemorability, ...
+    m.numberOfFeatures, m.weakestFeatureMemorabilityCorrelation, m.strongestFeatureMemorabilityCorrelation), ...
+    simulationScript);
+rows = addRow(rows, 'L1-102', sprintf('%d of %d features with p < 0.05 (rho %.3f to %.3f)', ...
+    m.featuresCorrelatedWithMemorabilityP05, m.numberOfFeatures, m.weakestFeatureMemorabilityCorrelation, ...
+    m.strongestFeatureMemorabilityCorrelation), valueMode, ...
+    'Spearman correlation of each generated feature with memorability across the 1,600 items (Fig. 1c)', ...
+    simulationScript);
+
+% The four panels of Fig. 1 (no number printed; the values are what the panels show)
+rows = addRow(rows, 'L1-101', sprintf('%.4f to %.4f', m.highestMemorability, m.lowestMemorability), valueMode, ...
+    sprintf(['Memorability (hit rate minus false alarm rate) of the %d items from highest to lowest, each from ' ...
+    'the %d simulated experiments (Fig. 1a)'], m.numberOfItems, m.numberOfSimulations), figureScript);
+rows = addRow(rows, 'L1-106', sprintf('%.4f to %.4f', m.highestMemorability, m.lowestMemorability), valueMode, ...
+    sprintf('Same as row L1-101: memorability of the %d items from highest to lowest (Fig. 1a)', m.numberOfItems), ...
+    figureScript);
+rows = addRow(rows, 'L1-014', sprintf('%.4f to %.4f', m.highestMemorability, m.lowestMemorability), valueMode, ...
+    sprintf(['Fig. 1a: memorability (hit rate minus false alarm rate) of the %d items from highest to lowest ' ...
+    '(outputs/figure_data/fig1a_item_memorability_rank_order.csv)'], m.numberOfItems), ...
+    figureScript);
+rows = addRow(rows, 'L1-015', sprintf('x %.2f to %.2f; Pearson r of the plotted points %.4f', ...
+    m.smallestSummedInverseDistance, m.largestSummedInverseDistance, m.pearsonMemorabilityVsSummedInverseDistance), ...
+    valueMode, ['Fig. 1b: range of the plotted summed similarity (sum over the other items of 1 / Euclidean distance) ' ...
+    'and the Pearson r of the plotted points (outputs/figure_data/fig1b_memorability_vs_summed_similarity.csv); ' ...
+    'the r of the caption is row L1-019'], figureScript);
+rows = addRow(rows, 'L1-016', sprintf('%.4f to %.4f; %d of %d with p < 0.05', ...
+    m.strongestFeatureMemorabilityCorrelation, m.weakestFeatureMemorabilityCorrelation, ...
+    m.featuresCorrelatedWithMemorabilityP05, m.numberOfFeatures), valueMode, ...
+    ['Fig. 1c: the 49 features'' Spearman correlations with memorability across the 1,600 items, from highest to lowest, ' ...
+    'and the number with p < 0.05 (outputs/figure_data/fig1c_feature_correlation_rank_order.csv)'], figureScript);
+rows = addRow(rows, 'L1-017', sprintf('x %.4f to %.4f; y %.4f to %.4f; Spearman rho %.4f', ...
+    m.lowestFeatureSimilarityCorrelation, m.highestFeatureSimilarityCorrelation, ...
+    m.weakestFeatureMemorabilityCorrelation, m.strongestFeatureMemorabilityCorrelation, m.spearmanAcrossFeatures), ...
+    valueMode, ['Fig. 1d: ranges of each feature''s Spearman correlation with similarity (1 / mean Euclidean distance; x) ' ...
+    'and with memorability (y), and the Spearman rho across the 49 features (outputs/figure_data/fig1d_feature_memorability_vs_similarity.csv)'], ...
+    figureScript);
+
+% Restatements of the simulation results: Abstract, Introduction and General Discussion
+restatementNote = ['Restates Figs. 1 and 2; the Fig. 1 values are the Pearson r of row L1-019 and the ' ...
+    'Spearman rho of row L1-021'];
+rows = addRow(rows, 'L1-107', [m.pearsonMemorabilityVsInverseMeanDistance m.spearmanAcrossFeatures], valueMode, ...
+    restatementNote, simulationScript);
+rows = addRow(rows, 'L1-108', [m.pearsonMemorabilityVsInverseMeanDistance m.spearmanAcrossFeatures], valueMode, ...
+    restatementNote, simulationScript);
+rows = addRow(rows, 'L4-001', [m.pearsonMemorabilityVsInverseMeanDistance m.spearmanAcrossFeatures], 'restatement', ...
+    'Restates Figs. 1 and 2; the Fig. 1 values are the Pearson r of row L1-019 and the Spearman rho of row L1-021', ...
+    simulationScript);
+rows = addRow(rows, 'L4-014', m.pearsonMemorabilityVsInverseMeanDistance, 'restatement', ...
+    'Restates the simulation results; the Fig. 1 value is the Pearson r of row L1-019 (SI Appendix, Fig. S6 and Figs. 6 and 7 are in modules A2e and 06)', ...
+    simulationScript);
+
+%% Write numbers.csv (the shared writer prints its full path, so the log is paused around it)
+diaryWasOn = strcmp(get(0, 'Diary'), 'on');
+if diaryWasOn
+    diary off
+end
+numbersRows = write_numbers_csv(rows, paths.outputs, simulationScript);
+if diaryWasOn
+    diary on
+end
+
+matchCounts = struct('yes', 0, 'no', 0, 'documented', 0);
+for rowIndex = 1:numel(numbersRows)
+    matchWord = numbersRows(rowIndex).match;
+    if isfield(matchCounts, matchWord)
+        matchCounts.(matchWord) = matchCounts.(matchWord) + 1;
+    end
+end
+fprintf('wrote outputs/numbers.csv: %d rows (match yes %d, no %d, documented %d)\n', numel(numbersRows), ...
+    matchCounts.yes, matchCounts.no, matchCounts.documented);
+for rowIndex = 1:numel(numbersRows)
+    if strcmp(numbersRows(rowIndex).match, 'no')
+        fprintf('  DOES NOT MATCH: %s printed %s, computed %s\n', numbersRows(rowIndex).ledger_id, ...
+            numbersRows(rowIndex).paper_value, numbersRows(rowIndex).computed_text);
+    end
+end
+end
+
+function rows = addRow(rows, ledgerId, computedValue, mode, note, script, matchType)
+% Append one numbers.csv row. matchType is optional; empty (the default) means the ledger's match type.
+if nargin < 7
+    matchType = '';
+end
+newRow = struct('ledger_id', ledgerId, 'computed_value', computedValue, 'mode', mode, 'note', note, ...
+    'script', script, 'match_type', matchType);
+rows(end + 1) = newRow;
+end

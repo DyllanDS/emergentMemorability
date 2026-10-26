@@ -1,0 +1,10 @@
+image_set,regime,participants,trials,concepts,rho,p
+maintained,all_run,205,131200,970,-0.443531,5.19871e-48
+maintained,reported,150,94003,970,-0.476219,4.64521e-56
+maintained,stricter_010,147,92309,970,-0.478924,9.14057e-57
+changed,all_run,195,124800,527,-0.333169,3.97331e-15
+changed,reported,150,94095,527,-0.369039,1.90258e-18
+changed,stricter_010,143,90005,527,-0.369328,1.78163e-18
+reduced,all_run,202,129280,1057,-0.153618,5.21427e-07
+reduced,reported,150,94002,1057,-0.192085,3.04793e-10
+reduced,stricter_010,148,92843,1057,-0.19123,3.66288e-10

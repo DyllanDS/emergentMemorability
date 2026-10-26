@@ -1,0 +1,56 @@
+CATEGORY ISOLATION OR FEATURE CROWDING
+====================================================================================================
+6,223,953 trials, 21,137 participants. Trials require at least 50 preceding items.
+1854 of 1,854 concepts have a code in the THINGS category table (0 = no named category); two
+concepts are category-mates when their codes are equal.
+Both predictors are z-scored and centered within image, so every comparison holds the item fixed.
+
+----------------------------------------------------------------------------------------------------
+FALSE ALARMS on new items   n = 3,100,294 trials
+----------------------------------------------------------------------------------------------------
+  correlation between the two crowding measures (within image): +0.488
+
+  M1  feature crowding alone
+    feature                    b=+0.00296 [+0.00256, +0.00335]  t(21117)=+14.75  p=5.38e-49  d=+0.102
+
+  M2  category crowding alone
+    category                   b=+0.00089 [+0.00051, +0.00127]  t(21117)=+4.64  p=3.44e-06  d=+0.032
+
+  M3  both together
+    feature                    b=+0.00286 [+0.00247, +0.00325]  t(21117)=+14.23  p=9.33e-46  d=+0.098
+    category                   b=+0.00062 [+0.00024, +0.00100]  t(21117)=+3.24  p=0.00121  d=+0.022
+
+  M4  both, plus category crowding x database typicality
+    feature                    b=+0.00259 [+0.00219, +0.00300]  t(21117)=+12.53  p=6.95e-36  d=+0.086
+    category                   b=+0.00073 [+0.00030, +0.00116]  t(21117)=+3.31  p=0.000926  d=+0.023
+    category_x_typicality      b=+0.00069 [+0.00037, +0.00102]  t(21117)=+4.16  p=3.14e-05  d=+0.029
+
+----------------------------------------------------------------------------------------------------
+HITS on target repeats   n = 1,029,193 trials
+----------------------------------------------------------------------------------------------------
+  correlation between the two crowding measures (within image): +0.491
+
+  M1  feature crowding alone
+    feature                    b=+0.00152 [-0.00027, +0.00331]  t(21081)=+1.67  p=0.0958  d=+0.011
+
+  M2  category crowding alone
+    category                   b=-0.00306 [-0.00477, -0.00135]  t(21081)=-3.50  p=0.000459  d=-0.024
+
+  M3  both together
+    feature                    b=+0.00195 [+0.00013, +0.00376]  t(21081)=+2.10  p=0.0361  d=+0.014
+    category                   b=-0.00320 [-0.00494, -0.00145]  t(21081)=-3.60  p=0.000324  d=-0.025
+
+  M4  both, plus category crowding x database typicality
+    feature                    b=+0.00195 [+0.00004, +0.00385]  t(21081)=+2.00  p=0.045  d=+0.014
+    category                   b=-0.00363 [-0.00561, -0.00165]  t(21081)=-3.59  p=0.000328  d=-0.025
+    category_x_typicality      b=+0.00102 [-0.00043, +0.00246]  t(21081)=+1.38  p=0.167  d=+0.010
+
+----------------------------------------------------------------------------------------------------
+READING THIS
+----------------------------------------------------------------------------------------------------
+  M1 and M2 enter each measure alone. M3 enters both together, so each
+  coefficient is the effect of one measure with the other held constant.
+  M4 adds database typicality (the mean of a concept's ten highest SPoSE
+  correlations over all 1,854 concepts) and its product with category
+  crowding, which asks whether category-mates matter less for concepts that
+  are already crowded in the full space.

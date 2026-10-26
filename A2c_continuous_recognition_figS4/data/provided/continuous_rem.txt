@@ -1,0 +1,45 @@
+REM IN CONTINUOUS RECOGNITION
+================================================================================================
+g=0.4, w=20, copy=0.7. 4,000 simulated participants, each
+inheriting the 295-trial structure of one participant in the original
+study: same sequence of first presentations and repeats, same lags, same
+proportions of targets, fillers and vigilance repeats. Only the items are
+simulated, so they have no memorability of their own.
+
+The criterion is set at each storage probability so that the false alarm
+rate is 2%. The model runs at the standard storage probability and at the
+storage probability whose overall d' is closest to the participants'
+(matched accuracy).
+
+------------------------------------------------------------------------------------------------
+OPERATING POINT: standard storage
+  storage u = 0.30, criterion = 5.236
+  aggregate hit rate 0.3240, false alarm rate 0.0191   (empirical: 0.808 and 0.020)
+------------------------------------------------------------------------------------------------
+  items with >=30 observations of each kind: 1,600
+  per-item hit rate  mean 0.3240 SD 0.0878   FA rate mean 0.0191 SD 0.0071
+  corrected recognition vs hit rate  r = +0.9967
+  corrected recognition vs FA rate   r = +0.1334
+
+  context binned within item, least to most similar preceding stream:
+    d'        1.920 -> 1.294  (change -0.626), rho = -0.983
+    hit rate  0.3782 -> 0.2845
+    FA rate   0.0129 -> 0.0312
+    criterion +1.270 -> +1.217, rho = -0.177
+
+------------------------------------------------------------------------------------------------
+OPERATING POINT: accuracy-matched storage
+  storage u = 0.75, criterion = 3.462
+  aggregate hit rate 0.8575, false alarm rate 0.0204   (empirical: 0.808 and 0.020)
+------------------------------------------------------------------------------------------------
+  items with >=30 observations of each kind: 1,600
+  per-item hit rate  mean 0.8574 SD 0.0526   FA rate mean 0.0204 SD 0.0087
+  corrected recognition vs hit rate  r = +0.9908
+  corrected recognition vs FA rate   r = -0.5833
+
+  context binned within item, least to most similar preceding stream:
+    d'        3.737 -> 2.622  (change -1.115), rho = -1.000
+    hit rate  0.8863 -> 0.8533
+    FA rate   0.0057 -> 0.0581
+    criterion +0.662 -> +0.260, rho = -0.997
+

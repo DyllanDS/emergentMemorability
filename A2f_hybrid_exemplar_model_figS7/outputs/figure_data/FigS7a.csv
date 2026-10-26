@@ -1,0 +1,4 @@
+model,spearman_rho,source
+REM,-0.605509516975324,A2a_rem_parameter_sweep_figS2/data/paper_run/rem_parameter_sweep.csv (paper values)
+GCM,0.26326196699187476,outputs/core.json (GCM)
+Hybrid,-0.3171406267415855,"outputs/core.json (Hybrid GCM, list)"

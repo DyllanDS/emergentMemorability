@@ -1,0 +1,158 @@
+[
+  {
+    "network": "alexnet",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 12288,
+    "pca_applied": true,
+    "cumulative_evr": 0.9686346054077148
+  },
+  {
+    "network": "alexnet",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 9216,
+    "pca_applied": true,
+    "cumulative_evr": 0.7744240164756775
+  },
+  {
+    "network": "vgg16",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 16384,
+    "pca_applied": true,
+    "cumulative_evr": 0.8582433462142944
+  },
+  {
+    "network": "vgg16",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 25088,
+    "pca_applied": true,
+    "cumulative_evr": 0.5927321314811707
+  },
+  {
+    "network": "resnet18",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 8192,
+    "pca_applied": true,
+    "cumulative_evr": 0.6076364517211914
+  },
+  {
+    "network": "resnet18",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 512,
+    "pca_applied": false,
+    "cumulative_evr": null
+  },
+  {
+    "network": "inception",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 16384,
+    "pca_applied": true,
+    "cumulative_evr": 0.7755825519561768
+  },
+  {
+    "network": "inception",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 2048,
+    "pca_applied": true,
+    "cumulative_evr": 0.9064542055130005
+  },
+  {
+    "network": "cornet",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 8192,
+    "pca_applied": true,
+    "cumulative_evr": 0.7020076513290405
+  },
+  {
+    "network": "cornet",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 32768,
+    "pca_applied": true,
+    "cumulative_evr": 0.5278262495994568
+  },
+  {
+    "network": "clip",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 38400,
+    "pca_applied": true,
+    "cumulative_evr": 0.4275529384613037
+  },
+  {
+    "network": "clip",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 768,
+    "pca_applied": true,
+    "cumulative_evr": 0.9671099781990051
+  },
+  {
+    "network": "dinov3",
+    "layer_label": "early",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 196608,
+    "pca_applied": true,
+    "cumulative_evr": 0.3805699348449707,
+    "pca_method": "exact PCA via Gram matrix (low-memory route)"
+  },
+  {
+    "network": "dinov3",
+    "layer_label": "late",
+    "shape": [
+      10442,
+      512
+    ],
+    "original_dim": 200448,
+    "pca_applied": true,
+    "cumulative_evr": 0.6261956691741943,
+    "pca_method": "exact PCA via Gram matrix (low-memory route)"
+  }
+]

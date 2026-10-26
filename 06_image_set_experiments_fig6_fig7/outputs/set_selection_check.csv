@@ -1,0 +1,19 @@
+quantity,value
+"top-scoring concepts considered for the sparse part of the changed set",500
+"concepts chosen greedily (lowest mean similarity) for the changed set",160
+"further concepts drawn for the changed set",1440
+"concepts drawn for the maintained set",1600
+"concepts drawn for each reduced-set candidate",1600
+"reduced-set candidates (exponents tried)",500
+"smallest exponent",0.01
+"largest exponent",0.5
+"exponent step",0.01
+"repetitions of each exponent",10
+"normalized concept score, lowest",0
+"normalized concept score, highest",1
+"Spearman correlations in each candidate's composite score",49
+"chosen candidate (lowest composite score)",420
+"exponent of the chosen candidate",0.2
+"drawn changed-set concepts equal the set in data/sampled_image_sets.mat (1 = yes)",1
+"drawn maintained-set concepts equal the set in data/sampled_image_sets.mat (1 = yes)",1
+"drawn reduced-set concepts equal the set in data/sampled_image_sets.mat (1 = yes)",1

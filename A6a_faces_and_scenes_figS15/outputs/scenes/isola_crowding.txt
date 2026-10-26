@@ -1,0 +1,19 @@
+REPRESENTATIONAL CROWDING AND SCENE MEMORABILITY
+================================================================================================
+10,442 images embedded; 2,222 carry memorability scores.
+Ensemble of 14 network/layer spaces, each z-scored before averaging.
+Crowding is computed over all images; only CVPR target images enter the correlations.
+Spearman rho throughout. Prediction: crowding raises false alarms and lowers hits.
+
+------------------------------------------------------------------------------------------------
+Limiting case: mean ensemble distance to every other image (negated)
+------------------------------------------------------------------------------------------------
+  hit rate   rho = -0.507 (p = 1.92e-145)
+  FA rate    rho = +0.130 (p = 8.03e-10)
+
+------------------------------------------------------------------------------------------------
+NOTES
+------------------------------------------------------------------------------------------------
+  The block above is summed similarity with equal weights in the limit of
+  a wide kernel: the negated mean ensemble distance from each image to
+  every other image, over the whole sample (Fig. S15b).

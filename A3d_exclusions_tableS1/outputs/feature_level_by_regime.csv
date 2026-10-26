@@ -1,0 +1,7 @@
+image_set,regime,participants,r_original_vs_set,r_summed_similarity_human,r_summed_similarity_monkey
+maintained,all_run,205,0.814908,-0.90384,-0.60781
+maintained,reported,150,0.840307,-0.893195,-0.634562
+maintained,stricter_010,147,0.839153,-0.891367,-0.639633
+changed,all_run,195,-0.291429,-0.702344,-0.445763
+changed,reported,150,-0.327278,-0.745082,-0.446041
+changed,stricter_010,143,-0.340312,-0.757418,-0.448554

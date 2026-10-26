@@ -1,0 +1,14 @@
+SPoSE WHOLE-STREAM CONTEXT EFFECT ON FIVE WITHIN-IMAGE BINS (from the 20-bin rates)
+source: A5_things_context_effects_figS13_S14/data/provided/sdt_ctx_top10_target.npz (ctx_top10, target repeats; 20 within-image bins)
+method: quintile rate = mean of its four ventile rates; d prime = z(H) - z(F)
+check: ventile d prime recomputed from the saved rates vs saved d prime, largest difference 0.000000
+
+bin   hit rate   FA rate    d prime
+  1    0.8343    0.0154    3.131
+  2    0.8165    0.0187    2.984
+  3    0.8029    0.0207    2.891
+  4    0.7958    0.0234    2.814
+  5    0.7904    0.0263    2.745
+
+five-bin d prime drop, bin 1 minus bin 5: 0.386
+twenty-bin d prime drop, bin 1 minus bin 20 (for comparison): 0.508

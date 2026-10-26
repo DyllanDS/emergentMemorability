@@ -1,0 +1,15 @@
+REM read through the experiment's own instrument
+============================================================
+
+243 parameter combinations, 100 simulated participants each. Every combination is
+scored twice: directly off the log-odds, and by placing ONE shared set of seven
+criteria on the evidence and fitting the model the data are fitted with.
+
+WHAT THE FEATURE BUYS  d_a(rare vs its own foil) - d_a(ordinary vs never-studied)
+  read off the log-odds   mean -0.274  range -0.925 to +0.203   positive 12%
+  fitted like the data    mean -0.404  range -2.002 to +0.236   positive 7%
+
+INTERACTION
+  read off the log-odds   mean +0.798  range +0.026 to +2.543   positive 100%
+  fitted like the data    mean +1.113  range -0.003 to +3.735   positive 100%
+

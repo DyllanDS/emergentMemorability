@@ -1,0 +1,34 @@
+CONTINUOUS REM AT THE PARTICIPANTS' OPERATING POINT
+================================================================================================
+400 subject-blocks x 120 simulated participants.
+space: alexnet_late + vgg16_late + resnet18_late + clip_late reduced to 49 dimensions.
+storage 0.3, stored-correctly 0.6.
+observed hit 0.736, FA 0.190, d' 1.51
+sigma and the criterion are set from those two numbers; every
+item-level correlation below is a prediction.
+
+ sigma      crit     hit      FA  d-prime   vs obs CR   vs obs hit   vs obs FA   vs origMem
+  0.05    0.0328   0.995   0.190     3.48       0.211        0.392       0.305       -0.497
+  0.10     0.151   0.979   0.190     2.91       0.334        0.471       0.415       -0.617
+  0.20     0.704   0.903   0.190     2.18       0.318        0.446       0.550       -0.671
+  0.35      1.75   0.726   0.190     1.48       0.268        0.450       0.646       -0.592
+  0.60      2.84   0.485   0.190     0.84       0.082        0.403       0.676       -0.411
+  1.00       213   0.240   0.190     0.17      -0.059        0.290       0.427        0.037
+  1.60  6.51e+09   0.199   0.190     0.03       0.086        0.188       0.063        0.158
+
+closest to the observed operating point: sigma 0.35, criterion 1.75, hit 0.726, FA 0.190
+observed CR vs original THINGS memorability: -0.500
+model CR    vs original THINGS memorability: -0.592
+
+------------------------------------------------------------------------------------------------
+READING THIS
+------------------------------------------------------------------------------------------------
+  In the experiment, the more memorable a critical item was by its published
+  score, the more items similar to it were on its block's study list (from 0
+  items in the lowest quintile to 8 in the highest), so observed memorability
+  correlates negatively with the published scores. The model has no item-level
+  intrinsic memorability term, so the same negative sign in its predictions
+  comes from the composition of the study lists. Only the two overall rates (hit
+  rate and false alarm rate) set sigma and the criterion; every item-level column
+  is a prediction. vs obs CR, hit and FA: Spearman rho over the 40 critical items,
+  model against observed; vs origMem: the model's CR against the published score.

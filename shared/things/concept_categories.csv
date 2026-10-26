@@ -1,0 +1,1855 @@
+concept_number,concept,category_number,category_label
+1,aardvark,1,animal
+2,abacus,13,home decor
+3,accordion,18,musical instrument
+4,acorn,0,NA
+5,air_conditioner,9,electronic device
+6,air_mattress,12,furniture
+7,air_pump,23,tool
+8,airbag,20,part of car
+9,airboat,26,vehicle
+10,aircraft_carrier,26,vehicle
+11,airplane,26,vehicle
+12,album,13,home decor
+13,alligator,1,animal
+14,almond,10,food
+15,aloe,21,plant
+16,alpaca,1,animal
+17,altar,0,NA
+18,aluminum_foil,0,NA
+19,amber,0,NA
+20,ambulance,26,vehicle
+21,amplifier,9,electronic device
+22,anchor,0,NA
+23,ankle,3,body part
+24,anklet,0,NA
+25,ant,1,animal
+26,anteater,1,animal
+27,antelope,1,animal
+28,antenna,0,NA
+29,anvil,23,tool
+30,appetizer,10,food
+31,apple,10,food
+32,apple_tree,21,plant
+33,applesauce,10,food
+34,apron,4,clothing
+35,aquarium,6,container
+36,arch,0,NA
+37,arm,3,body part
+38,armor,4,clothing
+39,arrow,27,weapon
+40,artichoke,10,food
+41,arugula,10,food
+42,ashtray,6,container
+43,asparagus,10,food
+44,avocado,10,food
+45,awning,0,NA
+46,axe,23,tool
+47,baby,0,NA
+48,backdrop,0,NA
+49,backgammon,0,NA
+50,backpack,6,container
+51,backscratcher,23,tool
+52,bacon,10,food
+53,badge,0,NA
+54,badger,1,animal
+55,bag,6,container
+56,bagel,10,food
+57,bagpipe,18,musical instrument
+58,baklava,7,dessert
+59,balance_beam,22,sports equipment
+60,ball,22,sports equipment
+61,balloon,24,toy
+62,ballot_box,6,container
+63,bamboo,21,plant
+64,banana,10,food
+65,banana_peel,0,NA
+66,banana_split,7,dessert
+67,bandage,17,medical equipment
+68,bandanna,4,clothing
+69,banjo,18,musical instrument
+70,bank,6,container
+71,banner,0,NA
+72,barbed_wire,0,NA
+73,barbell,22,sports equipment
+74,barcode,0,NA
+75,bark,0,NA
+76,barnacle,1,animal
+77,barrel,6,container
+78,barrette,0,NA
+79,baseball,22,sports equipment
+80,baseball_bat,22,sports equipment
+81,baseball_glove,22,sports equipment
+82,basil,10,food
+83,basket,6,container
+84,basketball,22,sports equipment
+85,basketball_hoop,22,sports equipment
+86,bassinet,12,furniture
+87,bassoon,18,musical instrument
+88,bat1,1,animal
+89,bat2,22,sports equipment
+90,bathmat,0,NA
+91,bathrobe,4,clothing
+92,bathtub,6,container
+93,baton1,0,NA
+94,baton2,27,weapon
+95,baton3,22,sports equipment
+96,baton4,22,sports equipment
+97,batter,10,food
+98,battery,0,NA
+99,bazooka,27,weapon
+100,beachball,22,sports equipment
+101,bead,0,NA
+102,beaker,6,container
+103,bean,10,food
+104,beanbag,12,furniture
+105,beanie,4,clothing
+106,bear,1,animal
+107,beard,3,body part
+108,beaver,1,animal
+109,bed,12,furniture
+110,bedpan,6,container
+111,bedpost,12,furniture
+112,bee,1,animal
+113,beehive,0,NA
+114,beer,8,drink
+115,beet,10,food
+116,beetle,1,animal
+117,bell,18,musical instrument
+118,bell_pepper,10,food
+119,belt,4,clothing
+120,belt_buckle,5,clothing accessory
+121,bench,12,furniture
+122,berry,10,food
+123,bib,0,NA
+124,bike,26,vehicle
+125,bikini,4,clothing
+126,bin,6,container
+127,binder,19,office supply
+128,binoculars,0,NA
+129,bird,1,animal
+130,birdbath,6,container
+131,birdcage,6,container
+132,birdhouse,13,home decor
+133,birthday_cake,7,dessert
+134,biscuit,10,food
+135,bison,1,animal
+136,blackberry,10,food
+137,blanket,0,NA
+138,blazer,4,clothing
+139,blender,9,electronic device
+140,blimp,0,NA
+141,blind,0,NA
+142,blinder,0,NA
+143,blindfold,0,NA
+144,block,0,NA
+145,blouse,4,clothing
+146,blower,9,electronic device
+147,blowfish,1,animal
+148,blowgun,27,weapon
+149,blowtorch,23,tool
+150,blueberry,10,food
+151,boa,4,clothing
+152,boar,1,animal
+153,board,0,NA
+154,board_game,0,NA
+155,boat,26,vehicle
+156,bobsled,22,sports equipment
+157,bok_choy,10,food
+158,bolo_tie,4,clothing
+159,bologna,10,food
+160,bolt,0,NA
+161,bomb,27,weapon
+162,bone,3,body part
+163,bongo,18,musical instrument
+164,bonnet,4,clothing
+165,bonsai,13,home decor
+166,book,0,NA
+167,bookmark,0,NA
+168,bookshelf,12,furniture
+169,boomerang,24,toy
+170,boot,4,clothing
+171,bottle,6,container
+172,bottle_opener,16,kitchen tool
+173,boulder,0,NA
+174,bouquet,0,NA
+175,bow1,4,clothing
+176,bow2,27,weapon
+177,bow3,0,NA
+178,bowl,6,container
+179,bowler_hat,4,clothing
+180,bowling_ball,22,sports equipment
+181,bowtie,4,clothing
+182,box,6,container
+183,boxer_shorts,4,clothing
+184,boxing_gloves,22,sports equipment
+185,boy,0,NA
+186,bra,4,clothing
+187,brace,17,medical equipment
+188,bracelet1,4,clothing
+189,bracelet2,5,clothing accessory
+190,bracket,0,NA
+191,braid,0,NA
+192,brake,20,part of car
+193,branch,0,NA
+194,brass_knuckles,27,weapon
+195,bread,10,food
+196,breadbox,6,container
+197,breadstick,10,food
+198,breakfast,10,food
+199,breathalyzer,0,NA
+200,brick,0,NA
+201,briefcase,6,container
+202,broccoli,10,food
+203,brooch,5,clothing accessory
+204,broom,23,tool
+205,brownie,7,dessert
+206,brush,23,tool
+207,brussels_sprouts,10,food
+208,bubble,0,NA
+209,bubble_wrap,0,NA
+210,bucket,6,container
+211,buckle,5,clothing accessory
+212,buffet,10,food
+213,bug,1,animal
+214,buggy,26,vehicle
+215,bull,1,animal
+216,bulldozer,26,vehicle
+217,bullet,27,weapon
+218,bulletin_board,0,NA
+219,bulletproof_vest,4,clothing
+220,bumper,20,part of car
+221,bun,10,food
+222,bungee,22,sports equipment
+223,bunkbed,12,furniture
+224,buoy,0,NA
+225,burner,15,kitchen appliance
+226,burrito,10,food
+227,bus,26,vehicle
+228,bush,21,plant
+229,butter,10,food
+230,butterfly,1,animal
+231,button1,5,clothing accessory
+232,button2,0,NA
+233,cabbage,10,food
+234,cabinet,6,container
+235,cable,0,NA
+236,cactus,21,plant
+237,cage,6,container
+238,cake,7,dessert
+239,cake_mix,7,dessert
+240,calamari,10,food
+241,calculator,0,NA
+242,calf1,1,animal
+243,calf2,3,body part
+244,calzone,10,food
+245,camcorder,9,electronic device
+246,camel,1,animal
+247,camera_lens,9,electronic device
+248,camera1,0,NA
+249,camera2,9,electronic device
+250,camper,26,vehicle
+251,can,6,container
+252,can_opener,16,kitchen tool
+253,candelabra,13,home decor
+254,candle,13,home decor
+255,candlestick,13,home decor
+256,candy,10,food
+257,candy_bar,10,food
+258,candy_cane,10,food
+259,cane,17,medical equipment
+260,canister,6,container
+261,cannon,27,weapon
+262,cannonball,27,weapon
+263,canoe,26,vehicle
+264,cantaloupe,10,food
+265,canvas,0,NA
+266,cap,0,NA
+267,cape,4,clothing
+268,car,26,vehicle
+269,car_door,20,part of car
+270,car_seat,20,part of car
+271,caramel,7,dessert
+272,card,0,NA
+273,cardboard,0,NA
+274,cardigan,4,clothing
+275,cardinal,1,animal
+276,carousel,0,NA
+277,carriage,26,vehicle
+278,carrot,10,food
+279,cart,26,vehicle
+280,cash_machine,9,electronic device
+281,cash_register,0,NA
+282,cashew,10,food
+283,casserole,10,food
+284,cassette,0,NA
+285,cat,1,animal
+286,catapult,27,weapon
+287,caterpillar,1,animal
+288,catfish,1,animal
+289,cauliflower,10,food
+290,caviar,10,food
+291,cd_player,9,electronic device
+292,celery,10,food
+293,cello,18,musical instrument
+294,cellphone,9,electronic device
+295,cement_mixer,0,NA
+296,centerpiece,13,home decor
+297,centrifuge,9,electronic device
+298,cereal,10,food
+299,chain,23,tool
+300,chainsaw,9,electronic device
+301,chair,12,furniture
+302,chalice,0,NA
+303,chalk,0,NA
+304,chalkboard,0,NA
+305,champagne,8,drink
+306,chandelier,13,home decor
+307,chaps,4,clothing
+308,charcoal,0,NA
+309,charger,0,NA
+310,chariot,26,vehicle
+311,checkbook,0,NA
+312,checkers,0,NA
+313,cheese,7,dessert
+314,cheeseburger,10,food
+315,cheesecake,7,dessert
+316,cheetah,1,animal
+317,cherry,10,food
+318,chess_piece,0,NA
+319,chessboard,0,NA
+320,chest1,3,body part
+321,chest2,6,container
+322,chick,1,animal
+323,chicken_wire,1,animal
+324,chicken1,0,NA
+325,chicken2,10,food
+326,chickpea,10,food
+327,chihuahua,1,animal
+328,chili,10,food
+329,chime,18,musical instrument
+330,chimney,0,NA
+331,chin,3,body part
+332,chinaware,0,NA
+333,chinchilla,1,animal
+334,chip,0,NA
+335,chipmunk,1,animal
+336,chips,10,food
+337,chisel,23,tool
+338,chive,10,food
+339,chocolate,7,dessert
+340,chopsticks,23,tool
+341,christmas_card,0,NA
+342,christmas_tree,13,home decor
+343,chute,0,NA
+344,cigar,0,NA
+345,cigarette,0,NA
+346,cigarette_butt,0,NA
+347,cigarette_holder,0,NA
+348,cilantro,10,food
+349,cinnamon,10,food
+350,clam,1,animal
+351,clarinet,18,musical instrument
+352,clasp,0,NA
+353,clay,0,NA
+354,cleat,22,sports equipment
+355,cleaver,16,kitchen tool
+356,clipboard,19,office supply
+357,clipper1,23,tool
+358,clipper2,0,NA
+359,cloak,4,clothing
+360,clock,0,NA
+361,closet,6,container
+362,clothes,4,clothing
+363,clothesline,0,NA
+364,clothespin,0,NA
+365,cloud,0,NA
+366,clove,10,food
+367,clover,21,plant
+368,coal,0,NA
+369,coaster,13,home decor
+370,coat,4,clothing
+371,coat_rack,12,furniture
+372,cobra,1,animal
+373,cockatoo,1,animal
+374,cockroach,1,animal
+375,cocktail,8,drink
+376,coconut,10,food
+377,cocoon,0,NA
+378,coffee,8,drink
+379,coffee_bean,10,food
+380,coffee_filter,0,NA
+381,coffee_pot,6,container
+382,coffee_table,12,furniture
+383,coffeemaker,9,electronic device
+384,coffin,6,container
+385,coil,23,tool
+386,coin,0,NA
+387,coleslaw,10,food
+388,collar,0,NA
+389,column,0,NA
+390,comb,0,NA
+391,combination_lock,0,NA
+392,comic_book,0,NA
+393,compass,0,NA
+394,compost,0,NA
+395,computer,9,electronic device
+396,computer_screen,9,electronic device
+397,confetti,0,NA
+398,contact_lens,0,NA
+399,container,6,container
+400,cooker,6,container
+401,cookie,7,dessert
+402,cookie_cutter,0,NA
+403,cookie_sheet,0,NA
+404,cooler,0,NA
+405,coop,6,container
+406,copier,9,electronic device
+407,coral,1,animal
+408,cord,0,NA
+409,cordon_bleu,10,food
+410,cork,0,NA
+411,corkboard,19,office supply
+412,corkscrew,16,kitchen tool
+413,corn,10,food
+414,cornbread,10,food
+415,cornhusk,0,NA
+416,cornmeal,10,food
+417,cornucopia,13,home decor
+418,corsage,5,clothing accessory
+419,corset,4,clothing
+420,costume,4,clothing
+421,cot,12,furniture
+422,cotton_candy,10,food
+423,couch,12,furniture
+424,cougar,1,animal
+425,counter,12,furniture
+426,coverall,4,clothing
+427,cow,1,animal
+428,coyote,1,animal
+429,crab,1,animal
+430,cracker,10,food
+431,cranberry,10,food
+432,crane,0,NA
+433,crank,23,tool
+434,crate,6,container
+435,crayfish,1,animal
+436,crayon,24,toy
+437,cream,0,NA
+438,cream_cheese,10,food
+439,credit_card,0,NA
+440,creme_brulee,7,dessert
+441,crepe,7,dessert
+442,crib,12,furniture
+443,croissant,10,food
+444,cross,0,NA
+445,crossbow,27,weapon
+446,crouton,10,food
+447,crow,1,animal
+448,crowbar,23,tool
+449,crown,4,clothing
+450,crucifix,0,NA
+451,cruise_ship,26,vehicle
+452,crumb,10,food
+453,crutch,17,medical equipment
+454,crystal_ball,0,NA
+455,crystal1,13,home decor
+456,crystal2,0,NA
+457,cuckoo_clock,13,home decor
+458,cucumber,10,food
+459,cufflink,5,clothing accessory
+460,cummerbund,4,clothing
+461,cup,6,container
+462,cupcake,7,dessert
+463,curb,0,NA
+464,curling_iron,9,electronic device
+465,curry,10,food
+466,curtain,13,home decor
+467,cushion,0,NA
+468,cutting_board,16,kitchen tool
+469,cymbal,18,musical instrument
+470,dagger,27,weapon
+471,daisy,21,plant
+472,dalmatian,1,animal
+473,dandelion,21,plant
+474,dart,22,sports equipment
+475,dartboard,22,sports equipment
+476,dashboard,20,part of car
+477,deer,1,animal
+478,defibrillator,9,electronic device
+479,denture,0,NA
+480,deodorant,0,NA
+481,desk,12,furniture
+482,dessert,7,dessert
+483,detonator,0,NA
+484,dial,0,NA
+485,diamond,0,NA
+486,diaper,4,clothing
+487,dice,0,NA
+488,dip,10,food
+489,dirt_bike,26,vehicle
+490,dish,0,NA
+491,dishrag,0,NA
+492,dishwasher,9,electronic device
+493,dishwashing_liquid,0,NA
+494,diskette,0,NA
+495,diving_board,0,NA
+496,dog,1,animal
+497,dogfood,0,NA
+498,doghouse,6,container
+499,doily,13,home decor
+500,doll,24,toy
+501,dollhouse,24,toy
+502,dolly,0,NA
+503,dolphin,1,animal
+504,domino,0,NA
+505,donkey,1,animal
+506,donut,7,dessert
+507,door,0,NA
+508,doorbell,0,NA
+509,doorhandle,0,NA
+510,doorknob,0,NA
+511,doorknocker,13,home decor
+512,doormat,0,NA
+513,doorstop,0,NA
+514,dough,10,food
+515,dragonfly,1,animal
+516,drain,0,NA
+517,drawer,6,container
+518,dreidel,24,toy
+519,dress,4,clothing
+520,dresser,6,container
+521,drill,9,electronic device
+522,drink,8,drink
+523,drum,18,musical instrument
+524,drumstick,0,NA
+525,dryer,9,electronic device
+526,duck,1,animal
+527,duckling,1,animal
+528,duct,0,NA
+529,duct_tape,0,NA
+530,duffel_bag,6,container
+531,dumbbell,22,sports equipment
+532,dumbwaiter,0,NA
+533,dumpling,10,food
+534,dumpster,6,container
+535,duster,23,tool
+536,dustpan,6,container
+537,dynamite,27,weapon
+538,eagle,1,animal
+539,ear,3,body part
+540,earplug,0,NA
+541,earring,5,clothing accessory
+542,earwig,1,animal
+543,easel,0,NA
+544,easter_egg,10,food
+545,eclair,7,dessert
+546,eel,1,animal
+547,egg,10,food
+548,egg_roll,10,food
+549,eggbeater,16,kitchen tool
+550,eggnog,8,drink
+551,eggplant,10,food
+552,eggshell,0,NA
+553,elbow,3,body part
+554,electric_chair,9,electronic device
+555,elephant,1,animal
+556,emerald,0,NA
+557,enchilada,10,food
+558,engine,20,part of car
+559,envelope,19,office supply
+560,eraser,19,office supply
+561,espresso,8,drink
+562,exerciser,22,sports equipment
+563,exhaust_pipe,20,part of car
+564,extinguisher,0,NA
+565,eye,3,body part
+566,eye_patch,4,clothing
+567,eyedropper,17,medical equipment
+568,eyeliner,0,NA
+569,eyepiece,0,NA
+570,face,3,body part
+571,face_mask,22,sports equipment
+572,fan,9,electronic device
+573,fast_food,10,food
+574,faucet,0,NA
+575,feather,0,NA
+576,fence,0,NA
+577,fencepost,0,NA
+578,fern,21,plant
+579,ferret,1,animal
+580,ferris_wheel,0,NA
+581,ferry,26,vehicle
+582,fig,10,food
+583,figurine,13,home decor
+584,file1,23,tool
+585,file2,19,office supply
+586,filing_cabinet,6,container
+587,film,0,NA
+588,filter,20,part of car
+589,finger,3,body part
+590,fingerprint,0,NA
+591,fire,0,NA
+592,fire_alarm,0,NA
+593,fire_hydrant,0,NA
+594,fire_pit,0,NA
+595,firecracker,0,NA
+596,fireplace,13,home decor
+597,firetruck,26,vehicle
+598,firewood,0,NA
+599,fireworks,0,NA
+600,first-aid_kit,17,medical equipment
+601,fish,1,animal
+602,fishbowl,6,container
+603,fishhook,0,NA
+604,fishing_pole,0,NA
+605,fishnet_stockings,4,clothing
+606,flag,22,sports equipment
+607,flagpole,0,NA
+608,flamethrower,27,weapon
+609,flamingo,1,animal
+610,flan,7,dessert
+611,flashbulb,0,NA
+612,flashlight,0,NA
+613,flask,6,container
+614,flatiron,0,NA
+615,flip_flop,4,clothing
+616,flipper,22,sports equipment
+617,float,0,NA
+618,floss,0,NA
+619,flour,10,food
+620,flower,21,plant
+621,flute,18,musical instrument
+622,fly,1,animal
+623,flypaper,0,NA
+624,flyswatter,23,tool
+625,foam,0,NA
+626,folder,19,office supply
+627,fondue,10,food
+628,food_processor,9,electronic device
+629,foot,3,body part
+630,football,22,sports equipment
+631,football_helmet,22,sports equipment
+632,footbath,6,container
+633,footprint,0,NA
+634,footrest,12,furniture
+635,fork,23,tool
+636,forklift,26,vehicle
+637,fossil,0,NA
+638,fountain_pen,19,office supply
+639,fox,1,animal
+640,frame,13,home decor
+641,freezer,9,electronic device
+642,french_fries,10,food
+643,french_horn,18,musical instrument
+644,frisbee,22,sports equipment
+645,frog,1,animal
+646,fruit,10,food
+647,fruitcake,7,dessert
+648,fudge,7,dessert
+649,fungus,0,NA
+650,funnel,16,kitchen tool
+651,fur_coat,4,clothing
+652,furnace,0,NA
+653,fuse,0,NA
+654,gallows,0,NA
+655,game,0,NA
+656,garbage,0,NA
+657,garbage_truck,26,vehicle
+658,gargoyle,0,NA
+659,garlic,10,food
+660,garter,4,clothing
+661,gas_mask,0,NA
+662,gasket,20,part of car
+663,gate,0,NA
+664,gauge,0,NA
+665,gauze,17,medical equipment
+666,gavel,23,tool
+667,gazelle,1,animal
+668,gear,0,NA
+669,gearshift,20,part of car
+670,gel,0,NA
+671,gem,0,NA
+672,generator,9,electronic device
+673,gift,0,NA
+674,ginger,10,food
+675,gingerbread_man,10,food
+676,giraffe,1,animal
+677,girl,0,NA
+678,glass,6,container
+679,glasses,5,clothing accessory
+680,globe,13,home decor
+681,glove,4,clothing
+682,glue,19,office supply
+683,go-kart,26,vehicle
+684,goalpost,22,sports equipment
+685,goat,1,animal
+686,goblet,6,container
+687,goggles,22,sports equipment
+688,gold,0,NA
+689,goldfish,1,animal
+690,golf_cart,26,vehicle
+691,golf_club,22,sports equipment
+692,gondola,26,vehicle
+693,gong,18,musical instrument
+694,goose,1,animal
+695,gopher,1,animal
+696,gorilla,1,animal
+697,gourd,13,home decor
+698,graffiti,0,NA
+699,grain,10,food
+700,gramophone,0,NA
+701,granite,0,NA
+702,granola,10,food
+703,grape,10,food
+704,grapefruit,10,food
+705,grapevine,21,plant
+706,grass,21,plant
+707,grasshopper,1,animal
+708,grate,0,NA
+709,grater,16,kitchen tool
+710,gravel,0,NA
+711,gravestone,0,NA
+712,gravy,10,food
+713,green_beans,10,food
+714,grenade,27,weapon
+715,grill,0,NA
+716,grille,20,part of car
+717,grinder,16,kitchen tool
+718,grits,10,food
+719,groundhog,1,animal
+720,guacamole,10,food
+721,guardrail,0,NA
+722,guillotine,0,NA
+723,guinea_pig,1,animal
+724,guitar,18,musical instrument
+725,gum,10,food
+726,gumball,10,food
+727,gumdrop,10,food
+728,gun,27,weapon
+729,gurney,17,medical equipment
+730,gutter,0,NA
+731,gyro,10,food
+732,gyroscope,24,toy
+733,hail,0,NA
+734,hair,3,body part
+735,hairbrush,0,NA
+736,hairdryer,9,electronic device
+737,hairnet,0,NA
+738,hairpin,0,NA
+739,hairspray,0,NA
+740,ham,10,food
+741,hamburger,10,food
+742,hammer,23,tool
+743,hammock,12,furniture
+744,hamster,1,animal
+745,hand,3,body part
+746,handbrake,20,part of car
+747,handcuff,0,NA
+748,handkerchief,5,clothing accessory
+749,handle,0,NA
+750,handlebar,0,NA
+751,handprint,0,NA
+752,hanger,0,NA
+753,hard_disk,0,NA
+754,harmonica,18,musical instrument
+755,harness,0,NA
+756,harp,18,musical instrument
+757,hash,10,food
+758,hat,4,clothing
+759,hatbox,6,container
+760,hatchet,23,tool
+761,hawk,1,animal
+762,hay,0,NA
+763,headband,4,clothing
+764,headdress,4,clothing
+765,headlamp,0,NA
+766,headlight,20,part of car
+767,headphones,0,NA
+768,headrest,20,part of car
+769,headscarf,4,clothing
+770,headset,0,NA
+771,hearing_aid,17,medical equipment
+772,hearse,26,vehicle
+773,heater,0,NA
+774,hedge,21,plant
+775,hedgehog,1,animal
+776,helicopter,26,vehicle
+777,helmet,22,sports equipment
+778,highchair,12,furniture
+779,highlighter,19,office supply
+780,hinge,0,NA
+781,hip,3,body part
+782,hippopotamus,1,animal
+783,hobbyhorse,24,toy
+784,hockey_stick,22,sports equipment
+785,hoe,23,tool
+786,hole,0,NA
+787,holster,0,NA
+788,home_plate,22,sports equipment
+789,honey,10,food
+790,honeycomb,0,NA
+791,honeypot,6,container
+792,hood,4,clothing
+793,hoodie,4,clothing
+794,hook1,0,NA
+795,hook2,23,tool
+796,hookah,0,NA
+797,hopscotch,0,NA
+798,horn,18,musical instrument
+799,horse,1,animal
+800,horseshoe,0,NA
+801,hose,23,tool
+802,hot_chocolate,26,vehicle
+803,hot_tub,6,container
+804,hot-air_balloon,8,drink
+805,hot-water_bottle,6,container
+806,hotdog,10,food
+807,hotplate,9,electronic device
+808,hourglass,13,home decor
+809,hovercraft,26,vehicle
+810,hubcap,20,part of car
+811,hula_hoop,24,toy
+812,hummingbird,1,animal
+813,hummus,10,food
+814,humvee,26,vehicle
+815,hydrant,0,NA
+816,hyena,1,animal
+817,ice,7,dessert
+818,ice_cream,7,dessert
+819,ice_cube,17,medical equipment
+820,ice_pack,7,dessert
+821,ice-cream_cone,7,dessert
+822,icemaker,9,electronic device
+823,icepick,16,kitchen tool
+824,iceskate,22,sports equipment
+825,icicle,0,NA
+826,iguana,1,animal
+827,incense,0,NA
+828,incubator,9,electronic device
+829,inhaler,17,medical equipment
+830,ink,19,office supply
+831,inkwell,6,container
+832,insole,5,clothing accessory
+833,iron,9,electronic device
+834,ironing_board,0,NA
+835,ivy,21,plant
+836,jack,23,tool
+837,jacket,4,clothing
+838,jackhammer,9,electronic device
+839,jalapeno,10,food
+840,jam,10,food
+841,jar,6,container
+842,javelin,22,sports equipment
+843,jeans,4,clothing
+844,jeep,26,vehicle
+845,jelly_bean,10,food
+846,jellyfish,1,animal
+847,jersey,4,clothing
+848,jet,26,vehicle
+849,jetski,26,vehicle
+850,jewel,0,NA
+851,jewelry,0,NA
+852,jigsaw_puzzle,0,NA
+853,joystick,9,electronic device
+854,jug,6,container
+855,juice,8,drink
+856,juicer1,16,kitchen tool
+857,juicer2,9,electronic device
+858,jukebox,9,electronic device
+859,jump_rope,22,sports equipment
+860,jumpsuit,4,clothing
+861,kale,10,food
+862,kaleidoscope,24,toy
+863,kangaroo,1,animal
+864,kayak,26,vehicle
+865,kazoo,18,musical instrument
+866,kebab,10,food
+867,keg,6,container
+868,ketchup,10,food
+869,kettle,6,container
+870,key,0,NA
+871,keyboard,18,musical instrument
+872,keyhole,0,NA
+873,kilt,4,clothing
+874,kimono,4,clothing
+875,kite,24,toy
+876,kitten,1,animal
+877,kiwi,10,food
+878,knee,3,body part
+879,kneepad,22,sports equipment
+880,knife,16,kitchen tool
+881,knitting,0,NA
+882,knitting_needle,0,NA
+883,knob,0,NA
+884,knot,0,NA
+885,koala,1,animal
+886,lab_coat,4,clothing
+887,ladder,23,tool
+888,ladle,16,kitchen tool
+889,ladybug,1,animal
+890,lamb,1,animal
+891,lamb_chop,10,food
+892,lamp,9,electronic device
+893,lamppost,0,NA
+894,lampshade,13,home decor
+895,landmine,27,weapon
+896,lantern,0,NA
+897,lanyard,5,clothing accessory
+898,laptop,9,electronic device
+899,lasagna,10,food
+900,laser_pointer,0,NA
+901,latch,0,NA
+902,latte,8,drink
+903,laundry_basket,0,NA
+904,lava,0,NA
+905,lavender,21,plant
+906,lawnmower,0,NA
+907,leaf,0,NA
+908,leash,0,NA
+909,lectern,12,furniture
+910,leech,1,animal
+911,leek,10,food
+912,leg,3,body part
+913,leggings,4,clothing
+914,lego,24,toy
+915,lemon,10,food
+916,lemonade,8,drink
+917,lens,0,NA
+918,leopard,1,animal
+919,leotard,4,clothing
+920,letter_opener,23,tool
+921,lettuce,10,food
+922,license_plate,20,part of car
+923,licorice,10,food
+924,lid,0,NA
+925,life_jacket,4,clothing
+926,lifesaver,0,NA
+927,light_switch,0,NA
+928,lightbulb,0,NA
+929,lighter,23,tool
+930,lightning_bug,1,animal
+931,lime,10,food
+932,limousine,26,vehicle
+933,lingerie,4,clothing
+934,lion,1,animal
+935,lip_balm,0,NA
+936,lip_gloss,0,NA
+937,lipstick,0,NA
+938,lizard,1,animal
+939,llama,1,animal
+940,lobster,1,animal
+941,lock,0,NA
+942,locker,6,container
+943,locket,0,NA
+944,log,0,NA
+945,loincloth,4,clothing
+946,lollipop,10,food
+947,loom,0,NA
+948,loveseat,12,furniture
+949,luggage,6,container
+950,lumber,0,NA
+951,lunchbox,6,container
+952,macadamia,10,food
+953,macaroni,10,food
+954,machete,27,weapon
+955,machine_gun,27,weapon
+956,maggot,1,animal
+957,magnet,23,tool
+958,magnifier,23,tool
+959,magnifying_glass,23,tool
+960,mail,0,NA
+961,mailbox,6,container
+962,makeup,0,NA
+963,mallet,23,tool
+964,man,0,NA
+965,manatee,1,animal
+966,mandolin,18,musical instrument
+967,mango,10,food
+968,manhole,0,NA
+969,mannequin,0,NA
+970,mantle,0,NA
+971,map,0,NA
+972,maple_syrup,10,food
+973,marble,24,toy
+974,margarita,8,drink
+975,marijuana,21,plant
+976,marker,23,tool
+977,marmalade,10,food
+978,marshmallow,10,food
+979,mascara,0,NA
+980,mashed_potato,10,food
+981,mask,0,NA
+982,mast,0,NA
+983,mat,0,NA
+984,match,23,tool
+985,matchbox,6,container
+986,mattress,12,furniture
+987,measuring_cup,6,container
+988,meat,10,food
+989,meat_grinder,0,NA
+990,meatball,10,food
+991,meatloaf,10,food
+992,medal,0,NA
+993,meerkat,1,animal
+994,megaphone,0,NA
+995,melon,10,food
+996,memory_stick,0,NA
+997,metal_detector,9,electronic device
+998,metronome,0,NA
+999,microphone,9,electronic device
+1000,microscope,0,NA
+1001,microwave,9,electronic device
+1002,milk,8,drink
+1003,milkshake,7,dessert
+1004,minivan,26,vehicle
+1005,mint,10,food
+1006,mirror,13,home decor
+1007,missile,27,weapon
+1008,mistletoe,0,NA
+1009,mitten,4,clothing
+1010,mixer,9,electronic device
+1011,moccasin,4,clothing
+1012,modem,9,electronic device
+1013,mold1,6,container
+1014,mold2,0,NA
+1015,mole,1,animal
+1016,money,0,NA
+1017,mongoose,1,animal
+1018,monkey,1,animal
+1019,moose,1,animal
+1020,mop,23,tool
+1021,mosquito,1,animal
+1022,mosquito_net,0,NA
+1023,moss,21,plant
+1024,moth,1,animal
+1025,motherboard,0,NA
+1026,motorcycle,26,vehicle
+1027,mouse1,1,animal
+1028,mouse2,9,electronic device
+1029,mousepad,0,NA
+1030,mousetrap,0,NA
+1031,mousse,7,dessert
+1032,mouth,3,body part
+1033,mouthpiece,22,sports equipment
+1034,mud,0,NA
+1035,muff,4,clothing
+1036,muffin,7,dessert
+1037,mug,6,container
+1038,mulberry,10,food
+1039,mulch,0,NA
+1040,mullet,0,NA
+1041,mushroom,10,food
+1042,music_box,9,electronic device
+1043,mussel,1,animal
+1044,mustache,3,body part
+1045,mustard,10,food
+1046,nacho,10,food
+1047,nail,0,NA
+1048,nail_clippers,23,tool
+1049,nail_file,23,tool
+1050,nail_polish,0,NA
+1051,napkin,0,NA
+1052,napkin_ring,0,NA
+1053,navel,3,body part
+1054,neck,3,body part
+1055,necklace,0,NA
+1056,needle,23,tool
+1057,nest,0,NA
+1058,net,0,NA
+1059,nightshirt,4,clothing
+1060,nightstand,6,container
+1061,noisemaker,24,toy
+1062,noodle,10,food
+1063,noose,0,NA
+1064,nose,3,body part
+1065,notebook,19,office supply
+1066,notepad,19,office supply
+1067,nut,10,food
+1068,nutcracker,16,kitchen tool
+1069,oar,22,sports equipment
+1070,oatmeal,10,food
+1071,octopus,1,animal
+1072,odometer,20,part of car
+1073,oil,0,NA
+1074,oilcan,6,container
+1075,okra,10,food
+1076,olive,10,food
+1077,omelet,10,food
+1078,onion,10,food
+1079,orange,10,food
+1080,orange_rind,0,NA
+1081,orangutan,1,animal
+1082,orchid,21,plant
+1083,organ,18,musical instrument
+1084,origami,0,NA
+1085,ostrich,1,animal
+1086,otter,1,animal
+1087,ottoman,12,furniture
+1088,outfit,4,clothing
+1089,outlet,0,NA
+1090,oven,15,kitchen appliance
+1091,overalls,4,clothing
+1092,owl,1,animal
+1093,oyster,1,animal
+1094,pacifier,0,NA
+1095,paddle,22,sports equipment
+1096,padlock,0,NA
+1097,paint,0,NA
+1098,paintbrush,23,tool
+1099,painting,0,NA
+1100,pajamas,4,clothing
+1101,palette,0,NA
+1102,pallet,0,NA
+1103,palm_tree,21,plant
+1104,pan,6,container
+1105,pancake,10,food
+1106,panda,1,animal
+1107,panther,1,animal
+1108,panties,4,clothing
+1109,pants,4,clothing
+1110,pantsuit,4,clothing
+1111,pantyhose,4,clothing
+1112,papaya,10,food
+1113,paper,19,office supply
+1114,paper_bag,6,container
+1115,paper_plate,0,NA
+1116,paper_towel,0,NA
+1117,paperclip,19,office supply
+1118,paperweight,19,office supply
+1119,parachute,0,NA
+1120,parfait,7,dessert
+1121,parking_meter,0,NA
+1122,parrot,1,animal
+1123,parsley,10,food
+1124,pasta,10,food
+1125,pastry,7,dessert
+1126,patch,5,clothing accessory
+1127,patty,10,food
+1128,payphone,0,NA
+1129,pea,10,food
+1130,peach,10,food
+1131,peacock,1,animal
+1132,peanut,10,food
+1133,peanut_butter,10,food
+1134,pear,10,food
+1135,pearl,0,NA
+1136,pecan,10,food
+1137,pedal,20,part of car
+1138,pedometer,0,NA
+1139,peeler,16,kitchen tool
+1140,peg,0,NA
+1141,pelican,1,animal
+1142,pen,19,office supply
+1143,pencil,19,office supply
+1144,pencil_sharpener,19,office supply
+1145,pendulum,0,NA
+1146,penguin,1,animal
+1147,penholder,19,office supply
+1148,penlight,17,medical equipment
+1149,pennant,0,NA
+1150,pepper_mill,10,food
+1151,pepper1,16,kitchen tool
+1152,pepper2,10,food
+1153,peppermint,10,food
+1154,pepperoni,10,food
+1155,perfume,0,NA
+1156,periscope,0,NA
+1157,pesto,10,food
+1158,pet_food,0,NA
+1159,petal,0,NA
+1160,petri_dish,6,container
+1161,pheasant,1,animal
+1162,phone,0,NA
+1163,phone_booth,0,NA
+1164,photo_booth,0,NA
+1165,photograph,0,NA
+1166,piano,18,musical instrument
+1167,pickax,23,tool
+1168,pickle,10,food
+1169,pie,7,dessert
+1170,piecrust,10,food
+1171,pig,1,animal
+1172,pigeon,1,animal
+1173,piggy_bank,6,container
+1174,piglet,1,animal
+1175,pill,0,NA
+1176,pillbox,6,container
+1177,pillow,13,home decor
+1178,pin,23,tool
+1179,pinball,9,electronic device
+1180,pincushion,0,NA
+1181,pine_needle,0,NA
+1182,pine_tree,21,plant
+1183,pineapple,10,food
+1184,pinecone,13,home decor
+1185,ping-pong_table,22,sports equipment
+1186,pinwheel,13,home decor
+1187,pipe1,0,NA
+1188,pipe2,0,NA
+1189,pistachio,10,food
+1190,pita,10,food
+1191,pitcher,6,container
+1192,pitchfork,23,tool
+1193,pizza,10,food
+1194,place_mat,13,home decor
+1195,plant,21,plant
+1196,plaster_cast,17,medical equipment
+1197,plastic_film,0,NA
+1198,plate,0,NA
+1199,platypus,1,animal
+1200,playing_card,0,NA
+1201,playpen,0,NA
+1202,pliers,23,tool
+1203,plug,0,NA
+1204,plum,10,food
+1205,plunger,23,tool
+1206,pocket,6,container
+1207,pocket_watch,0,NA
+1208,pocketknife,23,tool
+1209,pogo_stick,24,toy
+1210,poinsettia,21,plant
+1211,poker,23,tool
+1212,polar_bear,1,animal
+1213,polaroid,0,NA
+1214,pole,0,NA
+1215,police_car,26,vehicle
+1216,polisher,23,tool
+1217,polo_shirt,4,clothing
+1218,polygraph,9,electronic device
+1219,pom-pom,0,NA
+1220,pomegranate,10,food
+1221,pony,1,animal
+1222,poodle,1,animal
+1223,pool_table,22,sports equipment
+1224,popcorn,10,food
+1225,poppy,10,food
+1226,popsicle,7,dessert
+1227,porcupine,1,animal
+1228,porthole,0,NA
+1229,possum,1,animal
+1230,poster,13,home decor
+1231,pot,6,container
+1232,potato,10,food
+1233,potholder,0,NA
+1234,pothole,0,NA
+1235,potpie,10,food
+1236,potpourri,13,home decor
+1237,powder,0,NA
+1238,power_line,0,NA
+1239,praying_mantis,1,animal
+1240,pretzel,10,food
+1241,printer,9,electronic device
+1242,prism,0,NA
+1243,projector,9,electronic device
+1244,propeller,0,NA
+1245,prune,10,food
+1246,puck,22,sports equipment
+1247,pudding,7,dessert
+1248,puddle,0,NA
+1249,puffin,1,animal
+1250,pug,1,animal
+1251,pulley,23,tool
+1252,pulpit,0,NA
+1253,pump,0,NA
+1254,pumpkin,10,food
+1255,punch1,8,drink
+1256,punch2,19,office supply
+1257,punching_bag,22,sports equipment
+1258,puppet,24,toy
+1259,puppy,1,animal
+1260,purse,5,clothing accessory
+1261,quad,26,vehicle
+1262,quesadilla,10,food
+1263,quiche,10,food
+1264,quill,23,tool
+1265,quilt,0,NA
+1266,rabbit,1,animal
+1267,raccoon,1,animal
+1268,racehorse,1,animal
+1269,rack1,12,furniture
+1270,rack2,12,furniture
+1271,racket,22,sports equipment
+1272,radar,0,NA
+1273,radiator,0,NA
+1274,radio,9,electronic device
+1275,radish,10,food
+1276,raft,26,vehicle
+1277,rag,0,NA
+1278,railing,0,NA
+1279,rain_gauge,0,NA
+1280,raincoat,4,clothing
+1281,raisin,10,food
+1282,rake,23,tool
+1283,ram,1,animal
+1284,ramp,0,NA
+1285,raspberry,10,food
+1286,rat,1,animal
+1287,ratchet,23,tool
+1288,rattle,24,toy
+1289,rattlesnake,1,animal
+1290,ravioli,10,food
+1291,razor,23,tool
+1292,razor_blade,27,weapon
+1293,ready_meal,10,food
+1294,rearview_mirror,20,part of car
+1295,recliner,12,furniture
+1296,record,0,NA
+1297,record_player,9,electronic device
+1298,recorder,18,musical instrument
+1299,red_carpet,0,NA
+1300,reel,0,NA
+1301,refrigerator,9,electronic device
+1302,reindeer,1,animal
+1303,remote_control,9,electronic device
+1304,retainer,0,NA
+1305,revolver,27,weapon
+1306,revolving_door,0,NA
+1307,rhinoceros,1,animal
+1308,rhubarb,10,food
+1309,ribbon,0,NA
+1310,rice,10,food
+1311,rickshaw,26,vehicle
+1312,rifle,27,weapon
+1313,rim,20,part of car
+1314,ring,0,NA
+1315,riser,0,NA
+1316,road_sign,0,NA
+1317,roadsweeper,26,vehicle
+1318,robe,4,clothing
+1319,robot,24,toy
+1320,rock,0,NA
+1321,rocket,26,vehicle
+1322,rocking_chair,12,furniture
+1323,rocking_horse,24,toy
+1324,roll,10,food
+1325,roller,0,NA
+1326,roller_coaster,0,NA
+1327,rollerblade,22,sports equipment
+1328,rollerskate,22,sports equipment
+1329,rolling_pin,16,kitchen tool
+1330,roof_rack,20,part of car
+1331,rooster,1,animal
+1332,root,0,NA
+1333,rope,23,tool
+1334,rosary,0,NA
+1335,rose,21,plant
+1336,roulette_wheel,0,NA
+1337,router,9,electronic device
+1338,rubber_band,19,office supply
+1339,ruby,0,NA
+1340,rudder,0,NA
+1341,rug,13,home decor
+1342,ruler,23,tool
+1343,rust,0,NA
+1344,saddle,22,sports equipment
+1345,safety_pin,0,NA
+1346,saffron,10,food
+1347,sail,0,NA
+1348,sailboat,26,vehicle
+1349,salad,10,food
+1350,salami,10,food
+1351,saltshaker,6,container
+1352,sand,0,NA
+1353,sandal,4,clothing
+1354,sandbag,6,container
+1355,sandbox,0,NA
+1356,sandcastle,0,NA
+1357,sandpaper,23,tool
+1358,sandwich,10,food
+1359,sarcophagus,6,container
+1360,sardine,1,animal
+1361,satellite,0,NA
+1362,satellite_dish,0,NA
+1363,sauce,10,food
+1364,saucer,0,NA
+1365,sauerkraut,10,food
+1366,sausage,10,food
+1367,saw,23,tool
+1368,sawhorse,23,tool
+1369,saxophone,18,musical instrument
+1370,scaffold,0,NA
+1371,scaffolding,0,NA
+1372,scale,0,NA
+1373,scallion,10,food
+1374,scallop,1,animal
+1375,scalpel,17,medical equipment
+1376,scanner,9,electronic device
+1377,scarecrow,13,home decor
+1378,scarf,4,clothing
+1379,school_bus,26,vehicle
+1380,scissors,19,office supply
+1381,scone,10,food
+1382,scoop,16,kitchen tool
+1383,scooter,24,toy
+1384,scoreboard,22,sports equipment
+1385,scorpion,1,animal
+1386,scrabble,0,NA
+1387,scrambled_egg,10,food
+1388,scraper,23,tool
+1389,screen1,9,electronic device
+1390,screen2,0,NA
+1391,screw,23,tool
+1392,screwdriver,23,tool
+1393,scuba,22,sports equipment
+1394,sea_urchin,1,animal
+1395,seafood,10,food
+1396,seagull,1,animal
+1397,seahorse,1,animal
+1398,seal,1,animal
+1399,seaplane,26,vehicle
+1400,seatbelt,20,part of car
+1401,seaweed,10,food
+1402,seed,10,food
+1403,seesaw,0,NA
+1404,seismograph,0,NA
+1405,sequin,0,NA
+1406,sewage,0,NA
+1407,sewing_kit,0,NA
+1408,sewing_machine,9,electronic device
+1409,shaker,6,container
+1410,shark,1,animal
+1411,shaving_cream,0,NA
+1412,shawl,4,clothing
+1413,shears,23,tool
+1414,sheath,0,NA
+1415,sheep,1,animal
+1416,sheet,0,NA
+1417,shelf,12,furniture
+1418,shell1,0,NA
+1419,shell2,0,NA
+1420,shell3,0,NA
+1421,shield,0,NA
+1422,ship,26,vehicle
+1423,shirt,4,clothing
+1424,shoe,4,clothing
+1425,shoe_polish,0,NA
+1426,shoehorn,23,tool
+1427,shoelace,0,NA
+1428,shopping_basket,6,container
+1429,shopping_cart,6,container
+1430,shortbread,7,dessert
+1431,shorts,4,clothing
+1432,shoulder,3,body part
+1433,shovel,23,tool
+1434,shower,0,NA
+1435,shower_cap,0,NA
+1436,shower_curtain,0,NA
+1437,showerhead,0,NA
+1438,shredder,9,electronic device
+1439,shrimp,1,animal
+1440,shuffleboard,0,NA
+1441,shutter,0,NA
+1442,sickle,23,tool
+1443,sidecar,0,NA
+1444,sifter,16,kitchen tool
+1445,silicone,0,NA
+1446,silverware,0,NA
+1447,sim_card,0,NA
+1448,sink,0,NA
+1449,siren,0,NA
+1450,skateboard,22,sports equipment
+1451,skeleton,3,body part
+1452,skewer,16,kitchen tool
+1453,ski,22,sports equipment
+1454,ski_boots,4,clothing
+1455,ski_lift,0,NA
+1456,ski_pole,22,sports equipment
+1457,skin,3,body part
+1458,skirt,4,clothing
+1459,skull,3,body part
+1460,skunk,1,animal
+1461,sled,22,sports equipment
+1462,sledgehammer,23,tool
+1463,sleeping_bag,0,NA
+1464,slicer,9,electronic device
+1465,slide,0,NA
+1466,slime,24,toy
+1467,sling,17,medical equipment
+1468,slingshot,24,toy
+1469,slipper,4,clothing
+1470,slot,0,NA
+1471,slot_machine,9,electronic device
+1472,sloth,1,animal
+1473,slug,1,animal
+1474,smoke_alarm,9,electronic device
+1475,smoothie,8,drink
+1476,snack,10,food
+1477,snail,1,animal
+1478,snake,1,animal
+1479,snorkel,22,sports equipment
+1480,snow,0,NA
+1481,snowball,0,NA
+1482,snowboard,22,sports equipment
+1483,snowman,0,NA
+1484,snowmobile,26,vehicle
+1485,snowplow,26,vehicle
+1486,snowshoe,4,clothing
+1487,snowsuit,4,clothing
+1488,soap,0,NA
+1489,soccer_ball,22,sports equipment
+1490,sock,4,clothing
+1491,soda,8,drink
+1492,soda_fountain,0,NA
+1493,sofa_bed,12,furniture
+1494,solar_panel,0,NA
+1495,soldering_iron,23,tool
+1496,sombrero,4,clothing
+1497,sonogram,0,NA
+1498,sorbet,7,dessert
+1499,souffle,7,dessert
+1500,soup,10,food
+1501,soy_sauce,10,food
+1502,space_shuttle,26,vehicle
+1503,spacesuit,4,clothing
+1504,spaghetti,10,food
+1505,spam,10,food
+1506,spareribs,10,food
+1507,spark_plug,20,part of car
+1508,sparkler,0,NA
+1509,spatula,16,kitchen tool
+1510,speaker,0,NA
+1511,spear,27,weapon
+1512,speedboat,26,vehicle
+1513,speedometer,20,part of car
+1514,spider,1,animal
+1515,spider_web,0,NA
+1516,spinach,10,food
+1517,splinter,0,NA
+1518,sponge,0,NA
+1519,spool,0,NA
+1520,spoon,16,kitchen tool
+1521,spout,0,NA
+1522,spring_roll,10,food
+1523,springboard,22,sports equipment
+1524,sprinkler,0,NA
+1525,sprouts,10,food
+1526,spur,0,NA
+1527,squash,10,food
+1528,squeegee,23,tool
+1529,squid,1,animal
+1530,squirrel,1,animal
+1531,squirt_gun,24,toy
+1532,stained_glass,13,home decor
+1533,stair,0,NA
+1534,stake,0,NA
+1535,stalagmite,0,NA
+1536,stamp1,0,NA
+1537,stamp2,23,tool
+1538,staple,19,office supply
+1539,staple_gun,23,tool
+1540,stapler,19,office supply
+1541,star_fruit,10,food
+1542,starfish,1,animal
+1543,station_wagon,26,vehicle
+1544,statue,13,home decor
+1545,steak,10,food
+1546,steamroller,26,vehicle
+1547,steering_wheel,20,part of car
+1548,stem,0,NA
+1549,step_stool,12,furniture
+1550,stereo,9,electronic device
+1551,stethoscope,17,medical equipment
+1552,stew,10,food
+1553,stick,0,NA
+1554,sticker,0,NA
+1555,stiletto,4,clothing
+1556,stilt,24,toy
+1557,stingray,1,animal
+1558,stir_fry,10,food
+1559,stirrup,0,NA
+1560,stockings,4,clothing
+1561,stomach,3,body part
+1562,stool,12,furniture
+1563,stopwatch,22,sports equipment
+1564,stove1,0,NA
+1565,stove2,15,kitchen appliance
+1566,straightjacket,4,clothing
+1567,strainer,16,kitchen tool
+1568,strap,0,NA
+1569,straw1,0,NA
+1570,straw2,0,NA
+1571,strawberry,10,food
+1572,streetlight,0,NA
+1573,stretcher,17,medical equipment
+1574,string_cheese,10,food
+1575,stroller,26,vehicle
+1576,stuffing,10,food
+1577,stump,0,NA
+1578,submarine,26,vehicle
+1579,subway,26,vehicle
+1580,sugar_cube,10,food
+1581,suit,4,clothing
+1582,suitcase,6,container
+1583,sundae,7,dessert
+1584,sundial,0,NA
+1585,sunflower,21,plant
+1586,sunglasses,0,NA
+1587,sunroof,20,part of car
+1588,surfboard,22,sports equipment
+1589,sushi,10,food
+1590,suspenders,4,clothing
+1591,swab,17,medical equipment
+1592,swan,1,animal
+1593,sweater,4,clothing
+1594,sweatsuit,4,clothing
+1595,sweeper,23,tool
+1596,sweet_potato,10,food
+1597,swimming_pool,6,container
+1598,swimsuit,4,clothing
+1599,swing,0,NA
+1600,swing_set,0,NA
+1601,switch,0,NA
+1602,swizzle_stick,0,NA
+1603,sword,27,weapon
+1604,swordfish,1,animal
+1605,syringe,6,container
+1606,syrup,10,food
+1607,t-shirt,4,clothing
+1608,tab,0,NA
+1609,table,12,furniture
+1610,tablecloth,0,NA
+1611,tablet,9,electronic device
+1612,tack,19,office supply
+1613,tackle,0,NA
+1614,taco,10,food
+1615,tadpole,1,animal
+1616,taffy,10,food
+1617,tag,0,NA
+1618,taillight,20,part of car
+1619,tamale,10,food
+1620,tambourine,18,musical instrument
+1621,tank1,27,weapon
+1622,tank2,6,container
+1623,tape,19,office supply
+1624,tape_measure,23,tool
+1625,tape_recorder,9,electronic device
+1626,tapestry,13,home decor
+1627,tarantula,1,animal
+1628,target,22,sports equipment
+1629,tarp,0,NA
+1630,tattoo,0,NA
+1631,taxi,26,vehicle
+1632,tea,8,drink
+1633,teabag,0,NA
+1634,teacup,6,container
+1635,teapot,6,container
+1636,teddy_bear,24,toy
+1637,tee,22,sports equipment
+1638,teepee,0,NA
+1639,telegraph,0,NA
+1640,telephone_pole,0,NA
+1641,telescope,0,NA
+1642,television,9,electronic device
+1643,tennis_ball,22,sports equipment
+1644,tent,6,container
+1645,terrarium,6,container
+1646,test_tube,6,container
+1647,thermometer,0,NA
+1648,thermos,6,container
+1649,thermostat,0,NA
+1650,thimble,0,NA
+1651,thorn,0,NA
+1652,thread,0,NA
+1653,throne,12,furniture
+1654,thumb,3,body part
+1655,thumbtack,19,office supply
+1656,tiara,4,clothing
+1657,tick,1,animal
+1658,ticktacktoe,0,NA
+1659,tie,4,clothing
+1660,tiger,1,animal
+1661,tile,0,NA
+1662,timer,16,kitchen tool
+1663,tinsel,0,NA
+1664,tiramisu,7,dessert
+1665,toad,1,animal
+1666,toast,10,food
+1667,toaster,9,electronic device
+1668,toaster_oven,9,electronic device
+1669,toe,3,body part
+1670,toga,4,clothing
+1671,toilet,0,NA
+1672,toilet_paper,0,NA
+1673,tomato,10,food
+1674,tomato_sauce,10,food
+1675,tongs,16,kitchen tool
+1676,tongue,3,body part
+1677,tool,23,tool
+1678,toolbox,6,container
+1679,tooth,3,body part
+1680,toothbrush,0,NA
+1681,toothpaste,0,NA
+1682,toothpick,0,NA
+1683,top_hat,4,clothing
+1684,torch,0,NA
+1685,torpedo,27,weapon
+1686,torso,3,body part
+1687,tortellini,10,food
+1688,tortilla,10,food
+1689,tostada,10,food
+1690,totem_pole,0,NA
+1691,toucan,1,animal
+1692,touchpad,0,NA
+1693,towel,0,NA
+1694,towel_rack,0,NA
+1695,toy,24,toy
+1696,tractor,26,vehicle
+1697,traffic_light,0,NA
+1698,trailer,0,NA
+1699,train,26,vehicle
+1700,train_car,26,vehicle
+1701,train_set,24,toy
+1702,trampoline,22,sports equipment
+1703,trap,0,NA
+1704,trapdoor,0,NA
+1705,trashcan,6,container
+1706,tray,0,NA
+1707,treadmill,9,electronic device
+1708,treasure,0,NA
+1709,tree,21,plant
+1710,tree_trunk,0,NA
+1711,triangle,18,musical instrument
+1712,tricycle,26,vehicle
+1713,trident,23,tool
+1714,trigger,0,NA
+1715,tripod,0,NA
+1716,trolley,26,vehicle
+1717,trombone,18,musical instrument
+1718,trophy,0,NA
+1719,trough,0,NA
+1720,trowel,23,tool
+1721,truck,26,vehicle
+1722,trumpet,18,musical instrument
+1723,trunk,6,container
+1724,tuba,18,musical instrument
+1725,tube_top,4,clothing
+1726,tugboat,26,vehicle
+1727,tulip,21,plant
+1728,tumbleweed,21,plant
+1729,tuning_fork,23,tool
+1730,tupperware,6,container
+1731,turban,4,clothing
+1732,turbine,0,NA
+1733,turf,0,NA
+1734,turkey,1,animal
+1735,turnstile,0,NA
+1736,turntable,9,electronic device
+1737,turtle,1,animal
+1738,turtleneck,4,clothing
+1739,tuxedo,4,clothing
+1740,tweezers,17,medical equipment
+1741,twig,0,NA
+1742,typewriter,0,NA
+1743,ukulele,18,musical instrument
+1744,umbrella,0,NA
+1745,undershirt,4,clothing
+1746,underwear,4,clothing
+1747,unicycle,26,vehicle
+1748,uniform,4,clothing
+1749,urinal,0,NA
+1750,urn,6,container
+1751,vacuum,9,electronic device
+1752,valve,0,NA
+1753,van,26,vehicle
+1754,vase,6,container
+1755,vegetable,10,food
+1756,veil,4,clothing
+1757,velcro,0,NA
+1758,vending_machine,9,electronic device
+1759,vent,0,NA
+1760,vest,4,clothing
+1761,vial,6,container
+1762,videocassette,0,NA
+1763,videogame,0,NA
+1764,viewfinder,0,NA
+1765,violin,18,musical instrument
+1766,vise,23,tool
+1767,visor,4,clothing
+1768,volleyball,22,sports equipment
+1769,vulture,1,animal
+1770,wafer,10,food
+1771,waffle,10,food
+1772,waffle_iron,9,electronic device
+1773,wagon,26,vehicle
+1774,walker1,17,medical equipment
+1775,walker2,0,NA
+1776,wall,0,NA
+1777,wallet,6,container
+1778,wallpaper,13,home decor
+1779,walnut,10,food
+1780,walrus,1,animal
+1781,wand,0,NA
+1782,warthog,1,animal
+1783,washboard,0,NA
+1784,washcloth,0,NA
+1785,washing_machine,9,electronic device
+1786,wasp,1,animal
+1787,watch,5,clothing accessory
+1788,water_bottle,6,container
+1789,water_cooler,0,NA
+1790,water_filter,15,kitchen appliance
+1791,water_fountain,0,NA
+1792,water_heater,6,container
+1793,watering_can,6,container
+1794,watermelon,10,food
+1795,waterwheel,0,NA
+1796,wax,0,NA
+1797,wax_paper,0,NA
+1798,weasel,1,animal
+1799,weather_vane,13,home decor
+1800,webcam,9,electronic device
+1801,wedding_cake,7,dessert
+1802,wedge,23,tool
+1803,weed,21,plant
+1804,wetsuit,4,clothing
+1805,whale,1,animal
+1806,wheat,10,food
+1807,wheel,20,part of car
+1808,wheelbarrow,6,container
+1809,wheelchair,17,medical equipment
+1810,whip,27,weapon
+1811,whipped_cream,7,dessert
+1812,whisk,16,kitchen tool
+1813,whistle,0,NA
+1814,whiteboard,19,office supply
+1815,whoopee_cushion,24,toy
+1816,wick,0,NA
+1817,wig,0,NA
+1818,wind_chimes,13,home decor
+1819,window,0,NA
+1820,windowsill,0,NA
+1821,windshield,20,part of car
+1822,windshield_wiper,20,part of car
+1823,windsock,0,NA
+1824,wine,8,drink
+1825,wine_bottle,6,container
+1826,wine_cooler,6,container
+1827,wineglass,6,container
+1828,wing,0,NA
+1829,wire,0,NA
+1830,wire_cutters,23,tool
+1831,wok,6,container
+1832,wolf,1,animal
+1833,woman,0,NA
+1834,wood,0,NA
+1835,wooden_leg,0,NA
+1836,workbench,12,furniture
+1837,worm,1,animal
+1838,wrap,10,food
+1839,wrapping_paper,0,NA
+1840,wreath,13,home decor
+1841,wreck,0,NA
+1842,wrench,23,tool
+1843,wrist,3,body part
+1844,xylophone,18,musical instrument
+1845,yacht,26,vehicle
+1846,yak,1,animal
+1847,yarn,0,NA
+1848,yo-yo,24,toy
+1849,yogurt,10,food
+1850,yoke,0,NA
+1851,yolk,10,food
+1852,zebra,1,animal
+1853,zipper,0,NA
+1854,zucchini,10,food

@@ -1,0 +1,5 @@
+database,bar,source,rho_plotted,ci_low,ci_high,p,paper_run_rho,paper_run_ci_low,paper_run_ci_high
+Faces,hit rate,faces_provided,-0.324,-0.3617,-0.2853,1.81e-55,-0.324,-0.3617,-0.2853
+Faces,false alarm rate,faces_provided,0.301,0.2618,0.3392,6.83e-48,0.301,0.2618,0.3392
+Scenes,hit rate,scenes_rerun,-0.507,-0.5391,-0.4734,1.92e-145,-0.506,-0.5381,-0.4724
+Scenes,false alarm rate,scenes_rerun,0.13,0.0887,0.1708,8.03e-10,0.129,0.0877,0.1698

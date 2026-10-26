@@ -1,0 +1,5 @@
+bar,space,noise_fraction_of_sd,measure,value,ci_low,ci_high,interval,source
+gray,measured SPoSE space,0.02,"change in d′, 16 vs 0 close neighbors",-0.4143248469681069,-0.5022565214971889,-0.3098136823297511,"95% percentile bootstrap, 2,000 resamples, seed 20261010",outputs/continuous_rem_bootstrap_ci.csv
+gray,measured SPoSE space,0.03,"change in d′, 16 vs 0 close neighbors",-0.43559807560607755,-0.5505206644191922,-0.322496503517604,"95% percentile bootstrap, 2,000 resamples, seed 20261010",outputs/continuous_rem_bootstrap_ci.csv
+gray,measured SPoSE space,0.05,"change in d′, 16 vs 0 close neighbors",-0.3412743167654435,-0.4181626064318936,-0.2640096712509235,"95% percentile bootstrap, 2,000 resamples, seed 20261010",outputs/continuous_rem_bootstrap_ci.csv
+white,generated features (Fig. 1 values),,"change in d′, 16 vs 0 close neighbors",-0.132,,,none,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, 0 -> 16 similar items)"

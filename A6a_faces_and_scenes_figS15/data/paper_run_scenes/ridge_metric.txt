@@ -1,0 +1,21 @@
+CROWDING IN A LEARNED METRIC
+================================================================================================
+10,442 images, 7,168 concatenated dimensions (14 network/layer spaces, each z-scored).
+2,222 scored items, 5-fold cross-validation.
+Dimension weights and tau are chosen inside each training fold only; every
+number below is from held-out items.
+
+  fold 1: crowding plain -0.444 (tau 6.23) | crowding learned -0.599 (tau 14.97) | alpha 10000
+  fold 2: crowding plain -0.539 (tau 6.23) | crowding learned -0.664 (tau 14.97) | alpha 10000
+  fold 3: crowding plain -0.518 (tau 6.23) | crowding learned -0.625 (tau 14.97) | alpha 10000
+  fold 4: crowding plain -0.537 (tau 6.23) | crowding learned -0.682 (tau 14.97) | alpha 10000
+  fold 5: crowding plain -0.458 (tau 6.23) | crowding learned -0.623 (tau 14.97) | alpha 10000
+
+------------------------------------------------------------------------------------------------
+HELD-OUT SPEARMAN RHO WITH CORRECTED RECOGNITION
+------------------------------------------------------------------------------------------------
+  crowding, isotropic metric         -0.499  (folds -0.444, -0.539, -0.518, -0.537, -0.458)
+  crowding, ridge-weighted metric    -0.639  (folds -0.599, -0.664, -0.625, -0.682, -0.623)
+
+  tau chosen: isotropic ['6.23', '6.23', '6.23', '6.23', '6.23'], learned ['14.97', '14.97', '14.97', '14.97', '14.97']
+  ridge alpha chosen: [10000.0, 10000.0, 10000.0, 10000.0, 10000.0]

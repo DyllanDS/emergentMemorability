@@ -1,0 +1,20 @@
+{
+  "spaces": [
+    "regenerated_alexnet_early",
+    "regenerated_alexnet_late",
+    "regenerated_clip_early",
+    "regenerated_clip_late",
+    "regenerated_cornet_early",
+    "regenerated_cornet_late",
+    "regenerated_dinov3_early",
+    "regenerated_dinov3_late",
+    "regenerated_inception_early",
+    "regenerated_inception_late",
+    "regenerated_resnet18_early",
+    "regenerated_resnet18_late",
+    "regenerated_vgg16_early",
+    "regenerated_vgg16_late"
+  ],
+  "n_images": 10442,
+  "n_scored": 2222
+}

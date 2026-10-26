@@ -1,0 +1,5 @@
+image_set,sessions,excluded,kept_participants,subject_blocks,test_trials_of_kept_participants,test_trials_kept,observed_hit_rate,observed_fa_rate,cells_with_5_old_and_5_new,images_in_two_or_more_sets,images_in_three_sets
+maintained,205,55,150,2400,96000,94003,0.7140091479629826,0.14117622026469212,1600,,
+changed,195,45,150,2400,96000,94095,0.7234420987994156,0.18153110864555774,1490,,
+reduced,202,52,150,2400,96000,94002,0.731822433880432,0.10709875228888983,1600,,
+all three sets,602,152,450,7200,288000,282100,0.7230936942548915,0.1432415928198137,4690,1023,123

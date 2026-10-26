@@ -1,0 +1,7 @@
+check,operating_point,passed,detail
+"1. each item compared with every earlier trace; ""old"" when the average likelihood ratio exceeds the criterion","standard storage (storage 0.30, criterion 5.236)",yes,"same response on all 40 trials (7 old, 33 new)"
+"2. every presentation (first showing or repeat) stored as a new trace, and nothing forgotten","standard storage (storage 0.30, criterion 5.236)",yes,same responses and the same random numbers as a memory that keeps every trace
+context = mean similarity of the 10 most similar items shown before (other than the item),"standard storage (storage 0.30, criterion 5.236)",yes,largest difference 2.8e-08; same count of preceding trials on every trial
+"1. each item compared with every earlier trace; ""old"" when the average likelihood ratio exceeds the criterion","accuracy-matched storage (storage 0.75, criterion 3.462)",yes,"same response on all 40 trials (12 old, 28 new)"
+"2. every presentation (first showing or repeat) stored as a new trace, and nothing forgotten","accuracy-matched storage (storage 0.75, criterion 3.462)",yes,same responses and the same random numbers as a memory that keeps every trace
+context = mean similarity of the 10 most similar items shown before (other than the item),"accuracy-matched storage (storage 0.75, criterion 3.462)",yes,largest difference 2.8e-08; same count of preceding trials on every trial

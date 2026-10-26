@@ -1,0 +1,23 @@
+reference,column,values_compared,values_identical,largest_absolute_difference
+data/paper_run/all_fits.csv,source,15,15,0.0
+data/paper_run/all_fits.csv,subdir,15,15,0.0
+data/paper_run/all_fits.csv,k,15,15,0.0
+data/paper_run/all_fits.csv,sparsity,15,15,0.0
+data/paper_run/all_fits.csv,val_acc,15,15,0.0
+data/paper_run/all_fits.csv,lmbda,15,15,0.0
+data/paper_run/all_fits.csv,init_dim,15,15,0.0
+data/paper_run/all_fits.csv,penalty_bound,15,15,0.0
+data/paper_run/all_fits.csv,ws_r_vs_published,15,15,0.0
+data/paper_run/all_fits.csv,fig5c_r,15,15,0.0
+data/paper_run/all_fits.csv,fig5c_p,15,15,0.0
+data/paper_run/all_fits.csv,rho_ws_mem,15,15,0.0
+data/paper_run/all_fits.csv,maintain_sim,15,15,0.0
+data/paper_run/all_fits.csv,maintain_vs_orig,15,15,0.0
+data/paper_run/all_fits.csv,changed_sim,15,15,0.0
+data/paper_run/all_fits.csv,changed_vs_orig,15,15,0.0
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_origVsMaintain),maintain_vs_orig,1,0,7.771561172376096e-16
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_sumSimVsMaintain),maintain_sim,1,0,2.220446049250313e-16
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_monkeyVsMaintain),maintain_sim_monkey,1,0,1.1102230246251565e-16
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_origVsChanged),changed_vs_orig,1,0,1.6653345369377348e-16
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_sumSimVsChanged),changed_sim,1,0,3.3306690738754696e-16
+06_image_set_experiments_fig6_fig7/data/paper_run/paperStats_maintained_vs_changed.mat (r_monkeyVsChanged),changed_sim_monkey,1,0,5.551115123125783e-17

@@ -1,0 +1,5 @@
+face_kind,model_cell,rating_1,rating_2,rating_3,rating_4,rating_5,rating_6,rating_7,rating_8,total_trials
+studied_rare,rare_old,11,11,6,1,1,7,26,237,300
+same_feature_lure,rare_foil,57,42,21,4,5,11,31,129,300
+studied_ordinary,ordinary_old,31,110,135,26,19,104,339,736,1500
+never_studied,unrelated,214,332,272,66,21,125,232,238,1500

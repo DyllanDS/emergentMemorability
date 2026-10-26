@@ -1,0 +1,3 @@
+panel,list_type,group_label,measure,x_position,change,ci_low,ci_high,dprime_uncrowded,dprime_crowded
+b,random,Random Lists (0 vs 3+ Similar),dprime,1.0,-0.0738953325123255,-0.09207445409097839,-0.05673354318593171,1.6212085296820593,1.5473131971697338
+b,designed,Designed Lists (0 vs 16 Similar),dprime,2.0,-0.13160105706307013,-0.17012105033009062,-0.09408791932687013,1.4936907098467467,1.3620896527836766

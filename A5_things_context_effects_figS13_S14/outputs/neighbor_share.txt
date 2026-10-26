@@ -1,0 +1,4 @@
+NEAREST SPoSE NEIGHBORS IN THE CONCEPT'S OWN HIGHER-LEVEL CATEGORY
+concepts: 1854; with a named higher-level category: 1324
+ten nearest neighbors (Pearson correlation of the SPoSE rows), same category: 8175 of 13240 = 0.6174 (61.7%)
+chance (1 of the 27 higher-level THINGS categories): 0.0370 (3.7%)

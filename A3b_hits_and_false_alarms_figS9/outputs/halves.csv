@@ -1,0 +1,3 @@
+half,n_items,published_score_min,published_score_max,fa_rate_here,hit_rate_here,fa_rate_things,hit_rate_things,things_source
+more memorable half,20,0.795454545,0.888888889,0.45395001391635753,0.8392721907721908,0.0175,0.832,from the saved results in data/provided/halves_check.txt
+less memorable half,20,0.568181818,0.789473684,0.18906967644751935,0.7466755709988167,0.0214,0.762,from the saved results in data/provided/halves_check.txt

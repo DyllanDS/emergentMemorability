@@ -1,0 +1,119 @@
+HYBRID-SIMILARITY GCM PARAMETER SWEEP
+====================================================================================================
+rho_item: Spearman correlation between per-item memorability (hit rate minus false alarm rate) and
+crowding (negative = isolated items better remembered). r_feat: the Fig. 1d analog.
+
+cell                                        rho_item   r_feat     hit      fa      d
+----------------------------------------------------------------------------------------------------
+reference (g .65, w 49, hybrid gamma 2) [world]    -0.289   -0.172   0.494   0.146   1.04
+grid g=0.30 w=20 [world]                      -0.169   -0.323   0.406   0.152   0.79
+grid g=0.30 w=30 [world]                      -0.145   -0.216   0.515   0.144   1.10
+grid g=0.30 w=49 [world]                      -0.303   -0.090   0.675   0.155   1.47
+grid g=0.40 w=20 [world]                      -0.218   -0.467   0.385   0.153   0.73
+grid g=0.40 w=30 [world]                      -0.233   -0.384   0.471   0.146   0.98
+grid g=0.40 w=49 [world]                      -0.335   -0.449   0.629   0.152   1.36
+grid g=0.50 w=20 [world]                      -0.269   -0.768   0.302   0.138   0.57
+grid g=0.50 w=30 [world]                      -0.212   -0.200   0.432   0.159   0.83
+grid g=0.50 w=49 [world]                      -0.320   -0.291   0.542   0.149   1.14
+grid g=0.65 w=20 [world]                      -0.341   -0.495   0.281   0.147   0.47
+grid g=0.65 w=30 [world]                      -0.273   -0.482   0.330   0.147   0.61
+storage u=0.15 [world]                        -0.265   -0.351   0.308   0.154   0.52
+storage u=0.45 [world]                        -0.474   -0.561   0.616   0.148   1.34
+copy c=0.5 [world]                            -0.186   -0.253   0.395   0.150   0.77
+copy c=0.7 [world]                            -0.437   -0.565   0.625   0.156   1.33
+copy c=0.85 [world]                           -0.575   -0.664   0.812   0.156   1.89
+list length=100 [world]                       -0.304   -0.490   0.422   0.148   0.85
+list length=187 [world]                       -0.228   -0.215   0.389   0.154   0.74
+false alarm target=0.05 [world]               -0.301   -0.200   0.346   0.052   1.23
+false alarm target=0.3 [world]                -0.510   -0.439   0.649   0.305   0.89
+rare-feature boost gamma=0.0 [world]          +0.361   +0.305   0.317   0.148   0.57
+rare-feature boost gamma=1.0 [world]          -0.033   +0.185   0.448   0.148   0.91
+rare-feature boost gamma=3.0 [world]          -0.487   -0.448   0.507   0.153   1.04
+distinctive if set frequency < 0.05 [world]    -0.246   -0.166   0.417   0.150   0.83
+distinctive if set frequency < 0.2 [world]    -0.312   -0.386   0.506   0.156   1.03
+mismatch penalty delta=0.5 [world]            -0.244   -0.291   0.493   0.160   0.98
+reference (g .65, w 49, hybrid gamma 2)       -0.331   -0.526   0.501   0.152   1.03
+grid g=0.30 w=20                              -0.112   -0.225   0.416   0.145   0.85
+grid g=0.30 w=30                              -0.161   -0.396   0.524   0.150   1.10
+grid g=0.30 w=49                              -0.317   -0.172   0.690   0.147   1.54
+grid g=0.40 w=20                              -0.164   -0.139   0.386   0.150   0.75
+grid g=0.40 w=30                              -0.164   -0.327   0.480   0.148   0.99
+grid g=0.40 w=49                              -0.285   -0.434   0.617   0.146   1.35
+grid g=0.50 w=20                              -0.311   -0.493   0.316   0.147   0.57
+grid g=0.50 w=30                              -0.218   -0.259   0.409   0.145   0.83
+grid g=0.50 w=49                              -0.340   -0.358   0.550   0.152   1.15
+grid g=0.65 w=20                              -0.379   -0.419   0.285   0.146   0.49
+grid g=0.65 w=30                              -0.291   -0.057   0.334   0.147   0.62
+storage u=0.15                                -0.210   +0.051   0.309   0.155   0.52
+storage u=0.45                                -0.436   -0.431   0.606   0.143   1.34
+copy c=0.5                                    -0.233   -0.162   0.393   0.151   0.76
+copy c=0.7                                    -0.407   -0.363   0.622   0.153   1.33
+copy c=0.85                                   -0.547   -0.649   0.810   0.151   1.91
+list length=100                               -0.317   -0.253   0.427   0.149   0.86
+list length=187                               -0.250   +0.275   0.373   0.147   0.73
+false alarm target=0.05                       -0.306   -0.247   0.342   0.051   1.23
+false alarm target=0.3                        -0.513   -0.531   0.648   0.301   0.90
+rare-feature boost gamma=0.0                  +0.377   +0.596   0.303   0.142   0.56
+rare-feature boost gamma=1.0                  -0.044   +0.058   0.446   0.149   0.91
+rare-feature boost gamma=3.0                  -0.442   -0.668   0.503   0.149   1.05
+distinctive if set frequency < 0.05           -0.259   -0.260   0.407   0.143   0.83
+distinctive if set frequency < 0.2            -0.331   -0.341   0.490   0.146   1.03
+mismatch penalty delta=0.5                    -0.299   -0.178   0.476   0.147   0.99
+reference (g .65, w 49, hybrid gamma 2) [list]    -0.166   -0.024   0.403   0.146   0.81
+grid g=0.30 w=20 [list]                       -0.176   -0.009   0.334   0.155   0.59
+grid g=0.30 w=30 [list]                       -0.293   -0.491   0.423   0.149   0.84
+grid g=0.30 w=49 [list]                       -0.321   -0.517   0.557   0.152   1.17
+grid g=0.40 w=20 [list]                       -0.172   -0.428   0.303   0.149   0.52
+grid g=0.40 w=30 [list]                       -0.273   -0.443   0.394   0.151   0.76
+grid g=0.40 w=49 [list]                       -0.358   -0.298   0.492   0.145   1.04
+grid g=0.50 w=20 [list]                       -0.226   -0.166   0.273   0.150   0.43
+grid g=0.50 w=30 [list]                       -0.271   -0.151   0.361   0.151   0.68
+grid g=0.50 w=49 [list]                       -0.316   -0.363   0.458   0.152   0.92
+grid g=0.65 w=20 [list]                       -0.236   +0.045   0.237   0.152   0.31
+grid g=0.65 w=30 [list]                       -0.081   +0.125   0.271   0.154   0.41
+storage u=0.15 [list]                         -0.079   -0.056   0.245   0.150   0.35
+storage u=0.45 [list]                         -0.430   -0.333   0.497   0.144   1.06
+copy c=0.5 [list]                             -0.215   -0.135   0.303   0.146   0.54
+copy c=0.7 [list]                             -0.335   -0.346   0.542   0.151   1.14
+copy c=0.85 [list]                            -0.475   -0.536   0.775   0.151   1.79
+list length=100 [list]                        -0.304   -0.452   0.393   0.153   0.75
+list length=187 [list]                        -0.270   -0.404   0.350   0.153   0.64
+false alarm target=0.05 [list]                -0.282   -0.419   0.265   0.051   1.01
+false alarm target=0.3 [list]                 -0.417   -0.429   0.564   0.310   0.66
+rare-feature boost gamma=0.0 [list]           +0.264   +0.198   0.350   0.152   0.64
+rare-feature boost gamma=1.0 [list]           +0.006   +0.257   0.390   0.150   0.75
+rare-feature boost gamma=3.0 [list]           -0.428   -0.407   0.413   0.153   0.80
+distinctive if set frequency < 0.05 [list]    -0.006   +0.198   0.373   0.160   0.67
+distinctive if set frequency < 0.2 [list]     -0.337   -0.349   0.447   0.157   0.87
+mismatch penalty delta=0.5 [list]             -0.191   -0.151   0.409   0.150   0.81
+reference (g .65, w 49, hybrid gamma 2) [mix]    -0.244   -0.208   0.440   0.152   0.88
+grid g=0.30 w=20 [mix]                        -0.133   -0.230   0.371   0.162   0.66
+grid g=0.30 w=30 [mix]                        -0.186   -0.466   0.462   0.140   0.99
+grid g=0.30 w=49 [mix]                        -0.270   -0.135   0.618   0.148   1.35
+grid g=0.40 w=20 [mix]                        -0.221   -0.704   0.332   0.161   0.56
+grid g=0.40 w=30 [mix]                        -0.215   -0.482   0.438   0.158   0.85
+grid g=0.40 w=49 [mix]                        -0.246   -0.118   0.549   0.148   1.17
+grid g=0.50 w=20 [mix]                        -0.205   -0.469   0.298   0.153   0.49
+grid g=0.50 w=30 [mix]                        -0.162   +0.195   0.400   0.155   0.76
+grid g=0.50 w=49 [mix]                        -0.313   -0.327   0.503   0.153   1.03
+grid g=0.65 w=20 [mix]                        -0.264   +0.000   0.242   0.145   0.36
+grid g=0.65 w=30 [mix]                        -0.175   -0.088   0.275   0.147   0.45
+storage u=0.15 [mix]                          -0.150   -0.290   0.257   0.149   0.39
+storage u=0.45 [mix]                          -0.403   -0.201   0.559   0.153   1.17
+copy c=0.5 [mix]                              -0.205   -0.073   0.337   0.151   0.61
+copy c=0.7 [mix]                              -0.305   -0.484   0.562   0.141   1.23
+copy c=0.85 [mix]                             -0.508   -0.614   0.794   0.155   1.84
+list length=100 [mix]                         -0.246   +0.017   0.400   0.146   0.80
+list length=187 [mix]                         -0.219   -0.208   0.365   0.148   0.70
+false alarm target=0.05 [mix]                 -0.306   -0.269   0.304   0.052   1.11
+false alarm target=0.3 [mix]                  -0.450   -0.432   0.601   0.313   0.74
+rare-feature boost gamma=0.0 [mix]            +0.256   +0.337   0.358   0.159   0.64
+rare-feature boost gamma=1.0 [mix]            +0.038   +0.118   0.413   0.158   0.79
+rare-feature boost gamma=3.0 [mix]            -0.445   -0.401   0.445   0.151   0.90
+distinctive if set frequency < 0.05 [mix]     -0.146   +0.014   0.397   0.155   0.75
+distinctive if set frequency < 0.2 [mix]      -0.278   -0.349   0.459   0.154   0.91
+mismatch penalty delta=0.5 [mix]              -0.243   -0.294   0.434   0.156   0.85
+[world] distinct cells with a rare-feature boost (n = 26): rho_item -0.575 to -0.033, median -0.281; negative in 26.
+[set] distinct cells with a rare-feature boost (n = 26): rho_item -0.547 to -0.044, median -0.302; negative in 26.
+[list] distinct cells with a rare-feature boost (n = 26): rho_item -0.475 to +0.006, median -0.272; negative in 25.
+[mix] distinct cells with a rare-feature boost (n = 26): rho_item -0.508 to +0.038, median -0.243; negative in 25.

@@ -1,0 +1,36 @@
+check,file,recomputed,printed,agree,note
+d_a quantities recomputed from the fitted means and SDs,point_fit.json,largest difference 0,contrasts,yes,
+fitted means and SDs equal the named parameters,point_fit.json,cells,params,yes,
+"log likelihood of the shipped data at the saved parameters (evaluated, not fitted)",point_fit.json,-5836.647653,-5836.647653,yes,"100 participants, 3600 trials: ordinary_old 1500, rare_old 300, rare_foil 300, unrelated 1500"
+"10,000 resamples numbered 0 to 9,999, none failed, fields i and c only",bootstrap_raw.jsonl,"10000 resamples, 0 failed",10000,yes,
+"report header: participants, test trials each, criteria",sdt_shared_criteria.txt,"100, 36, 7","100, 36, 7",yes,
+report: number of participant resamples,sdt_shared_criteria.txt,10000,10000,yes,
+"report: where ordinary_old sits (mean, SD)",sdt_shared_criteria.txt,"1.002, 1.001","1.002, 1.001",yes,
+"report: where rare_old sits (mean, SD)",sdt_shared_criteria.txt,"2.667, 2.028","2.667, 2.028",yes,
+"report: where rare_foil sits (mean, SD)",sdt_shared_criteria.txt,"0.647, 2.002","0.647, 2.002",yes,
+registered report row: rare vs never-studied,sdt_shared_criteria.txt + bootstrap_raw.jsonl,"1.668 [+1.475, +1.892]","1.668 [+1.475, +1.892]",yes,estimate from point_fit.json; interval and p from the resamples
+registered report row: rare vs its own foil,sdt_shared_criteria.txt + bootstrap_raw.jsonl,"1.002 [+0.755, +1.254]","1.002 [+0.755, +1.254]",yes,estimate from point_fit.json; interval and p from the resamples
+registered report row: ordinary studied vs never-studied,sdt_shared_criteria.txt + bootstrap_raw.jsonl,"1.002 [+0.899, +1.107]","1.002 [+0.899, +1.107]",yes,estimate from point_fit.json; interval and p from the resamples
+registered report row: INTERACTION,sdt_shared_criteria.txt + bootstrap_raw.jsonl,"+0.666 [+0.458, +0.917], p = 0.0000","+0.666 [+0.458, +0.917], p = 0.0000",yes,estimate from point_fit.json; interval and p from the resamples
+registered report row: WHAT THE FEATURE BUYS,sdt_shared_criteria.txt + bootstrap_raw.jsonl,"+0.000 [-0.232, +0.236], p = 0.9910","+0.000 [-0.232, +0.236], p = 0.9910",yes,estimate from point_fit.json; interval and p from the resamples
+"1,000 resamples of the faces, numbered 0 to 999, no error",bootstrap_items.jsonl,"items 1000, errors 0",items 1000,yes,
+"item bootstrap report row: INTERACTION, items",bootstrap_items.txt + .jsonl,"n=1000 [+0.276, +1.227] p = 0.0000","n=1000 [+0.276, +1.227] p = 0.0000",yes,
+"item bootstrap report row: WHAT THE FEATURE BUYS, items",bootstrap_items.txt + .jsonl,"n=1000 [-0.427, +0.416] p = 0.9800","n=1000 [-0.427, +0.416] p = 0.9800",yes,
+seven fits: all pairs and without each of c1 to c6,leave_one_pair_out.json,"None, c1, c2, c3, c4, c5, c6","None, c1, ..., c6",yes,
+the all-pairs fit equals the registered fit,leave_one_pair_out.json + point_fit.json,largest difference 0,0,yes,
+report row: all pairs,leave_one_pair_out.txt,+0.666 +0.000,+0.666 +0.000,yes,
+report row: without c1,leave_one_pair_out.txt,+0.467 +0.155,+0.467 +0.155,yes,
+report row: without c2,leave_one_pair_out.txt,+0.747 -0.122,+0.747 -0.122,yes,
+report row: without c3,leave_one_pair_out.txt,+0.611 -0.024,+0.611 -0.024,yes,
+report row: without c4,leave_one_pair_out.txt,+0.663 +0.071,+0.663 +0.071,yes,
+report row: without c5,leave_one_pair_out.txt,+0.849 +0.014,+0.849 +0.014,yes,
+report row: without c6,leave_one_pair_out.txt,+0.685 -0.099,+0.685 -0.099,yes,
+report range over the six deletions: interaction,leave_one_pair_out.txt,+0.467 to +0.849,+0.467 to +0.849,yes,
+report range over the six deletions: equivalence,leave_one_pair_out.txt,-0.122 to +0.155,-0.122 to +0.155,yes,
+"243 settings, the grid g x w x u x c x nfeat in order, every one fitted",rem_like_data.jsonl,"243 settings, 243 fitted",243,yes,
+report header: settings and simulated participants per setting,rem_like_data.txt,"243, 100","243, 100",yes,
+"243-setting report row: WHAT THE FEATURE BUYS, read off the log-odds",rem_like_data.txt + .jsonl,mean -0.274 range -0.925 to +0.203 positive 12%,mean -0.274 range -0.925 to +0.203 positive 12%,yes,
+"243-setting report row: WHAT THE FEATURE BUYS, fitted like the data",rem_like_data.txt + .jsonl,mean -0.404 range -2.002 to +0.236 positive 7%,mean -0.404 range -2.002 to +0.236 positive 7%,yes,
+"243-setting report row: INTERACTION, read off the log-odds",rem_like_data.txt + .jsonl,mean +0.798 range +0.026 to +2.543 positive 100%,mean +0.798 range +0.026 to +2.543 positive 100%,yes,
+"243-setting report row: INTERACTION, fitted like the data",rem_like_data.txt + .jsonl,mean +1.113 range -0.003 to +3.735 positive 100%,mean +1.113 range -0.003 to +3.735 positive 100%,yes,
+"REM evidence of the 243 settings computed again (direct scores, rem_like_data.py)",outputs/rem_like_data_model_side.csv,largest difference 4.4e-16,0,yes,

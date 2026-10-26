@@ -1,0 +1,5 @@
+position,condition,label,bar_group,mean,ci_low,ci_high,participants,trials_per_participant,interval
+1,studied_rare_feature,"Studied, rare feature",studied,0.9033333333333333,0.8699999999999999,0.9366666666666665,100,3,"95% percentile bootstrap over participants, 10,000 resamples per bar, one numpy default_rng(0) generator for the panel, bars drawn in plotted order"
+2,studied_ordinary,"Studied, ordinary",studied,0.7986666666666666,0.774,0.8220000000000001,100,15,"95% percentile bootstrap over participants, 10,000 resamples per bar, one numpy default_rng(0) generator for the panel, bars drawn in plotted order"
+3,new_with_feature,"New, with feature",new,0.5866666666666667,0.5166666666666667,0.65,100,3,"95% percentile bootstrap over participants, 10,000 resamples per bar, one numpy default_rng(0) generator for the panel, bars drawn in plotted order"
+4,new_without,"New, without",new,0.4106666666666666,0.36933333333333346,0.452,100,15,"95% percentile bootstrap over participants, 10,000 resamples per bar, one numpy default_rng(0) generator for the panel, bars drawn in plotted order"

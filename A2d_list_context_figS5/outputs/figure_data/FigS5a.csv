@@ -1,0 +1,7 @@
+panel,list_type,group_label,measure,bar_label,bar_color,x_position,change,ci_low,ci_high
+a,random,Random Lists (0 vs 3+ Similar),hit,Hits,blue,0.74,0.013237174276648056,0.010529348500824381,0.01594351859526248
+a,designed,Designed Lists (0 vs 16 Similar),hit,Hits,blue,1.74,0.07873333333333332,0.06974916666666643,0.08783499999999987
+a,random,Random Lists (0 vs 3+ Similar),false_alarm,False Alarms,red,1.0,0.0273228980703365,0.023564556055387365,0.03120276169886919
+a,designed,Designed Lists (0 vs 16 Similar),false_alarm,False Alarms,red,2.0,0.11068333333333336,0.10194833333333335,0.12000083333333338
+a,random,Random Lists (0 vs 3+ Similar),hits_minus_false_alarms,Hits Minus False Alarms,dark gray,1.26,-0.014085723793688443,-0.018824083458795174,-0.00940641666227801
+a,designed,Designed Lists (0 vs 16 Similar),hits_minus_false_alarms,Hits Minus False Alarms,dark gray,2.26,-0.031950000000000034,-0.043583750000000136,-0.020249583333333217

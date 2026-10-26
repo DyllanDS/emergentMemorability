@@ -1,0 +1,49 @@
+what,noise_fraction_of_sd,column,paper_run,this_run,equal
+report table (MATLAB),0.02,hit,0.957,0.957,yes
+report table (MATLAB),0.02,FA,0.040,0.040,yes
+report table (MATLAB),0.02,d',3.46,3.46,yes
+report table (MATLAB),0.02,rho vs global,-0.095,-0.095,yes
+report table (MATLAB),0.02,rho vs local,-0.435,-0.435,yes
+report table (MATLAB),0.02,designed d',-0.414,-0.414,yes
+report table (MATLAB),0.02,hits-FA,-0.052,-0.052,yes
+report table (MATLAB),0.03,hit,0.933,0.933,yes
+report table (MATLAB),0.03,FA,0.054,0.054,yes
+report table (MATLAB),0.03,d',3.11,3.11,yes
+report table (MATLAB),0.03,rho vs global,-0.145,-0.145,yes
+report table (MATLAB),0.03,rho vs local,-0.488,-0.488,yes
+report table (MATLAB),0.03,designed d',-0.436,-0.436,yes
+report table (MATLAB),0.03,hits-FA,-0.078,-0.078,yes
+report table (MATLAB),0.05,hit,0.895,0.895,yes
+report table (MATLAB),0.05,FA,0.130,0.130,yes
+report table (MATLAB),0.05,d',2.38,2.38,yes
+report table (MATLAB),0.05,rho vs global,-0.170,-0.170,yes
+report table (MATLAB),0.05,rho vs local,-0.523,-0.523,yes
+report table (MATLAB),0.05,designed d',-0.341,-0.341,yes
+report table (MATLAB),0.05,hits-FA,-0.095,-0.095,yes
+report table (MATLAB),0.08,hit,0.967,0.967,yes
+report table (MATLAB),0.08,FA,0.797,0.797,yes
+report table (MATLAB),0.08,d',1.01,1.01,yes
+report table (MATLAB),0.08,rho vs global,-0.177,-0.177,yes
+report table (MATLAB),0.08,rho vs local,-0.480,-0.480,yes
+report table (MATLAB),0.08,designed d',-0.068,-0.068,yes
+report table (MATLAB),0.08,hits-FA,-0.046,-0.046,yes
+report design line,,whole line,"1600 THINGS concepts, 49 SPoSE dimensions, 40 studied, 20 old and 20 new tested.","1600 THINGS concepts, 49 SPoSE dimensions, 40 studied, 20 old and 20 new tested.",yes
+report storage line,,whole line,"storage 0.30, stored-correctly 0.60","storage 0.30, stored-correctly 0.60",yes
+report surprisal line,,whole line,surprisal vs global crowding rho = -0.294;  vs local crowding rho = -0.767,surprisal vs global crowding rho = -0.294;  vs local crowding rho = -0.767,yes
+"report, whole file",,lines that differ,30 lines,"30 lines, 0 differ",yes
+"item files (Python, bootstrap_ci.py)",0.02,hit,0.957,0.9565916908014961,yes
+"item files (Python, bootstrap_ci.py)",0.02,FA,0.040,0.040377756570800456,yes
+"item files (Python, bootstrap_ci.py)",0.02,rho vs local,-0.435,-0.4351873628355633,yes
+"item files (Python, bootstrap_ci.py)",0.02,designed d',-0.414,-0.4143248469681069,yes
+"item files (Python, bootstrap_ci.py)",0.03,hit,0.933,0.9333156846503496,yes
+"item files (Python, bootstrap_ci.py)",0.03,FA,0.054,0.05430516011793861,yes
+"item files (Python, bootstrap_ci.py)",0.03,rho vs local,-0.488,-0.487961355672923,yes
+"item files (Python, bootstrap_ci.py)",0.03,designed d',-0.436,-0.43559807560607755,yes
+"item files (Python, bootstrap_ci.py)",0.05,hit,0.895,0.8951454390865348,yes
+"item files (Python, bootstrap_ci.py)",0.05,FA,0.130,0.13041069945087347,yes
+"item files (Python, bootstrap_ci.py)",0.05,rho vs local,-0.523,-0.5227004726560154,yes
+"item files (Python, bootstrap_ci.py)",0.05,designed d',-0.341,-0.3412743167654435,yes
+"item files (Python, bootstrap_ci.py)",0.08,hit,0.967,0.9669435605386947,yes
+"item files (Python, bootstrap_ci.py)",0.08,FA,0.797,0.7973040427405573,yes
+"item files (Python, bootstrap_ci.py)",0.08,rho vs local,-0.480,-0.4795921351027925,yes
+"item files (Python, bootstrap_ci.py)",0.08,designed d',-0.068,-0.06846600701624894,yes

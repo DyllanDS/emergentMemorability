@@ -1,0 +1,5 @@
+check,value,note
+"PCA space: share of the variance of the 2,048 standardized columns kept by 49 components",0.1772,printed by fit_inversion.py and fit_datasets.py
+inversion sigma grid (fraction of each feature's SD) and the chosen value,"0.05, 0.1, 0.2, 0.35, 0.6, 1, 1.6; chosen 0.35",the sigma whose hit rate is closest to the observed hit rate
+image set sigma grid and the chosen value,"0.1, 0.2, 0.35, 0.6, 1; chosen 0.35","sweep on 900 random subject-blocks, 10 simulated participants each"
+cells and shared images of the image sets (at least 5 old and 5 new trials per cell),"4,690 cells, 1,023 images in two or more sets","SI Appendix, Section 3 and Fig. S8b: 1,023 images tested in more than one set"

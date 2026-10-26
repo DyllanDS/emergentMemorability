@@ -1,0 +1,24 @@
+# Python packages of the release (the versions it was tested with; see environment.md).
+# Needs Python 3.11 or 3.12: scikit-learn 1.9.0 needs Python 3.11 or later, and the pinned numpy, scipy,
+# pandas, matplotlib and h5py have no wheels for Python 3.13.
+# Install with: python -m pip install -r requirements.txt
+# The MATLAB steps need MATLAB (tested with R2023b) and its Statistics and Machine Learning Toolbox
+# (environment.md).
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+matplotlib==3.8.4
+scikit-learn==1.9.0
+h5py==3.11.0
+
+# Optional, only for the inputs listed in EXTERNAL_INPUTS.md (not installed by the line above):
+#   openpyxl                                   reading the face database's score file (M4)
+#   torch, torchvision, timm                   extracting embeddings from images (M3, M4, M8) and refitting
+#                                              the SPoSE embeddings of SI Appendix, Fig. S16 (M9)
+#   clip (OpenAI CLIP)                         extracting embeddings (M3, M4, M8); install with
+#                                              python -m pip install git+https://github.com/openai/CLIP.git
+#                                              (the PyPI package named clip is a different package)
+#   cornet (CORnet)                            extracting embeddings (M3, M4, M8); install with
+#                                              python -m pip install git+https://github.com/dicarlolab/CORnet
+#   MemToolbox2 (Python)                       the face study's unequal-variance fits (M5), placed in
+#                                              shared/memtoolbox2/ (not installed with pip)

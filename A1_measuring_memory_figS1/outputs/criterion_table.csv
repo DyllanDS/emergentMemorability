@@ -1,0 +1,5 @@
+definition,image_set,participants,units,unit,hit_rate,false_alarm_rate,d_prime,criterion_c
+mean of concept rates (paper),all three sets,450,2453,concept-by-set scores,0.7173828194494993,0.12288466675269986,1.7357708856779266,0.29280125470238855
+mean of concept rates (paper),maintained,150,939,concept-by-set scores,0.7123828233673313,0.13522771207887746,1.6623737197209578,0.2708275106076158
+mean of concept rates (paper),changed,150,508,concept-by-set scores,0.7049403735930622,0.13354108463981165,1.6484703019569207,0.28557192550458355
+mean of concept rates (paper),reduced,150,1006,concept-by-set scores,0.728332877914933,0.10598249990584743,1.8559591214843443,0.32020083981975794

@@ -1,0 +1,52 @@
+THE SAME ITEM ON DESIGNED CROWDED AND UNCROWDED LISTS
+========================================================================================
+Each critical item appears on every list; only the number of close
+neighbors placed alongside it changes. The item is therefore held fixed by
+construction, not by statistical control, so nothing about the item can
+produce a difference across conditions.
+
+----------------------------------------------------------------------------------------
+CELL 1: Shiffrin & Steyvers standard parameters
+g=0.40 w=20 u=0.30 c=0.70 crit=1.00
+----------------------------------------------------------------------------------------
+300 critical items x 5 conditions x 200 participants.
+
+  similar items      crowding      hit      FA    d-prime   criterion
+           0        -13.797    0.696   0.150      1.551       0.263
+           2        -13.438    0.706   0.165      1.514       0.217
+           4        -13.074    0.716   0.187      1.457       0.159
+           8        -12.383    0.735   0.217      1.412       0.078
+          16        -11.092    0.767   0.275      1.326      -0.065
+
+  0 -> 16 similar items:  hit +0.071   FA +0.125   d-prime -0.225   criterion -0.328
+
+  within item, across designed lists:  crowding vs hit rho = +0.503 (p = 5.11e-97)
+                                       crowding vs FA  rho = +0.624 (p = 2.31e-162)
+
+----------------------------------------------------------------------------------------
+CELL 2: paper values: g 0.65, w 49, c 0.60
+g=0.65 w=49 u=0.30 c=0.60 crit=1.00
+----------------------------------------------------------------------------------------
+300 critical items x 5 conditions x 200 participants.
+
+  similar items      crowding      hit      FA    d-prime   criterion
+           0         -9.847    0.702   0.167      1.494       0.218
+           2         -9.645    0.718   0.185      1.474       0.158
+           4         -9.472    0.730   0.193      1.480       0.126
+           8         -9.114    0.753   0.228      1.430       0.030
+          16         -8.449    0.780   0.278      1.362      -0.093
+
+  0 -> 16 similar items:  hit +0.079   FA +0.111   d-prime -0.132   criterion -0.310
+
+  within item, across designed lists:  crowding vs hit rho = +0.532 (p = 1.49e-110)
+                                       crowding vs FA  rho = +0.633 (p = 4.53e-169)
+
+----------------------------------------------------------------------------------------
+READING THIS
+----------------------------------------------------------------------------------------
+  Every row is the same set of critical items. If d-prime falls as similar
+  items are added, then in the model an item's memorability is a fact about
+  the list as much as about the item, which is what the experiments report.
+  Compare the size against the random-list version in list_binned.txt: if
+  designing the lists produces a far larger effect, then the small effect
+  under random sampling is a fact about sampling and not about the model.

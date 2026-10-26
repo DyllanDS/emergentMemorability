@@ -1,0 +1,36 @@
+quantity,printed_in_paper,paper_run,rerun,difference,within_0_01,rerun_rounds_to_printed
+"Fig. S15a equal weights, held-out rho (mean of five folds)",-0.50,-0.4992269550435363,-0.5014460304382318,-0.0022190753946954578,yes,yes
+"Fig. S15a equal weights, held-out rho, fold 1",,-0.4444446411444146,-0.44605511474709947,-0.0016104736026848476,yes,
+"Fig. S15a equal weights, held-out rho, fold 2",,-0.5387024118325202,-0.5393315307597398,-0.0006291189272196185,yes,
+"Fig. S15a equal weights, held-out rho, fold 3",,-0.5178615955174358,-0.5207536530402593,-0.00289205752282351,yes,
+"Fig. S15a equal weights, held-out rho, fold 4",,-0.5374291189044793,-0.5426727484744809,-0.005243629570001573,yes,
+"Fig. S15a equal weights, held-out rho, fold 5",,-0.4576970078188317,-0.45841710516957895,-0.0007200973507472397,yes,
+"Fig. S15a fitted weights, held-out rho (mean of five folds)",-0.64,-0.6385937257011596,-0.6408367363684888,-0.002243010667329237,yes,yes
+"Fig. S15a fitted weights, held-out rho, fold 1",,-0.5989272527253653,-0.6055841457109481,-0.006656892985582807,yes,
+"Fig. S15a fitted weights, held-out rho, fold 2",,-0.6637392941964116,-0.663020575377392,0.000718718819019637,yes,
+"Fig. S15a fitted weights, held-out rho, fold 3",,-0.6250500925899019,-0.6232760558396497,0.001774036750252117,yes,
+"Fig. S15a fitted weights, held-out rho, fold 4",,-0.6823900410091079,-0.6865528485752916,-0.004162807566183702,yes,
+"Fig. S15a fitted weights, held-out rho, fold 5",,-0.6228619479850114,-0.6257500563391629,-0.0028881083541515418,yes,
+"kernel width tau chosen, equal weights, fold 1",,6.23,6.23,0.0,,
+"kernel width tau chosen, equal weights, fold 2",,6.23,6.23,0.0,,
+"kernel width tau chosen, equal weights, fold 3",,6.23,6.23,0.0,,
+"kernel width tau chosen, equal weights, fold 4",,6.23,6.23,0.0,,
+"kernel width tau chosen, equal weights, fold 5",,6.23,6.23,0.0,,
+"kernel width tau chosen, fitted weights, fold 1",,14.97,14.97,0.0,,
+"kernel width tau chosen, fitted weights, fold 2",,14.97,14.97,0.0,,
+"kernel width tau chosen, fitted weights, fold 3",,14.97,14.97,0.0,,
+"kernel width tau chosen, fitted weights, fold 4",,14.97,14.97,0.0,,
+"kernel width tau chosen, fitted weights, fold 5",,14.97,14.97,0.0,,
+"ridge penalty alpha chosen, fold 1",,10000.0,10000.0,0.0,,
+"ridge penalty alpha chosen, fold 2",,10000.0,10000.0,0.0,,
+"ridge penalty alpha chosen, fold 3",,10000.0,10000.0,0.0,,
+"ridge penalty alpha chosen, fold 4",,10000.0,10000.0,0.0,,
+"ridge penalty alpha chosen, fold 5",,10000.0,10000.0,0.0,,
+"whole-sample rho with the hit rate (Fig. S15b), 3 decimals as the reports print it",-0.51,-0.506,-0.507,-0.0010000000000000009,yes,yes
+p value of the whole-sample rho with the hit rate (Fig. S15b),,4.93e-145,1.92e-145,,,
+"whole-sample rho with the false alarm rate (Fig. S15b), 3 decimals as the reports print it",0.13,0.129,0.13,0.0010000000000000009,yes,yes
+p value of the whole-sample rho with the false alarm rate (Fig. S15b),,1.1e-09,8.03e-10,,,
+"split-half reliability over participants, corrected recognition",0.73,0.731607410040393,0.731607410040393,0.0,yes,yes
+"Spearman-Brown reliability over participants, corrected recognition",,0.845003787577147,0.845003787577147,0.0,yes,
+images embedded,,10442,10442,0,,
+scored images entering the correlations,,2222,2222,0,,

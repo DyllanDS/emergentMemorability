@@ -1,0 +1,5 @@
+measure,statistic,value_rerun_seed12345,value_paper_run,reported_in_paper,where_used
+similarity = 1 / mean Euclidean distance to the other items,Pearson r,-0.557053027978651,-0.557053027978651,yes,"the r = -0.56 of the Fig. 1 caption (panel b) and of Simulations of Memorability as an Emergent Property"
+summed similarity = sum over the other items of 1 / Euclidean distance,Pearson r,-0.564912705869803,-0.564912705869803,no,"the x axis of Fig. 1b (Summed Similarity)"
+mean Euclidean distance to the other items,Pearson r,0.535923055650508,0.535923055650508,no,"the distance of Methods, Basic REM Simulation of Memorability (larger = more distinctive)"
+negated mean Euclidean distance (same ranks as 1 / mean distance),Spearman rho,-0.550882228754906,-0.550882228754906,yes,"the rho = -0.55 of Methods, Basic REM Simulation of Memorability; the measure of SI Appendix, Fig. S2"

@@ -1,0 +1,7 @@
+stage,horizontal_position,file,label,role_in_stimulus_manifest
+study,0.115,data/fig4a_faces/filler_006.jpg,Ordinary features,practice face (study practice only)
+study,0.228,data/fig4a_faces/rare_mohawk_c1_target.jpg,Rare feature,"rare-feature pair c1 (mohawk), member named target"
+study,0.341,data/fig4a_faces/filler_009.jpg,Ordinary features,ordinary face
+test,0.695,data/fig4a_faces/rare_mohawk_c1_target.jpg,The studied face carrying the rare feature,"rare-feature pair c1 (mohawk), member named target"
+test,0.812,data/fig4a_faces/rare_mohawk_c1_foil.jpg,A new face carrying the same feature,"rare-feature pair c1 (mohawk), member named foil"
+test,0.929,data/fig4a_faces/filler_002.jpg,A new face without the feature,practice face (study practice only)

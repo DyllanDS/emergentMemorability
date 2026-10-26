@@ -1,0 +1,23 @@
+NOISE CEILINGS
+========================================================================================
+2,222 scored items, 25 random splits, Spearman rank correlation.
+
+Per-subject data available: 843 subjects x 2400 targets.
+Ceiling computed over participants, which is the convention in this literature.
+
+  targets entering the ceiling: 2,222
+----------------------------------------------------------------------------------------
+Ceiling over participants
+----------------------------------------------------------------------------------------
+measure                  split-half   Spearman-Brown
+corrected recognition         0.732            0.845
+
+----------------------------------------------------------------------------------------
+NOTES
+----------------------------------------------------------------------------------------
+  Split-half: the mean Spearman rho between two random halves over the
+  splits. Spearman-Brown: 2r / (1 + r) of that mean, the reliability of the
+  full sample. A correlation with these scores can be at most about the
+  square root of the Spearman-Brown value.
+  Corrected recognition is the hit rate minus the false alarm rate.
+  All splits draw from one numpy generator with seed 0.

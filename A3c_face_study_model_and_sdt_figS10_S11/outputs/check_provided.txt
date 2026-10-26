@@ -1,0 +1,56 @@
+The saved d_a analysis of the face study (data/provided/), checked
+==================================================================
+
+fitted model: never-studied faces N(0, 1); ordinary_old mean 1.0024 SD 1.0013; rare_old mean 2.6668 SD 2.0284; rare_foil mean 0.6474 SD 2.0021; criteria -1.066, -0.334, 0.104, 0.194, 0.236, 0.456, 1.019
+trials pooled over 100 participants: ordinary_old 1500, rare_old 300, rare_foil 300, unrelated 1500
+
+d_a, rare faces against never-studied faces
+  estimate +1.66765; over participants [+1.475, +1.892] (10000 resamples, two-sided p = 0.0000); over faces [+1.270, +2.096] (p = 0.0000); leaving out one pair: +1.58799 (without c6) to +1.86545 (without c5)
+d_a, rare faces against their same-feature lures
+  estimate +1.00206; over participants [+0.755, +1.254] (10000 resamples, two-sided p = 0.0000); over faces [+0.608, +1.399] (p = 0.0000); leaving out one pair: +0.87913 (without c2) to +1.15633 (without c1)
+d_a, ordinary faces against never-studied faces
+  estimate +1.00177; over participants [+0.899, +1.107] (10000 resamples, two-sided p = 0.0000); over faces [+0.821, +1.175] (p = 0.0000); leaving out one pair: +1.00146 (without c1) to +1.00211 (without c5)
+effect of the lure set: d_a(rare vs never-studied) - d_a(rare vs same-feature lure)
+  estimate +0.66559; over participants [+0.458, +0.917] (10000 resamples, two-sided p = 0.0000); over faces [+0.276, +1.227] (p = 0.0000); leaving out one pair: +0.46721 (without c1) to +0.84895 (without c5)
+effect of the feature itself: d_a(rare vs same-feature lure) - d_a(ordinary vs never-studied)
+  estimate +0.00028; over participants [-0.232, +0.236] (10000 resamples, two-sided p = 0.9910); over faces [-0.427, +0.416] (p = 0.9800); leaving out one pair: -0.12242 (without c2) to +0.15487 (without c1)
+
+243-setting run, fitted lure-set effect:  above zero 242 of 243; median +1.013; range -0.003 to +3.735
+243-setting run, fitted feature effect:   above zero  18 of 243; median -0.327; range -2.002 to +0.236
+
+checks (35): 35 agree, 0 do not
+  [yes] d_a quantities recomputed from the fitted means and SDs: largest difference 0 (printed contrasts)
+  [yes] fitted means and SDs equal the named parameters: cells (printed params)
+  [yes] log likelihood of the shipped data at the saved parameters (evaluated, not fitted): -5836.647653 (printed -5836.647653)
+  [yes] 10,000 resamples numbered 0 to 9,999, none failed, fields i and c only: 10000 resamples, 0 failed (printed 10000)
+  [yes] report header: participants, test trials each, criteria: 100, 36, 7 (printed 100, 36, 7)
+  [yes] report: number of participant resamples: 10000 (printed 10000)
+  [yes] report: where ordinary_old sits (mean, SD): 1.002, 1.001 (printed 1.002, 1.001)
+  [yes] report: where rare_old sits (mean, SD): 2.667, 2.028 (printed 2.667, 2.028)
+  [yes] report: where rare_foil sits (mean, SD): 0.647, 2.002 (printed 0.647, 2.002)
+  [yes] registered report row: rare vs never-studied: 1.668 [+1.475, +1.892] (printed 1.668 [+1.475, +1.892])
+  [yes] registered report row: rare vs its own foil: 1.002 [+0.755, +1.254] (printed 1.002 [+0.755, +1.254])
+  [yes] registered report row: ordinary studied vs never-studied: 1.002 [+0.899, +1.107] (printed 1.002 [+0.899, +1.107])
+  [yes] registered report row: INTERACTION: +0.666 [+0.458, +0.917], p = 0.0000 (printed +0.666 [+0.458, +0.917], p = 0.0000)
+  [yes] registered report row: WHAT THE FEATURE BUYS: +0.000 [-0.232, +0.236], p = 0.9910 (printed +0.000 [-0.232, +0.236], p = 0.9910)
+  [yes] 1,000 resamples of the faces, numbered 0 to 999, no error: items 1000, errors 0 (printed items 1000)
+  [yes] item bootstrap report row: INTERACTION, items: n=1000 [+0.276, +1.227] p = 0.0000 (printed n=1000 [+0.276, +1.227] p = 0.0000)
+  [yes] item bootstrap report row: WHAT THE FEATURE BUYS, items: n=1000 [-0.427, +0.416] p = 0.9800 (printed n=1000 [-0.427, +0.416] p = 0.9800)
+  [yes] seven fits: all pairs and without each of c1 to c6: None, c1, c2, c3, c4, c5, c6 (printed None, c1, ..., c6)
+  [yes] the all-pairs fit equals the registered fit: largest difference 0 (printed 0)
+  [yes] report row: all pairs: +0.666 +0.000 (printed +0.666 +0.000)
+  [yes] report row: without c1: +0.467 +0.155 (printed +0.467 +0.155)
+  [yes] report row: without c2: +0.747 -0.122 (printed +0.747 -0.122)
+  [yes] report row: without c3: +0.611 -0.024 (printed +0.611 -0.024)
+  [yes] report row: without c4: +0.663 +0.071 (printed +0.663 +0.071)
+  [yes] report row: without c5: +0.849 +0.014 (printed +0.849 +0.014)
+  [yes] report row: without c6: +0.685 -0.099 (printed +0.685 -0.099)
+  [yes] report range over the six deletions: interaction: +0.467 to +0.849 (printed +0.467 to +0.849)
+  [yes] report range over the six deletions: equivalence: -0.122 to +0.155 (printed -0.122 to +0.155)
+  [yes] 243 settings, the grid g x w x u x c x nfeat in order, every one fitted: 243 settings, 243 fitted (printed 243)
+  [yes] report header: settings and simulated participants per setting: 243, 100 (printed 243, 100)
+  [yes] 243-setting report row: WHAT THE FEATURE BUYS, read off the log-odds: mean -0.274 range -0.925 to +0.203 positive 12% (printed mean -0.274 range -0.925 to +0.203 positive 12%)
+  [yes] 243-setting report row: WHAT THE FEATURE BUYS, fitted like the data: mean -0.404 range -2.002 to +0.236 positive 7% (printed mean -0.404 range -2.002 to +0.236 positive 7%)
+  [yes] 243-setting report row: INTERACTION, read off the log-odds: mean +0.798 range +0.026 to +2.543 positive 100% (printed mean +0.798 range +0.026 to +2.543 positive 100%)
+  [yes] 243-setting report row: INTERACTION, fitted like the data: mean +1.113 range -0.003 to +3.735 positive 100% (printed mean +1.113 range -0.003 to +3.735 positive 100%)
+  [yes] REM evidence of the 243 settings computed again (direct scores, rem_like_data.py): largest difference 4.4e-16 (printed 0)

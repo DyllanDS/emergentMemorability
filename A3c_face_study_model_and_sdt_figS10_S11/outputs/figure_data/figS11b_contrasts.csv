@@ -1,0 +1,5 @@
+contrast,resampled,x,estimate,ci_low,ci_high
+effect of the lure set,"participants (10,000 refits, registered)",0.78,0.6655901860860265,0.4582385693264063,0.9172052111035729
+effect of the lure set,"the six rare features (1,000 refits)",1.22,0.6655901860860265,0.27568200534799187,1.2270802860238463
+effect of the feature itself,"participants (10,000 refits, registered)",1.78,0.0002830532142241715,-0.2323386274874222,0.23615405902830056
+effect of the feature itself,"the six rare features (1,000 refits)",2.22,0.0002830532142241715,-0.4272111029101453,0.415948272642114

@@ -1,0 +1,12 @@
+statistic,saved_paper_run,recomputed,printed
+"Fig. 6c r(original, maintained)",0.8403070832,0.8403070832,0.84
+"Fig. 6d r(summed sim, maintained) human",-0.8931952659,-0.8931952659,-0.89
+"Fig. 6e r(summed sim, maintained) monkey",-0.6345623823,-0.6345623823,-0.63
+"Fig. 6f r(original, changed)",-0.3272784336,-0.3272784336,-0.33
+"Fig. 6g r(summed sim, changed) human",-0.7450824838,-0.7450824838,-0.75
+"Fig. 6h r(summed sim, changed) monkey",-0.4460413692,-0.4460413692,-0.45
+Fig. 7d percent drop (bootstrap mean),27.31208311,28.13288471,27%
+Fig. 7d one-sided p,0.036,0.031,0.036
+maintained participants kept,150,150,150
+changed participants kept,150,150,150
+reduced participants kept,150,150,150

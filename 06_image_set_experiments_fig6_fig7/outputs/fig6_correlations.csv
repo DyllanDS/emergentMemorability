@@ -1,0 +1,7 @@
+panel,paper_stats_name,x_profile,y_profile,n_features,pearson_r,paper_run_r,difference_to_paper_run
+c,origVsMaintain,"full THINGS memorability","memorability, maintained set",49,0.840307083150618,0.840307083150618,0
+d,sumSimVsMaintain,"summed similarity, human, maintained set","memorability, maintained set",49,-0.893195265896134,-0.893195265896134,0
+e,monkeyVsMaintain,"summed similarity, monkey, maintained set","memorability over the monkey components, maintained set",49,-0.63456238229297,-0.63456238229297,0
+f,origVsChanged,"full THINGS memorability","memorability, changed set",49,-0.32727843357215,-0.32727843357215,0
+g,sumSimVsChanged,"summed similarity, human, changed set","memorability, changed set",49,-0.745082483779852,-0.745082483779852,0
+h,monkeyVsChanged,"summed similarity, monkey, changed set","memorability over the monkey components, changed set",49,-0.44604136919201,-0.44604136919201,0

@@ -1,0 +1,5 @@
+database,bar,source,rho_plotted,ci_low,ci_high,largest_fold_p,reliability_line,paper_run_rho,paper_run_ci_low,paper_run_ci_high
+Faces,equal weights,faces_provided,-0.469,-0.5025,-0.4341,2.393783433597563e-22,-0.665,-0.469,-0.5025,-0.4341
+Faces,fitted weights,faces_provided,-0.604,-0.632,-0.5745,1.1164468321297102e-42,-0.665,-0.604,-0.632,-0.5745
+Scenes,equal weights,scenes_rerun,-0.501,-0.5333,-0.4672,4.292416346895833e-23,-0.732,-0.499,-0.5314,-0.4651
+Scenes,fitted weights,scenes_rerun,-0.641,-0.6671,-0.6133,8.829963564781591e-46,-0.732,-0.639,-0.6652,-0.6112

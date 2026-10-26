@@ -1,0 +1,177 @@
+D' BY PRECEDING-CONTEXT SIMILARITY, STANDARDIZED FOR POSITION AND LAG
+========================================================================================================
+6,223,953 trials, 21,137 participants, 26,107 images.
+Context = ctx_top10: the mean of the ten highest SPoSE correlations between the probe
+and the items already shown in that participant's stream, excluding prior showings of
+the probe itself. The measure, and the predecessor window it runs over, are identical
+for old and new trials; only the outcome differs.
+Trials require at least 20 preceding items. Bins are within-image rank bins
+(20 of them), so each image contributes equally to every bin.
+Standardization: 10 serial-position strata for false alarms and 10x10 position-by-lag strata
+for hits, each bin re-weighted to the same stratum distribution, so bins are compared
+at the same positions and lags.
+Confidence intervals are 400 bootstrap resamples of participants.
+
+--------------------------------------------------------------------------------------------------------
+STEP 1. THE DESCRIPTIVE BINS, RE-WEIGHTED
+--------------------------------------------------------------------------------------------------------
+Bins here are within-image ranks of raw context similarity, exactly as in
+sdt_by_context.py. The coverage line gives the share of the standard
+population each bin reaches; where it is below 1, a bin has no trials in some
+strata and is compared on the strata it has.
+
+bin  hit rate [95% CI]          FA rate [95% CI]             d' [95% CI]              c [95% CI]
+  1  0.7918 [0.7682, 0.8346]   0.0109 [0.0083, 0.0139]   3.108 [2.993, 3.313]   +0.741 [+0.649, +0.795]
+  2  0.7929 [0.7742, 0.8205]   0.0120 [0.0073, 0.0215]   3.074 [2.819, 3.298]   +0.720 [+0.578, +0.814]
+  3  0.8075 [0.7954, 0.8194]   0.0138 [0.0110, 0.0176]   3.071 [2.969, 3.164]   +0.667 [+0.605, +0.715]
+  4  0.8077 [0.8004, 0.8155]   0.0191 [0.0139, 0.0254]   2.942 [2.819, 3.068]   +0.601 [+0.538, +0.666]
+  5  0.8073 [0.8004, 0.8134]   0.0171 [0.0152, 0.0190]   2.986 [2.931, 3.038]   +0.625 [+0.601, +0.649]
+  6  0.8092 [0.8045, 0.8151]   0.0201 [0.0184, 0.0219]   2.926 [2.884, 2.967]   +0.588 [+0.569, +0.609]
+  7  0.8067 [0.8021, 0.8122]   0.0194 [0.0181, 0.0208]   2.931 [2.903, 2.967]   +0.600 [+0.582, +0.617]
+  8  0.8084 [0.8037, 0.8134]   0.0207 [0.0194, 0.0220]   2.912 [2.880, 2.946]   +0.584 [+0.568, +0.600]
+  9  0.8073 [0.8033, 0.8121]   0.0211 [0.0196, 0.0228]   2.900 [2.866, 2.936]   +0.582 [+0.563, +0.599]
+ 10  0.8054 [0.8007, 0.8109]   0.0207 [0.0194, 0.0221]   2.901 [2.869, 2.932]   +0.589 [+0.570, +0.607]
+ 11  0.8063 [0.8007, 0.8110]   0.0214 [0.0197, 0.0231]   2.891 [2.850, 2.929]   +0.581 [+0.561, +0.602]
+ 12  0.8086 [0.8032, 0.8139]   0.0220 [0.0199, 0.0246]   2.887 [2.835, 2.933]   +0.571 [+0.546, +0.593]
+ 13  0.8102 [0.8048, 0.8161]   0.0223 [0.0200, 0.0249]   2.887 [2.835, 2.938]   +0.565 [+0.542, +0.591]
+ 14  0.8090 [0.8027, 0.8153]   0.0206 [0.0193, 0.0218]   2.916 [2.885, 2.951]   +0.584 [+0.567, +0.603]
+ 15  0.8077 [0.8014, 0.8137]   0.0247 [0.0208, 0.0304]   2.836 [2.741, 2.915]   +0.548 [+0.499, +0.586]
+ 16  0.8083 [0.8015, 0.8149]   0.0210 [0.0194, 0.0227]   2.905 [2.866, 2.947]   +0.581 [+0.562, +0.601]
+ 17  0.8065 [0.7979, 0.8154]   0.0277 [0.0201, 0.0428]   2.781 [2.582, 2.926]   +0.525 [+0.426, +0.598]
+ 18  0.8016 [0.7916, 0.8114]   0.0232 [0.0208, 0.0258]   2.840 [2.781, 2.899]   +0.573 [+0.545, +0.601]
+ 19  0.8160 [0.8050, 0.8251]   0.0238 [0.0210, 0.0268]   2.881 [2.819, 2.939]   +0.540 [+0.511, +0.577]
+ 20  0.8142 [0.8027, 0.8240]   0.0279 [0.0237, 0.0357]   2.807 [2.684, 2.885]   +0.510 [+0.454, +0.549]
+
+  bin 1 = least crowded preceding context, bin 20 = most crowded
+  hit rate   bin1 0.7918 -> bin20 0.8142  (change +0.0224)   r with bin index +0.577
+  FA rate    bin1 0.0109 -> bin20 0.0279  (change +0.0170)   r with bin index +0.883
+  d'         bin1 3.108 -> bin20 2.807   monotone decreasing: False   r with bin index -0.864
+  criterion  bin1 +0.741 -> bin20 +0.510   r with bin index -0.844
+
+  trials: 1,054,544 repeats, 3,586,410 first showings
+  coverage (share of the standard population each bin reaches): hits 0.892-1.000, false alarms 0.602-1.000
+  serial position, repeats:   bin1 68.8 -> bin20 236.4
+  serial position, new items: bin1 31.7 -> bin20 237.3
+  lag, repeats:               bin1 44.9 -> bin20 45.0
+  raw context, repeats:       bin1 0.4101 -> bin20 0.7322 (span +0.3221)
+  raw context, new items:     bin1 0.2803 -> bin20 0.7328 (span +0.4525)
+
+--------------------------------------------------------------------------------------------------------
+STEP 2. ADJUSTED CURVE: bins of context relative to what is typical at that position
+--------------------------------------------------------------------------------------------------------
+Context is detrended against 50 serial-position strata, using one common
+trend estimated over old and new trials together, so bin 1 now means 'an unusually
+sparse stream for this point in the session' rather than 'early'. Those bins span the
+whole position range, so re-weighting them to a common position (and lag) distribution
+is an exact adjustment. Fig. S13 plots this curve (filled circles).
+
+bin  hit rate [95% CI]          FA rate [95% CI]             d' [95% CI]              c [95% CI]
+  1  0.8062 [0.8021, 0.8108]   0.0177 [0.0165, 0.0187]   2.967 [2.939, 2.999]   +0.620 [+0.604, +0.636]
+  2  0.8024 [0.7983, 0.8070]   0.0186 [0.0175, 0.0198]   2.933 [2.904, 2.968]   +0.616 [+0.601, +0.631]
+  3  0.8092 [0.8049, 0.8136]   0.0191 [0.0180, 0.0204]   2.947 [2.916, 2.977]   +0.598 [+0.584, +0.613]
+  4  0.8086 [0.8043, 0.8134]   0.0196 [0.0185, 0.0209]   2.934 [2.905, 2.964]   +0.594 [+0.580, +0.609]
+  5  0.8082 [0.8040, 0.8124]   0.0200 [0.0189, 0.0211]   2.925 [2.898, 2.954]   +0.591 [+0.578, +0.606]
+  6  0.8083 [0.8043, 0.8130]   0.0195 [0.0185, 0.0206]   2.936 [2.910, 2.964]   +0.596 [+0.581, +0.610]
+  7  0.8067 [0.8027, 0.8107]   0.0200 [0.0189, 0.0212]   2.920 [2.892, 2.949]   +0.594 [+0.580, +0.607]
+  8  0.8080 [0.8036, 0.8124]   0.0205 [0.0194, 0.0216]   2.915 [2.890, 2.945]   +0.587 [+0.572, +0.600]
+  9  0.8056 [0.8006, 0.8095]   0.0201 [0.0190, 0.0213]   2.913 [2.884, 2.943]   +0.595 [+0.579, +0.610]
+ 10  0.8065 [0.8024, 0.8112]   0.0211 [0.0198, 0.0224]   2.897 [2.869, 2.926]   +0.583 [+0.568, +0.598]
+ 11  0.8078 [0.8036, 0.8123]   0.0204 [0.0193, 0.0216]   2.916 [2.889, 2.945]   +0.588 [+0.573, +0.602]
+ 12  0.8071 [0.8028, 0.8119]   0.0204 [0.0193, 0.0215]   2.913 [2.885, 2.942]   +0.589 [+0.576, +0.604]
+ 13  0.8049 [0.8006, 0.8097]   0.0212 [0.0201, 0.0224]   2.889 [2.859, 2.918]   +0.585 [+0.571, +0.599]
+ 14  0.8093 [0.8053, 0.8138]   0.0218 [0.0206, 0.0231]   2.893 [2.867, 2.920]   +0.571 [+0.556, +0.585]
+ 15  0.8079 [0.8032, 0.8122]   0.0214 [0.0203, 0.0227]   2.895 [2.866, 2.923]   +0.578 [+0.563, +0.591]
+ 16  0.8097 [0.8049, 0.8143]   0.0219 [0.0208, 0.0231]   2.894 [2.864, 2.918]   +0.570 [+0.556, +0.585]
+ 17  0.8100 [0.8062, 0.8145]   0.0222 [0.0210, 0.0234]   2.887 [2.861, 2.916]   +0.566 [+0.552, +0.579]
+ 18  0.8091 [0.8048, 0.8136]   0.0226 [0.0214, 0.0240]   2.877 [2.852, 2.908]   +0.564 [+0.550, +0.578]
+ 19  0.8073 [0.8025, 0.8117]   0.0237 [0.0224, 0.0251]   2.851 [2.821, 2.880]   +0.557 [+0.543, +0.571]
+ 20  0.8129 [0.8084, 0.8175]   0.0257 [0.0245, 0.0270]   2.837 [2.808, 2.865]   +0.530 [+0.515, +0.543]
+
+  bin 1 = least crowded preceding context, bin 20 = most crowded
+  hit rate   bin1 0.8062 -> bin20 0.8129  (change +0.0068)   r with bin index +0.507
+  FA rate    bin1 0.0177 -> bin20 0.0257  (change +0.0080)   r with bin index +0.926
+  d'         bin1 2.967 -> bin20 2.837   monotone decreasing: False   r with bin index -0.933
+  criterion  bin1 +0.620 -> bin20 +0.530   r with bin index -0.913
+
+  trials: 1,054,544 repeats, 3,586,410 first showings
+  coverage (share of the standard population each bin reaches): hits 1.000-1.000, false alarms 1.000-1.000
+  serial position, repeats:   bin1 149.1 -> bin20 128.6
+  serial position, new items: bin1 128.7 -> bin20 90.6
+  lag, repeats:               bin1 45.0 -> bin20 45.0
+  raw context, repeats:       bin1 0.4631 -> bin20 0.6793 (span +0.2162)
+  raw context, new items:     bin1 0.3933 -> bin20 0.6202 (span +0.2269)
+
+--------------------------------------------------------------------------------------------------------
+STEP 3. UNADJUSTED VERSUS ADJUSTED
+--------------------------------------------------------------------------------------------------------
+The unadjusted rows reproduce sdt_by_context.py exactly: raw context bins, pooled
+without re-weighting. The adjusted rows are step 2. The z-scale column is the
+contribution of that measure to the d' contrast, so the two z entries add to it.
+
+                             bin 1     bin 20    change     z-scale contribution
+  hit rate   unadjusted   0.8426    0.7905   -0.0521    +0.1969
+  hit rate   adjusted     0.8062    0.8129   +0.0068    -0.0249
+  FA rate    unadjusted   0.0136    0.0289   +0.0153    +0.3115
+  FA rate    adjusted     0.0177    0.0257   +0.0080    +0.1555
+  d prime    unadjusted   3.214     2.705    -0.508
+  d prime    adjusted     2.967     2.837    -0.131
+
+  least-to-most-crowded d' contrast, unadjusted: +0.508
+  least-to-most-crowded d' contrast, adjusted:   +0.131 [+0.101, +0.163]
+
+  Decomposition on the common z scale; the two parts add to the d' contrast:
+    hits  z(H bin1) - z(H bin20)   unadjusted +0.1969 (39% of the unadjusted contrast)
+                                   adjusted   -0.0249 [-0.0431, -0.0054] (-19% of the adjusted contrast)
+    FAs   z(F bin20) - z(F bin1)   unadjusted +0.3115 (61% of the unadjusted contrast)
+                                   adjusted   +0.1555 [+0.1330, +0.1794] (119% of the adjusted contrast)
+
+--------------------------------------------------------------------------------------------------------
+STEP 4. MODEL-BASED ROUTE: per-participant regressions with position and lag entered
+--------------------------------------------------------------------------------------------------------
+Each participant contributes one slope on the context-bin index (1-20, centered within
+image), with serial position, and lag for hits, entered as continuous covariates.
+Inference is across participants. Slopes are in probability per bin step; predicted
+rates at bin 1 and bin 20 come from moving 19 bin steps around each measure's overall
+rate, and those predicted rates are converted to d'. Run on the adjusted bins, this is
+the same contrast as step 2 by a route that assumes linearity instead of relying on
+stratum overlap.
+
+  false alarms, per adjusted bin step      b=+0.00027 [+0.00024, +0.00029]  t(21129)=+22.43  p=3.64e-110  n=21,130
+  hits, per adjusted bin step              b=+0.00012 [+0.00001, +0.00023]  t(21082)=+2.13  p=0.0331  n=21,083
+  false alarms, per descriptive bin step   b=+0.00030 [+0.00027, +0.00034]  t(21129)=+15.24  p=3.39e-52  n=21,130
+  hits, per descriptive bin step           b=-0.00003 [-0.00019, +0.00012]  t(21082)=-0.42  p=0.673  n=21,083
+  false alarms, per SD of raw context      b=+0.00266 [+0.00234, +0.00298]  t(21129)=+16.28  p=2.94e-59  n=21,130
+  hits, per SD of raw context              b=+0.00132 [-0.00051, +0.00315]  t(21082)=+1.42  p=0.156  n=21,083
+
+  overall rates used as the anchor: hit 0.8080, FA 0.0209
+  predicted bin1 - bin20 d' contrast: +0.093 [+0.081, +0.105]
+    hits part -0.0084 [-0.0160, -0.0017]   FA part +0.1016 [+0.0925, +0.1102]
+  direct-standardization contrast for comparison: +0.131 [+0.101, +0.163]
+
+--------------------------------------------------------------------------------------------------------
+STEP 5. DESCRIPTIVE SCALE COMPARISON against the across-image spread
+--------------------------------------------------------------------------------------------------------
+  across-image d' over 26,107 images: SD 0.379, 5th-95th percentile range 1.244
+  adjusted within-image contrast 0.131 = 10% of that 5th-95th range, or 0.34 across-image SD
+  unadjusted contrast 0.508 = 41% of the same range
+
+--------------------------------------------------------------------------------------------------------
+STEP 6. ROBUSTNESS: adjusted bins defined on one common within-image distribution
+--------------------------------------------------------------------------------------------------------
+Above, old and new trials are ranked separately within image, so bin 20 means the most
+crowded twentieth of this image's repeats and, separately, of its first showings. Here
+both are ranked against the same pooled within-image distribution, so a bin index
+refers to the same absolute context level for hits and false alarms. Image composition
+is then no longer exactly balanced across bins.
+
+  adjusted   hit 0.8009 -> 0.8146   FA 0.0178 -> 0.0255   d' 2.945 -> 2.847
+  adjusted contrast +0.098 [+0.063, +0.127]   (hits -0.0502, FAs +0.1486)
+  coverage: hits 1.000-1.000, false alarms 1.000-1.000
+
+--------------------------------------------------------------------------------------------------------
+STEP 7. SECONDARY: vigilance repeats (short lag)
+--------------------------------------------------------------------------------------------------------
+  adjusted   hit 0.7922 -> 0.8017   d' 2.917 -> 2.795
+  adjusted contrast +0.122 [+0.094, +0.152]   (hits -0.0336, FAs +0.1555)
+  unadjusted contrast +0.067
+

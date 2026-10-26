@@ -1,0 +1,3 @@
+test,rho,p,n
+drop vs tie,0.5574489795918367,3.172193516263298e-05,49
+"drop vs tie, controlling for rho^2 with CR in the maintained set",0.373469387755102,0.008212832403809973,49

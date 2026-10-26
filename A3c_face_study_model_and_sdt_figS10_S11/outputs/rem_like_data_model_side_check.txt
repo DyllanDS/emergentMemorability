@@ -1,0 +1,12 @@
+REM after data collection, the part that does not need MemToolbox2 (computed in every run)
+=========================================================================
+
+settings: 243 (g x w x u x c x nfeat), 100 simulated participants each, 36 test trials each
+participants' rating use, cumulative proportions at the seven criteria: 0.0869, 0.2244, 0.3450, 0.3719, 0.3847, 0.4533, 0.6278
+simulated ratings under the shared criteria: largest gap between a simulated and an observed rating share, over all settings and ratings: 0.0000
+
+direct scores (read off the log odds), this run:
+  lure-set effect:  mean +0.798  range +0.026 to +2.543   positive 243 of 243
+  feature effect:   mean -0.274  range -0.925 to +0.203   positive 30 of 243
+largest difference from the saved run's direct scores (data/provided/rem_like_data.jsonl): 4.4e-16
+the rerun reproduces the saved run's evidence: yes

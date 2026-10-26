@@ -1,0 +1,82 @@
+SI APPENDIX, SECTION 1 (FIG. S1): CRITERION, d' AND d_a IN THE THREE IMAGE-SET EXPERIMENTS
+module A1, code/criterion_dprime_da_checks.py
+
+Participants: 602 sessions, 152 excluded, 450 kept (maintained 150 of 205, changed 150 of 195, reduced 150 of 202); test trials after the 200 to 10,000 ms filter: 282100
+Old items at test (all sessions before exclusions):
+  image sets 50.0%: 320 of 640 in every one of the 602 sessions; 20 of 40 in every one of the 9,632 test blocks
+  inversion experiment 50.0%: 40 of 80 in every one of the 54 sessions
+  face study 50.0%: 18 of 36 in every one of the 111 sessions
+  image-set design: 16 blocks per session, each with 40 study images and then 40 test items
+Response levels in the image-set test trials: [1, 2, 3, 4, 5, 6]
+
+Concept-by-set scores: 2554 computed, 2453 usable (finite d' and d_a), 101 dropped (d' missing: 0; d_a missing, fewer than two finite z pairs: 8; d_a infinite, hit rate 1 or false alarm rate 0 at the middle boundary: 93)
+  usable per set: maintained 939, changed 508, reduced 1006
+  trials per usable score: old median 35 (14 to 648), new median 36 (16 to 669)
+
+Corrected recognition against d' and d_a, all three sets pooled:
+  vs d'                                          Pearson r = 0.9579 (p = 0), Spearman rho = 0.9586, n = 2453
+  vs d_a (fixed slope 0.80)                      Pearson r = 0.9762 (p = 0), Spearman rho = 0.9799, n = 2453
+By image set:
+  maintained: vs d'                              Pearson r = 0.9633 (p = 0), Spearman rho = 0.9682, n = 939
+  maintained: vs d_a (0.80)                      Pearson r = 0.9799 (p = 0), Spearman rho = 0.9858, n = 939
+  changed: vs d'                                 Pearson r = 0.9596 (p = 1.03e-280), Spearman rho = 0.9589, n = 508
+  changed: vs d_a (0.80)                         Pearson r = 0.9759 (p = 0), Spearman rho = 0.9800, n = 508
+  reduced: vs d'                                 Pearson r = 0.9483 (p = 0), Spearman rho = 0.9456, n = 1006
+  reduced: vs d_a (0.80)                         Pearson r = 0.9713 (p = 0), Spearman rho = 0.9726, n = 1006
+
+Criterion c = -(z(H) + z(F)) / 2 from the mean concept rates (positive = conservative):
+  mean of concept rates (paper)  all three sets  hit 0.7174, false alarm 0.1229, d' 1.7358, c = +0.2928
+  mean of concept rates (paper)  maintained      hit 0.7124, false alarm 0.1352, d' 1.6624, c = +0.2708
+  mean of concept rates (paper)  changed         hit 0.7049, false alarm 0.1335, d' 1.6485, c = +0.2856
+  mean of concept rates (paper)  reduced         hit 0.7283, false alarm 0.1060, d' 1.8560, c = +0.3202
+
+z-ROC from the pooled confidence counts (all kept trials; slope of z(hit) on z(false alarm)):
+  all three sets  slope 0.592, intercept 1.202 (5 boundaries)
+  vs d_a at the measured slope 0.59              Pearson r = 0.9836 (p = 0), Spearman rho = 0.9909, n = 2453
+
+REM, the Fig. 1 run (module 01, data/paper_run/fig1_paper_run.mat):
+  1600 items (the Fig. 1b r between memorability and similarity, 1 / mean distance, stored in the run: -0.557)
+  REM: vs d'                                     Pearson r = 0.9893 (p = 0), Spearman rho = 0.9953, n = 1600
+  REM: vs d_a (per-item slope)                   Pearson r = 0.9693 (p = 0), Spearman rho = 0.9730, n = 1600
+  mean hit rate 0.8531, mean false alarm rate 0.2024, median per-item z-ROC slope 0.734
+
+CHECK against the MATLAB run (outputs/paperStats_criterionDpDa.mat):
+  field                                  MATLAB               Python difference
+  criterion_c                    0.292801254702       0.292801254702    1.1e-15
+  dprime_overall                 1.735770885678       1.735770885678    4.4e-16
+  overallHR                      0.717382819449       0.717382819449    4.4e-16
+  overallFAR                     0.122884666753       0.122884666753    2.2e-16
+  r_hitFA_dp                     0.957934427011       0.957934427011    3.3e-16
+  r_hitFA_da                     0.976172747520       0.976172747520    1.3e-15
+  r_hitFA_dp_rem                 0.989344742392       0.989344742392    4.4e-16
+  r_hitFA_da_rem                 0.969276752804       0.969276752804    7.8e-16
+  rho_hitFA_dp_rem               0.995320848476       0.995320848476    7.8e-16
+  rho_hitFA_da_rem               0.973009701965       0.973009701965          0
+  remMeanHitRate                 0.853102800527       0.853102800527          0
+  remMeanFaRate                  0.202415920700       0.202415920700    8.3e-17
+  remMedianZrocSlope             0.734052919854       0.734052919854    3.3e-16
+  nUsable                     2453.000000000000    2453.000000000000          0
+  nComputed                   2554.000000000000    2554.000000000000          0
+  nKept                        450.000000000000     450.000000000000          0
+  nExcluded                    152.000000000000     152.000000000000          0
+  nSessionsBeforeExclusion     602.000000000000     602.000000000000          0
+  nKeptTrials               282100.000000000000  282100.000000000000          0
+  remItemsUsed                1600.000000000000    1600.000000000000          0
+  daSlope                        0.800000000000       0.800000000000          0
+  c, maintained                  0.270827510608       0.270827510608    2.2e-16
+  r(CR, d_a), maintained         0.979857127413       0.979857127413    4.4e-16
+  c, changed                     0.285571925505       0.285571925505    1.1e-16
+  r(CR, d_a), changed            0.975861547136       0.975861547136    3.3e-16
+  c, reduced                     0.320200839820       0.320200839820    3.3e-16
+  r(CR, d_a), reduced            0.971311475941       0.971311475941    4.4e-16
+
+CHECK against the saved run (data/paper_run/paperStats_criterionDpDa.mat):
+  field                               saved run    this run (Python) difference
+  criterion_c                    0.292801254702       0.292801254702    1.1e-15
+  dprime_overall                 1.735770885678       1.735770885678    4.4e-16
+  overallHR                      0.717382819449       0.717382819449    4.4e-16
+  overallFAR                     0.122884666753       0.122884666753    2.2e-16
+  r_hitFA_dp                     0.957934427011       0.957934427011    3.3e-16
+  r_hitFA_da                     0.976172747520       0.976172747520    1.3e-15
+
+numbers.csv: 21 rows; L1-013 documented, L4-018 documented, L5-077 yes, L5-078 yes, L5-081 yes, L6-001 yes, L6-002 yes, L6-003 documented, L6-004 yes, L6-005 yes, L6-006 documented, L6-007 documented, L6-008 documented, L6-009 documented, L6-010 yes, L6-011 yes, L6-014 yes, L6-016 yes, L6-201 yes, L6-202 documented, L6-203 documented

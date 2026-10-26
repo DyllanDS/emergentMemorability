@@ -1,0 +1,63 @@
+RANDOM LISTS, BINNED BY NUMBER OF CLOSE NEIGHBORS ON THE LIST
+============================================================================================
+Lists are drawn at random. Each test item is then binned by how many of the
+studied items fall inside its 50 nearest neighbors in the database.
+This is the same quantity the designed lists manipulate, occurring here by
+chance.
+
+--------------------------------------------------------------------------------------------
+CELL 1: Shiffrin & Steyvers standard parameters
+g=0.40 w=20 u=0.30 c=0.70 crit=1.00
+--------------------------------------------------------------------------------------------
+600 lists x 120 participants; "similar" = inside an item's 50 nearest neighbors.
+mean close neighbors per studied item: 1.21 (lures 1.26)
+
+BY COUNT OF CLOSE NEIGHBORS ON THE LIST
+  similar     n(old)    n(new)      hit       FA    hits-FA   d-prime
+        0       6879      3220    0.701    0.148      0.553     1.573
+        1       8877      4433    0.705    0.157      0.548     1.545
+        2       5438      2843    0.710    0.164      0.546     1.531
+       3+       2806      1504    0.713    0.175      0.538     1.498
+  0 -> 3+:                          +0.011   +0.026     -0.015    -0.075
+
+WITHIN ITEM (each item's own mean removed; only which list it landed on varies)
+  band                  n(old)    n(new)      hit       FA    hits-FA   d-prime
+  below own mean           4365      1726    0.702    0.148      0.555     1.578
+  slightly below           8953      4520    0.704    0.154      0.550     1.554
+  at/above                 6840      3696    0.708    0.162      0.546     1.535
+  well above               3842      2053    0.712    0.172      0.540     1.507
+
+  within item: count vs hit rho = +0.070 (p = 2.42e-27); count vs FA rho = +0.136 (p = 1.95e-50)
+
+--------------------------------------------------------------------------------------------
+CELL 2: paper values: g 0.65, w 49, c 0.60
+g=0.65 w=49 u=0.30 c=0.60 crit=1.00
+--------------------------------------------------------------------------------------------
+600 lists x 120 participants; "similar" = inside an item's 50 nearest neighbors.
+mean close neighbors per studied item: 1.22 (lures 1.25)
+
+BY COUNT OF CLOSE NEIGHBORS ON THE LIST
+  similar     n(old)    n(new)      hit       FA    hits-FA   d-prime
+        0       6825      3291    0.713    0.145      0.568     1.621
+        1       8880      4383    0.718    0.152      0.565     1.602
+        2       5483      2827    0.721    0.162      0.560     1.574
+       3+       2812      1499    0.726    0.172      0.554     1.547
+  0 -> 3+:                          +0.013   +0.027     -0.014    -0.074
+
+WITHIN ITEM (each item's own mean removed; only which list it landed on varies)
+  band                  n(old)    n(new)      hit       FA    hits-FA   d-prime
+  below own mean           4405      1781    0.714    0.145      0.568     1.621
+  slightly below           8913      4454    0.716    0.151      0.565     1.605
+  at/above                 6828      3705    0.721    0.158      0.563     1.588
+  well above               3854      2054    0.724    0.168      0.556     1.557
+
+  within item: count vs hit rho = +0.080 (p = 3.41e-35); count vs FA rho = +0.151 (p = 3.86e-62)
+
+--------------------------------------------------------------------------------------------
+READING THIS
+--------------------------------------------------------------------------------------------
+  The count of close neighbors is what the designed lists set deliberately
+  and what random lists deliver by chance, so the two analyses can be read
+  against each other directly.
+  Watch corrected recognition against d-prime. Hits and false alarms both
+  rise with the count, so their difference moves far less than d-prime does.

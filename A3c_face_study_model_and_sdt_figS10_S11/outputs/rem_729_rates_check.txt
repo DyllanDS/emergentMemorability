@@ -1,0 +1,45 @@
+REM at the 729 settings of the preregistered sweep, rates and d_a per setting
+============================================================================
+
+seeds: the registered ones (seed = setting number)
+settings: 729
+prediction 1, hits: rare > ordinary                        712/729
+prediction 2, false alarms: rare foil > unrelated          729/729
+prediction 3, lure-set effect (registered two-term form)   729/729
+prediction 3, interaction (four-term form of the report)   729/729
+feature effect (what the feature buys) > 0                 79/729
+
+mean rates over the grid: rare_old 0.914  filler_old 0.816  ord_old 0.816  rare_foil 0.706  unrelated 0.407  ord_foil 0.407
+hit difference (rare minus ordinary):      mean +0.099, median +0.068, range -0.005 to +0.486
+false alarm difference (lure minus new):   mean +0.299, median +0.305, range +0.017 to +0.765
+lure-set effect, d_a:                      mean +0.793, median +0.732, range +0.033 to +2.495
+interaction, four-term, d_a:               mean +0.791, median +0.730, range +0.025 to +2.480
+feature effect, d_a:                       mean -0.274, median -0.251, range -0.998 to +0.093
+
+settings where hits do not favor rare faces: 17
+  g 0.3  w 20  u 0.2  c 0.8  nfeat 1  fa 0.42   rare 0.886  ordinary 0.887
+  g 0.3  w 20  u 0.4  c 0.6  nfeat 1  fa 0.42   rare 0.923  ordinary 0.923
+  g 0.3  w 20  u 0.4  c 0.7  nfeat 1  fa 0.60   rare 0.981  ordinary 0.982
+  g 0.3  w 20  u 0.4  c 0.8  nfeat 1  fa 0.42   rare 0.985  ordinary 0.987
+  g 0.3  w 20  u 0.4  c 0.8  nfeat 1  fa 0.60   rare 0.993  ordinary 0.995
+  g 0.3  w 25  u 0.3  c 0.8  nfeat 1  fa 0.42   rare 0.979  ordinary 0.981
+  g 0.3  w 25  u 0.3  c 0.8  nfeat 1  fa 0.60   rare 0.995  ordinary 0.996
+  g 0.3  w 25  u 0.4  c 0.7  nfeat 1  fa 0.42   rare 0.980  ordinary 0.985
+  g 0.3  w 25  u 0.4  c 0.8  nfeat 1  fa 0.20   rare 0.988  ordinary 0.988
+  g 0.3  w 25  u 0.4  c 0.8  nfeat 5  fa 0.60   rare 1.000  ordinary 1.000
+  g 0.4  w 20  u 0.4  c 0.8  nfeat 1  fa 0.42   rare 0.969  ordinary 0.970
+  g 0.4  w 25  u 0.2  c 0.7  nfeat 1  fa 0.60   rare 0.910  ordinary 0.911
+  g 0.4  w 25  u 0.2  c 0.8  nfeat 1  fa 0.42   rare 0.873  ordinary 0.879
+  g 0.4  w 25  u 0.3  c 0.8  nfeat 1  fa 0.42   rare 0.967  ordinary 0.967
+  g 0.4  w 25  u 0.3  c 0.8  nfeat 1  fa 0.60   rare 0.982  ordinary 0.984
+  g 0.4  w 25  u 0.4  c 0.8  nfeat 1  fa 0.60   rare 0.995  ordinary 0.995
+  g 0.5  w 25  u 0.3  c 0.8  nfeat 1  fa 0.60   rare 0.965  ordinary 0.966
+  hit rates of these settings: 0.873 to 1.000 (both rates); with the rare value on 1 feature: 16; both hit rates above 0.89: 15; largest shortfall 0.0053
+
+checks against the registered report (data/paper_run/rem_final_spec.txt, read by row label):
+  hits: rare > ordinary          this run (712, 729)   registered (712, 729)   equal
+  FA: rare foil > unrelated      this run (729, 729)   registered (729, 729)   equal
+  interaction > 0 (four-term)    this run (729, 729)   registered (729, 729)   equal
+  feature effect > 0             this run (79, 729)   registered (79, 729)   equal
+  mean rates                     this run ('0.914', '0.816', '0.816', '0.706', '0.407', '0.407')   registered ('0.914', '0.816', '0.816', '0.706', '0.407', '0.407')   equal
+  all equal: yes

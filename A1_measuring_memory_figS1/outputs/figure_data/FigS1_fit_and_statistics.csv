@@ -1,0 +1,9 @@
+quantity,value
+number_of_points,2453
+pearson_r,0.9761727475199644
+p_value,0.0
+fit_slope,3.757665071619733
+fit_intercept,-0.48578850822712305
+fit_line_x_from,0.08727272727272728
+fit_line_x_to,0.9317129629629629
+annotation,"r = 0.98, p < 0.001 / n = 2,453 concept scores"

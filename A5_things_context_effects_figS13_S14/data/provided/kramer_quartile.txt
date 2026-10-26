@@ -1,0 +1,361 @@
+KRAMER ET AL.'S QUARTILE TEST AND THE WITHIN-IMAGE CONTEXT EFFECT, SAME TRIALS
+====================================================================================================
+6,223,953 trials, 21,137 participants, 26,107 images.
+
+Kramer et al. (2023) split participants into quartiles by how many exemplars of a
+category they saw, scored that category's images separately within the top and the
+bottom quartile, correlated the two score vectors, and compared the score
+distributions. That test is reproduced here on the same trial-level data.
+Alongside it, in the same participants and the same images, is our test: bin each
+image's trials by how crowded the preceding stream was in feature space (mean
+similarity to the top10 nearest preceding items, binned WITHIN image so
+image identity is held constant) and read off d' from the least to the most crowded bin.
+
+Corrected recognition (hit rate minus false alarm rate) is kept as Kramer et al.
+defined it for their test.
+
+----------------------------------------------------------------------------------------------------
+WHOLE DATASET, ALL CATEGORIES: where the within-image effect lives
+----------------------------------------------------------------------------------------------------
+  d' least-crowded bin 3.214 -> most-crowded bin 2.705   (drop 0.508)
+  hit rate 0.8426 -> 0.7905     false alarm rate 0.0136 -> 0.0289
+  of the 0.508 drop in d', 0.197 (39%) comes from hits and 0.311 (61%) from false alarms
+
+  across the 26,107 images with at least 20 trials of each kind, corrected
+  recognition correlates r = +0.987 with hit rate and r = -0.077 with false alarm rate;
+  the mean false alarm rate is 0.0200.
+  Across images, corrected recognition therefore follows the hit rate far more closely
+  than the false alarm rate.
+
+====================================================================================================
+CATEGORY: ANIMAL   (178 concepts, 2,751 images, 615,985 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285            13.3         0-16            21.0      0.8267     0.0220    2.955
+  Q2            5,284            16.9        16-18            26.7      0.8322     0.0225    2.967
+  Q3            5,284            19.5        18-21            30.8      0.8276     0.0258    2.892
+  Q4            5,284            23.8        21-40            38.1      0.8165     0.0256    2.851
+  Q4 minus Q1: d' -0.104
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 2,229 of 2,751
+    trials per image behind each score: top quartile 13.3 repeats and 46.1 first showings; bottom quartile 7.8 and 27.2
+    Spearman rho between top- and bottom-quartile image scores: +0.086   (Pearson +0.099)
+    shuffled quartile assignment, 200 permutations: mean rho +0.071  95% interval [+0.042, +0.108]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.096, bottom 0.061
+    cross-quartile rho corrected for that unreliability: +1.123   (at the ceiling; the estimate exceeds 1 because the reliabilities are themselves noisy)
+    corrected recognition, mean over images: top quartile 0.7930, bottom quartile 0.8063  (difference -0.0133)
+    Wilcoxon signed-rank on the paired per-image scores: W = 1097827, p = 8.85e-05
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.264          2.637        -0.627        -0.977
+    hit rate                 0.8574         0.8098       -0.0476
+    false alarm rate         0.0141         0.0392       +0.0251
+    share of the d' drop: hits 31%, false alarms 69%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        3.150             2.676        +0.474
+      top quartile            3.115             2.627        +0.488
+      bottom quartile         3.148             2.822        +0.326
+
+  Is category count a proxy for feature crowding? Across the 21,125 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.676 (rho = +0.664, p = 0) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.672.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.7739, bottom quartile 0.6759  (difference +0.0980)
+    the within-image bins span 0.2953 to 0.8987, a range of 0.6034, so the split moves crowding 16% of that range
+    d' falls -0.98 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.096; the observed top-minus-bottom quartile difference is -0.104
+
+====================================================================================================
+CATEGORY: FOOD   (239 concepts, 3,364 images, 803,116 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285            18.5         0-21            29.2      0.8340     0.0238    2.952
+  Q2            5,284            22.6        21-24            35.7      0.8295     0.0265    2.886
+  Q3            5,284            25.5        24-27            40.2      0.8324     0.0259    2.909
+  Q4            5,284            29.7        27-42            46.9      0.8335     0.0275    2.887
+  Q4 minus Q1: d' -0.065
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 3,059 of 3,364
+    trials per image behind each score: top quartile 12.4 repeats and 46.5 first showings; bottom quartile 8.2 and 29.5
+    Spearman rho between top- and bottom-quartile image scores: +0.036   (Pearson +0.050)
+    shuffled quartile assignment, 200 permutations: mean rho +0.081  95% interval [+0.051, +0.113]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.138, bottom 0.111
+    cross-quartile rho corrected for that unreliability: +0.290
+    corrected recognition, mean over images: top quartile 0.8071, bottom quartile 0.8101  (difference -0.0030)
+    Wilcoxon signed-rank on the paired per-image scores: W = 2192184, p = 0.0362
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.230          2.660        -0.570        -0.962
+    hit rate                 0.8599         0.8140       -0.0459
+    false alarm rate         0.0158         0.0386       +0.0229
+    share of the d' drop: hits 33%, false alarms 67%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        3.126             2.719        +0.407
+      top quartile            3.078             2.727        +0.352
+      bottom quartile         3.166             2.740        +0.425
+
+  Is category count a proxy for feature crowding? Across the 21,130 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.474 (rho = +0.446, p = 0) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.464.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.8025, bottom quartile 0.7596  (difference +0.0430)
+    the within-image bins span 0.4216 to 0.8965, a range of 0.4748, so the split moves crowding 9% of that range
+    d' falls -1.20 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.052; the observed top-minus-bottom quartile difference is -0.065
+
+====================================================================================================
+CATEGORY: CLOTHING   (109 concepts, 1,517 images, 365,159 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285             7.2         0-9             11.3      0.8416     0.0186    3.085
+  Q2            5,284             9.9         9-11            15.5      0.8366     0.0180    3.077
+  Q3            5,284            11.9        11-13            18.7      0.8329     0.0175    3.075
+  Q4            5,284            15.0        13-26            23.6      0.8366     0.0164    3.116
+  Q4 minus Q1: d' +0.031
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 1,182 of 1,517
+    trials per image behind each score: top quartile 13.5 repeats and 51.7 first showings; bottom quartile 7.4 and 25.9
+    Spearman rho between top- and bottom-quartile image scores: +0.102   (Pearson +0.118)
+    shuffled quartile assignment, 200 permutations: mean rho +0.098  95% interval [+0.048, +0.143]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.134, bottom 0.015
+    cross-quartile rho corrected for that unreliability: +2.279   (at the ceiling; the estimate exceeds 1 because the reliabilities are themselves noisy)
+    corrected recognition, mean over images: top quartile 0.8215, bottom quartile 0.8243  (difference -0.0028)
+    Wilcoxon signed-rank on the paired per-image scores: W = 318666, p = 0.138
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.396          2.879        -0.518        -0.961
+    hit rate                 0.8652         0.8201       -0.0451
+    false alarm rate         0.0110         0.0248       +0.0139
+    share of the d' drop: hits 36%, false alarms 64%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        3.341             2.898        +0.443
+      top quartile            3.349             2.931        +0.418
+      bottom quartile         3.264             2.934        +0.331
+
+  Is category count a proxy for feature crowding? Across the 21,048 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.514 (rho = +0.501, p = 0) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.512.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.5910, bottom quartile 0.5213  (difference +0.0698)
+    the within-image bins span 0.2528 to 0.7396, a range of 0.4868, so the split moves crowding 14% of that range
+    d' falls -1.25 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.087; the observed top-minus-bottom quartile difference is +0.031
+
+====================================================================================================
+CATEGORY: CONTAINER   (104 concepts, 1,474 images, 349,729 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285             6.7         0-8             10.6      0.7924     0.0196    2.876
+  Q2            5,284             9.4         8-10            14.9      0.7928     0.0167    2.943
+  Q3            5,284            11.3        10-12            17.9      0.7878     0.0171    2.916
+  Q4            5,284            14.4        12-24            22.8      0.7898     0.0207    2.846
+  Q4 minus Q1: d' -0.030
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 1,169 of 1,474
+    trials per image behind each score: top quartile 13.7 repeats and 51.5 first showings; bottom quartile 7.3 and 25.0
+    Spearman rho between top- and bottom-quartile image scores: +0.112   (Pearson +0.118)
+    shuffled quartile assignment, 200 permutations: mean rho +0.098  95% interval [+0.052, +0.146]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.084, bottom 0.060
+    cross-quartile rho corrected for that unreliability: +1.589   (at the ceiling; the estimate exceeds 1 because the reliabilities are themselves noisy)
+    corrected recognition, mean over images: top quartile 0.7699, bottom quartile 0.7742  (difference -0.0042)
+    Wilcoxon signed-rank on the paired per-image scores: W = 321418, p = 0.321
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.181          2.677        -0.505        -0.938
+    hit rate                 0.8326         0.7694       -0.0632
+    false alarm rate         0.0133         0.0262       +0.0129
+    share of the d' drop: hits 45%, false alarms 55%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        3.086             2.739        +0.346
+      top quartile            3.072             2.665        +0.407
+      bottom quartile         3.015             2.774        +0.241
+
+  Is category count a proxy for feature crowding? Across the 20,997 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.137 (rho = +0.126, p = 5.12e-89) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.134.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.5270, bottom quartile 0.5121  (difference +0.0149)
+    the within-image bins span 0.3113 to 0.6597, a range of 0.3484, so the split moves crowding 4% of that range
+    d' falls -1.57 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.023; the observed top-minus-bottom quartile difference is -0.030
+
+====================================================================================================
+CATEGORY: TOOL   (79 concepts, 1,060 images, 261,507 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285             4.7         0-6              7.3      0.8022     0.0178    2.950
+  Q2            5,284             6.9         6-8             10.8      0.8008     0.0215    2.869
+  Q3            5,284             8.6         8-10            13.5      0.8164     0.0194    2.968
+  Q4            5,284            11.4        10-24            17.8      0.8046     0.0194    2.925
+  Q4 minus Q1: d' -0.026
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 724 of 1,060
+    trials per image behind each score: top quartile 14.2 repeats and 55.9 first showings; bottom quartile 6.9 and 24.5
+    Spearman rho between top- and bottom-quartile image scores: +0.134   (Pearson +0.129)
+    shuffled quartile assignment, 200 permutations: mean rho +0.095  95% interval [+0.034, +0.152]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.093, bottom 0.100
+    cross-quartile rho corrected for that unreliability: +1.383   (at the ceiling; the estimate exceeds 1 because the reliabilities are themselves noisy)
+    corrected recognition, mean over images: top quartile 0.7867, bottom quartile 0.7823  (difference +0.0045)
+    Wilcoxon signed-rank on the paired per-image scores: W = 128968, p = 0.884
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.213          2.664        -0.549        -0.956
+    hit rate                 0.8470         0.7734       -0.0736
+    false alarm rate         0.0143         0.0278       +0.0135
+    share of the d' drop: hits 50%, false alarms 50%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        3.120             2.720        +0.400
+      top quartile            3.079             2.762        +0.318
+      bottom quartile         3.052             2.779        +0.273
+
+  Is category count a proxy for feature crowding? Across the 20,324 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.194 (rho = +0.184, p = 1.05e-170) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.192.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.5854, bottom quartile 0.5561  (difference +0.0293)
+    the within-image bins span 0.3442 to 0.7132, a range of 0.3691, so the split moves crowding 8% of that range
+    d' falls -1.47 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.043; the observed top-minus-bottom quartile difference is -0.026
+
+====================================================================================================
+CATEGORY: VEHICLE   (67 concepts, 957 images, 225,876 trials)
+====================================================================================================
+
+  Kramer's split: participants ranked by exemplars of this category seen, in quartiles
+  quartile   n participants   mean exemplars   range     presentations   hit rate   FA rate      d'
+  Q1            5,285             3.8         0-5              5.9      0.7676     0.0160    2.876
+  Q2            5,284             5.8         5-7              9.2      0.7738     0.0154    2.911
+  Q3            5,284             7.5         7-8             11.8      0.7753     0.0188    2.835
+  Q4            5,284            10.0         8-20            15.9      0.7759     0.0189    2.835
+  Q4 minus Q1: d' -0.040
+
+  Kramer's test, reproduced
+    images scoreable in both quartiles (>= 5 trials of each kind): 612 of 957
+    trials per image behind each score: top quartile 14.6 repeats and 55.5 first showings; bottom quartile 6.7 and 22.4
+    Spearman rho between top- and bottom-quartile image scores: +0.104   (Pearson +0.107)
+    shuffled quartile assignment, 200 permutations: mean rho +0.115  95% interval [+0.051, +0.172]
+    split-half reliability of the scores within a quartile (Spearman-Brown corrected): top 0.172, bottom 0.139
+    cross-quartile rho corrected for that unreliability: +0.670
+    corrected recognition, mean over images: top quartile 0.7639, bottom quartile 0.7558  (difference +0.0081)
+    Wilcoxon signed-rank on the paired per-image scores: W = 90257, p = 0.642
+
+  Our test, same images: d' by within-image bin of preceding-stream crowding (20 bins)
+    bin                 least crowded ->  most crowded      drop     r with bin index
+    d'                       3.171          2.739        -0.432        -0.908
+    hit rate                 0.8045         0.7860       -0.0185
+    false alarm rate         0.0104         0.0258       +0.0155
+    share of the d' drop: hits 15%, false alarms 85%
+
+    the same effect inside each quartile (5 bins, since a quartile has a quarter of the trials)
+      group              d' least crowded   d' most crowded    drop
+      all participants        2.998             2.699        +0.299
+      top quartile            3.001             2.691        +0.311
+      bottom quartile         2.988             2.817        +0.171
+
+  Is category count a proxy for feature crowding? Across the 19,536 participants with at
+  least 5 scoreable trials of this category, the number of exemplars they saw correlates
+  r = +0.465 (rho = +0.461, p = 0) with the mean crowding of
+  those trials' preceding streams; with session length partialled out, r = +0.464.
+
+  How far does the quartile split move the thing the effect depends on?
+    mean crowding of this category's trials: top quartile 0.6013, bottom quartile 0.5185  (difference +0.0828)
+    the within-image bins span 0.2762 to 0.7666, a range of 0.4905, so the split moves crowding 17% of that range
+    d' falls -0.96 per unit crowding across the bins, so the split predicts a d' difference
+    of -0.080; the observed top-minus-bottom quartile difference is -0.040
+
+====================================================================================================
+THE TABLE
+====================================================================================================
+
+  Kramer's test on the left, ours on the right, same trials.
+
+  category      exemplars seen    cross-quartile   shuffled null      Wilcoxon    within-image d'
+                 top / bottom       rho            mean [95% CI]         p        least->most crowded
+  ------------------------------------------------------------------------------------------------
+  animal         23.8 / 13.3       +0.086          +0.071 [+0.042,+0.108]    8.9e-05    3.26 -> 2.64 (-0.63)
+  food           29.7 / 18.5       +0.036          +0.081 [+0.051,+0.113]      0.036    3.23 -> 2.66 (-0.57)
+  clothing       15.0 / 7.2        +0.102          +0.098 [+0.048,+0.143]       0.14    3.40 -> 2.88 (-0.52)
+  container      14.4 / 6.7        +0.112          +0.098 [+0.052,+0.146]       0.32    3.18 -> 2.68 (-0.50)
+  tool           11.4 / 4.7        +0.134          +0.095 [+0.034,+0.152]       0.88    3.21 -> 2.66 (-0.55)
+  vehicle        10.0 / 3.8        +0.104          +0.115 [+0.051,+0.172]       0.64    3.17 -> 2.74 (-0.43)
+
+  category      quartile hit rate    quartile FA rate    quartile d'      d' drop within image
+                 top / bottom         top / bottom       top / bottom     all / top Q / bottom Q
+  ------------------------------------------------------------------------------------------------
+  animal        0.8165 / 0.8267     0.0256 / 0.0220    2.851 / 2.955    0.47 / 0.49 / 0.33
+  food          0.8335 / 0.8340     0.0275 / 0.0238    2.887 / 2.952    0.41 / 0.35 / 0.43
+  clothing      0.8366 / 0.8416     0.0164 / 0.0186    3.116 / 3.085    0.44 / 0.42 / 0.33
+  container     0.7898 / 0.7924     0.0207 / 0.0196    2.846 / 2.876    0.35 / 0.41 / 0.24
+  tool          0.8046 / 0.8022     0.0194 / 0.0178    2.925 / 2.950    0.40 / 0.32 / 0.27
+  vehicle       0.7759 / 0.7676     0.0189 / 0.0160    2.835 / 2.876    0.30 / 0.31 / 0.17
+
+  category      share of the within-image d' effect     r(exemplars, crowding)     quartile split moves
+                  from hits      from false alarms        raw / session length      crowding, % of the
+                                                              partialled out        within-image range
+  ------------------------------------------------------------------------------------------------
+  animal               31%                 69%              +0.676 / +0.672                   16%
+  food                 33%                 67%              +0.474 / +0.464                    9%
+  clothing             36%                 64%              +0.514 / +0.512                   14%
+  container            45%                 55%              +0.137 / +0.134                    4%
+  tool                 50%                 50%              +0.194 / +0.192                    8%
+  vehicle              15%                 85%              +0.465 / +0.464                   17%
+
+  category      between-participant d' difference the quartile split gives
+                 predicted from the crowding it moves    observed (Q4 minus Q1)    within-image effect
+  ------------------------------------------------------------------------------------------------
+  animal                -0.096                          -0.104                  -0.627
+  food                  -0.052                          -0.065                  -0.570
+  clothing              -0.087                          +0.031                  -0.518
+  container             -0.023                          -0.030                  -0.505
+  tool                  -0.043                          -0.026                  -0.549
+  vehicle               -0.080                          -0.040                  -0.432
+
+----------------------------------------------------------------------------------------------------
+NOTES
+----------------------------------------------------------------------------------------------------
+
+Hit and false alarm trials are different trials, binned separately within image and
+combined per bin, so d' pairs rates from matched but not identical trials. Similarity
+is at the concept level, since SPoSE embeddings are per concept.
+
+Runtime 241s.

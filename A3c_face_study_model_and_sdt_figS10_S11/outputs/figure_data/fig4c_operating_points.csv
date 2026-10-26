@@ -1,0 +1,22 @@
+curve,target_kind,lure_kind,criterion,false_alarm_rate,hit_rate
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 2 or higher,0.8573333333333333,0.9793333333333333
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 3 or higher,0.636,0.906
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 4 or higher,0.45466666666666666,0.816
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 5 or higher,0.4106666666666667,0.7986666666666666
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 6 or higher,0.39666666666666667,0.786
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 7 or higher,0.31333333333333335,0.7166666666666667
+Ordinary vs Unrelated New Faces,studied_ordinary,never_studied,rated 8 or higher,0.15866666666666668,0.49066666666666664
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 2 or higher,0.81,0.9633333333333334
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 3 or higher,0.67,0.9266666666666666
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 4 or higher,0.6,0.9066666666666666
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 5 or higher,0.5866666666666667,0.9033333333333333
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 6 or higher,0.57,0.9
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 7 or higher,0.5333333333333333,0.8766666666666667
+Rare vs Same-Feature Lure,studied_rare,same_feature_lure,rated 8 or higher,0.43,0.79
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 2 or higher,0.8573333333333333,0.9633333333333334
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 3 or higher,0.636,0.9266666666666666
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 4 or higher,0.45466666666666666,0.9066666666666666
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 5 or higher,0.4106666666666667,0.9033333333333333
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 6 or higher,0.39666666666666667,0.9
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 7 or higher,0.31333333333333335,0.8766666666666667
+Rare vs Unrelated New Faces,studied_rare,never_studied,rated 8 or higher,0.15866666666666668,0.79

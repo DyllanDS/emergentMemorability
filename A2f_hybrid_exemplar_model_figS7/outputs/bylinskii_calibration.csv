@@ -1,0 +1,6 @@
+model,rare_feature_boost,reference_population,fraction_of_median_distance,across_category_dprime
+GCM,False,set,0.03,1.0924424383535296
+world,True,world,0.08,1.605573018211001
+set,True,set,0.12,1.6164413509650255
+list,True,list,0.08,1.5779603517577634
+mix,True,mix,0.08,1.582146849008259

@@ -1,0 +1,6 @@
+quantity,this_run,paper_run,difference
+"Spearman rho, published score vs CR in this task (40 items)",-0.5003754106284937,-0.5003754106284937,0
+p (two-sided),0.0010088376784176468,0.00100883767841764,6.7220534694101275e-18
+participants kept,50,50,0
+participants before exclusion,54,54,0
+participants excluded,4,4,0

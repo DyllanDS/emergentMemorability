@@ -1,0 +1,20 @@
+Leave-one-pair-out: what the registered contrasts rest on
+============================================================
+
+Six rare pairs, one per demographic cell. Each row refits the model with that
+pair's trials removed. Exploratory; the registered fit is the 'all pairs' row.
+
+  dropped           interaction feature buys
+  all pairs              +0.666       +0.000
+  without c1             +0.467       +0.155
+  without c2             +0.747       -0.122
+  without c3             +0.611       -0.024
+  without c4             +0.663       +0.071
+  without c5             +0.849       +0.014
+  without c6             +0.685       -0.099
+
+  interaction  across deletions: +0.467 to +0.849
+  feature buys across deletions: -0.122 to +0.155
+
+  The feature-buys estimate changes sign when at least one pair is removed,
+  so it is not independent of which six faces were used.

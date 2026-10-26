@@ -1,0 +1,39 @@
+{
+ "source": "outputs/rem_parameter_sweep.csv (this run of rem_parameter_sweep.m) (columns dprime, rhoItem)",
+ "r_dprime_rho_all32": 0.7135698988263102,
+ "p_dprime_rho_all32": 4.548449195696913e-06,
+ "r_squared_all32": 0.5091820005109905,
+ "standard_cell_runs": [
+  {
+   "label": "Shiffrin & Steyvers reference",
+   "rhoItem": -0.524495786391771
+  },
+  {
+   "label": "grid g=0.40 w=20",
+   "rhoItem": -0.532575254418375
+  },
+  {
+   "label": "storage u=0.30",
+   "rhoItem": -0.513237760507284
+  },
+  {
+   "label": "copy c=0.70",
+   "rhoItem": -0.5466003979588
+  },
+  {
+   "label": "list length=40",
+   "rhoItem": -0.533682103881261
+  },
+  {
+   "label": "criterion=1.0",
+   "rhoItem": -0.529818447670115
+  }
+ ],
+ "standard_item_min": -0.5466003979588,
+ "standard_item_max": -0.513237760507284,
+ "standard_item_mean": -0.530068291804601,
+ "fig1_values_rhoItem": -0.605509516975324,
+ "fig1_values_rank_most_negative_of_32": 4,
+ "fig1_values_dprime": 1.60637830613777,
+ "median_dprime_32": 1.5797887877904602
+}

@@ -1,0 +1,2 @@
+experiment,image_set,processed,excluded_same_key,excluded_fast,excluded_slow,excluded_low_cr,excluded_more_than_one_rule,excluded_total,removed_by_cap,kept,rules
+memorability inversion experiment,,54,0,3,0,4,3,4,0,50,exclusion rules of the Methods (slow rule 7500 ms); trials kept 200 to 10000 ms; first 50 participants kept

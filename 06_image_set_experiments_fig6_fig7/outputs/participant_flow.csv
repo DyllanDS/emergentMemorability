@@ -1,0 +1,5 @@
+experiment,image_set,processed,excluded_same_key,excluded_fast,excluded_slow,excluded_low_cr,excluded_more_than_one_rule,excluded_total,removed_by_cap,kept,rules
+image-set experiments,maintained,205,4,44,1,43,35,55,0,150,exclusion rules of the Methods; trials kept 200 to 10000 ms; first 150 per set
+image-set experiments,changed,195,4,32,0,29,20,45,0,150,exclusion rules of the Methods; trials kept 200 to 10000 ms; first 150 per set
+image-set experiments,reduced,202,8,40,0,26,20,52,0,150,exclusion rules of the Methods; trials kept 200 to 10000 ms; first 150 per set
+image-set experiments,all three sets,602,16,116,1,98,75,152,0,450,exclusion rules of the Methods; trials kept 200 to 10000 ms; first 150 per set

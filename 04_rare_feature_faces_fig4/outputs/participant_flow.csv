@@ -1,0 +1,2 @@
+experiment,sessions_before_exclusion,excluded_total,excluded_more_than_5_false_presses,excluded_fewer_than_4_of_6_repeats_detected,excluded_both_parts_of_the_rule,excluded_not_36_test_trials,passed_rule,kept,passing_sessions_not_needed,rules
+rare-feature face study,111,11,8,4,1,0,100,100,0,preregistered rule (AsPredicted #311640): at least 4 of the 6 one-back repeats detected and at most 5 presses on faces that were not repeats; the first 100 passing sessions in order of completion form the sample

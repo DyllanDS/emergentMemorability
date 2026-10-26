@@ -1,0 +1,19 @@
+group,row_label,simulation,y_position,rho,pRho,marker
+Unequal Criteria (Within / Across),10 / 2.5,crit 10 / 2.5,-2,0.562442605691947,4.50595753860059e-132,blue
+Unequal Criteria (Within / Across),20 / 5,reference (crit 20 / 5),-3,0.355926926943917,3.03105331810543e-48,black (Fig. 2a design)
+Unequal Criteria (Within / Across),20 / 5,crit 20 / 5,-4,0.528472658939881,5.14751443841267e-114,black (Fig. 2a design)
+Unequal Criteria (Within / Across),40 / 10,crit 40 / 10,-5,0.420005974979592,2.44225756458761e-68,blue
+Equal Criteria,1 / 1,crit 1 / 1,-7,0.544077655525543,4.71134276612953e-122,blue
+Equal Criteria,5 / 5,crit 5 / 5,-8,0.244853716647628,6.19996939161179e-23,blue
+Equal Criteria,20 / 20,crit 20 / 20,-9,0.249803948549002,7.81567958359763e-24,blue
+Equal Criteria,50 / 50,crit 50 / 50,-10,0.316718023232457,4.94697035625245e-38,blue
+Category-Defining Features,3,category-defining features = 3,-12,0.50181428723858,3.22884348303061e-101,blue
+Category-Defining Features,5,category-defining features = 5,-13,0.438546774921452,5.04298905075614e-75,blue
+Category-Defining Features,10,category-defining features = 10,-14,0.328012656828027,8.00570436475243e-41,black (Fig. 2a design)
+Category-Defining Features,15,category-defining features = 15,-15,0.601239536781949,1.94499038798911e-155,blue
+Categories,10,categories = 10,-17,0.76100681695903,1.03239450960022e-142,blue
+Categories,21,categories = 21,-18,0.458879056953966,7.55010115872871e-83,black (Fig. 2a design)
+Categories,40,categories = 40,-19,0.24269316863899,1.80380546502806e-41,blue
+Items per Category,150,items per category = 150,-21,0.507809615970997,1.56670721124408e-53,blue
+Items per Category,300,items per category = 300,-22,0.441911060307813,2.78220052531362e-76,black (Fig. 2a design)
+Items per Category,600,items per category = 600,-23,0.420657489424681,2.55227724662201e-135,blue

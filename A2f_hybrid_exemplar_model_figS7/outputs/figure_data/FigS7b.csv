@@ -1,0 +1,16 @@
+model,n_similar,dprime,dprime_change,source
+REM,0,1.494,0.0,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, paper values)"
+REM,2,1.474,-0.020000000000000018,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, paper values)"
+REM,4,1.48,-0.014000000000000012,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, paper values)"
+REM,8,1.43,-0.06400000000000006,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, paper values)"
+REM,16,1.362,-0.1319999999999999,"A2d_list_context_figS5/data/paper_run/list_designed.txt (CELL 2, paper values)"
+GCM,0,0.34267663004622106,0.0,outputs/core.json (GCM)
+GCM,2,0.3317987655100099,-0.010877864536211146,outputs/core.json (GCM)
+GCM,4,0.32543247125922936,-0.017244158786991703,outputs/core.json (GCM)
+GCM,8,0.2842116860281376,-0.05846494401808344,outputs/core.json (GCM)
+GCM,16,0.23518991648778215,-0.10748671355843892,outputs/core.json (GCM)
+Hybrid,0,0.5632231179064083,0.0,"outputs/core.json (Hybrid GCM, list)"
+Hybrid,2,0.5238639314948375,-0.03935918641157088,"outputs/core.json (Hybrid GCM, list)"
+Hybrid,4,0.4989498546631197,-0.06427326324328864,"outputs/core.json (Hybrid GCM, list)"
+Hybrid,8,0.4195690578217032,-0.14365406008470516,"outputs/core.json (Hybrid GCM, list)"
+Hybrid,16,0.30781754590873833,-0.25540557199767,"outputs/core.json (Hybrid GCM, list)"

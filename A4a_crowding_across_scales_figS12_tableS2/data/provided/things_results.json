@@ -1,0 +1,453 @@
+{
+ "profiles": [
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "all",
+   "measure": "hit",
+   "rho": 0.1859124177077839,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.43703446074697055,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "all",
+   "measure": "cr",
+   "rho": 0.12880955800965802,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.1341306319059233,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": 0.03003750503400277,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.0835343679253361,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": 0.01791104798148715,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.031495488312940946,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "all",
+   "measure": "hit",
+   "rho": 0.16871465412632183,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.42171658673640433,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "all",
+   "measure": "cr",
+   "rho": 0.11308834805099509,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.14253702018594547,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": 0.012728225116946506,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.06387694804591657,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": 0.0013641944645763834,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.1",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.03898662218122158,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "all",
+   "measure": "hit",
+   "rho": 0.12199106446641572,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.40010187940918307,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "all",
+   "measure": "cr",
+   "rho": 0.06861162570975812,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.17265464223842172,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": -0.012145325654697557,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.0546025237073068,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": -0.023545286780276727,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.057834356604562064,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "all",
+   "measure": "hit",
+   "rho": 0.05581842576938498,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.3431293025426739,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "all",
+   "measure": "cr",
+   "rho": 0.009351273259698398,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.19483387695541152,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": -0.043259831926368016,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.03603171667498925,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": -0.05203250115718256,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.4",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.07457145726671219,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "all",
+   "measure": "hit",
+   "rho": -0.03461897531167797,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.23064176856347135,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "all",
+   "measure": "cr",
+   "rho": -0.06703114171011791,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.20095855279380567,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": -0.058900959310372404,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.021433699316431284,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": -0.06499742841140714,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.07751744434116728,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "all",
+   "measure": "hit",
+   "rho": -0.1042871029998009,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "all",
+   "measure": "fa",
+   "rho": 0.1305720894430403,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "all",
+   "measure": "cr",
+   "rho": -0.12395286026737955,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "all",
+   "measure": "dprime",
+   "rho": -0.19589882912062767,
+   "n": 1854
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "within category",
+   "measure": "hit",
+   "rho": -0.06422703934442374,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "within category",
+   "measure": "fa",
+   "rho": 0.014006597216393045,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "within category",
+   "measure": "cr",
+   "rho": -0.06856350763908521,
+   "n": 1324
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "scope": "within category",
+   "measure": "dprime",
+   "rho": -0.07516011903630898,
+   "n": 1324
+  }
+ ],
+ "table_s2": [
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "measure": "cr",
+   "r": 0.5541364028394938
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.05",
+   "measure": "dprime",
+   "r": -0.13657409307613222
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "measure": "cr",
+   "r": 0.38257431846872436
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "0.2",
+   "measure": "dprime",
+   "r": -0.31757389149325366
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "measure": "cr",
+   "r": -0.1652650777271207
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "1",
+   "measure": "dprime",
+   "r": -0.5233771033371252
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "measure": "cr",
+   "r": -0.4208366955468321
+  },
+  {
+   "dataset": "THINGS",
+   "tau": "all",
+   "measure": "dprime",
+   "r": -0.49781513344779776
+  }
+ ],
+ "categories": [
+  {
+   "component": "between categories",
+   "rho": 0.4126306389132307,
+   "p": null,
+   "n": 1324
+  },
+  {
+   "component": "within categories",
+   "rho": 0.03003750503400277,
+   "p": 0.2747526209271422,
+   "n": 1324
+  }
+ ],
+ "published_check": 0.9876710084822794
+}

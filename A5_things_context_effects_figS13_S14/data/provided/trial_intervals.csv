@@ -1,0 +1,11 @@
+test_id,key,statistic_name,statistic,ci_low,ci_high,n_resamples,seed
+T38,whole_stream_contrast,d' difference,0.508382,0.476391,0.539884,2000,20261013
+T38,whole_stream_hit_part,z-scale contribution to the d' contrast,0.196907,0.178927,0.215683,2000,20261013
+T38,whole_stream_fa_part,z-scale contribution to the d' contrast,0.311475,0.286523,0.337381,2000,20261013
+T39,ratio,ratio of mean coefficients,4.6082,2.78969,11.9844,2000,20261013
+T41,drop_20_bins,d' difference,0.626654,0.54378,0.712779,2000,20261013
+T41,drop_5_bins_all,d' difference,0.473801,0.428443,0.516803,2000,20261013
+T41,drop_5_bins_top,d' difference,0.488143,0.417333,0.562095,2000,20261013
+T41,drop_5_bins_bottom,d' difference,0.32575,0.228729,0.420634,2000,20261013
+T41,quartile_difference,d' difference,-0.103999,-0.168437,-0.0378518,2000,20261013
+T42,spose_five_bin_drop,d' difference,0.38633,0.368018,0.405602,2000,20261013

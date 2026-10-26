@@ -1,0 +1,265 @@
+dataset,tau,scope,measure,rho,n
+REM-gen,0.05,all,hit,-0.32716847474044736,1600
+REM-gen,0.05,all,fa,0.636974746264769,1600
+REM-gen,0.05,all,cr,-0.6065674026478906,1600
+REM-gen,0.05,all,dprime,-0.5887942532071133,1600
+REM-gen,0.1,all,hit,-0.3002521500834893,1600
+REM-gen,0.1,all,fa,0.6236467829029483,1600
+REM-gen,0.1,all,cr,-0.5817654846293581,1600
+REM-gen,0.1,all,dprime,-0.5633846196718767,1600
+REM-gen,0.2,all,hit,-0.28973558489181767,1600
+REM-gen,0.2,all,fa,0.6185302730855333,1600
+REM-gen,0.2,all,cr,-0.5722561444402369,1600
+REM-gen,0.2,all,dprime,-0.5535432227323426,1600
+REM-gen,0.4,all,hit,-0.27958626349918225,1600
+REM-gen,0.4,all,fa,0.6131699327911961,1600
+REM-gen,0.4,all,cr,-0.5628387056546733,1600
+REM-gen,0.4,all,dprime,-0.5437927047348242,1600
+REM-gen,1,all,hit,-0.27147267809052755,1600
+REM-gen,1,all,fa,0.6085210696545761,1600
+REM-gen,1,all,cr,-0.5551411918661797,1600
+REM-gen,1,all,dprime,-0.5358677167526269,1600
+REM-gen,all,all,hit,-0.2671463954340954,1600
+REM-gen,all,all,fa,0.6058375164316842,1600
+REM-gen,all,all,cr,-0.5508822287549054,1600
+REM-gen,all,all,dprime,-0.5315051510708748,1600
+REM-SPoSE,0.05,all,hit,-0.3572869057955616,1600
+REM-SPoSE,0.05,all,fa,0.48064916878709324,1600
+REM-SPoSE,0.05,all,cr,-0.5281461657007916,1600
+REM-SPoSE,0.05,all,dprime,-0.5141645779495205,1600
+REM-SPoSE,0.1,all,hit,-0.3537081732258969,1600
+REM-SPoSE,0.1,all,fa,0.4669261297221283,1600
+REM-SPoSE,0.1,all,cr,-0.5160296286811564,1600
+REM-SPoSE,0.1,all,dprime,-0.5045036943002416,1600
+REM-SPoSE,0.2,all,hit,-0.3355652279146708,1600
+REM-SPoSE,0.2,all,fa,0.42408707730622314,1600
+REM-SPoSE,0.2,all,cr,-0.4759533055116586,1600
+REM-SPoSE,0.2,all,dprime,-0.4667363170044061,1600
+REM-SPoSE,0.4,all,hit,-0.2928734949947615,1600
+REM-SPoSE,0.4,all,fa,0.3346952503473795,1600
+REM-SPoSE,0.4,all,cr,-0.389643666703076,1600
+REM-SPoSE,0.4,all,dprime,-0.38373999218840565,1600
+REM-SPoSE,1,all,hit,-0.22826715370254957,1600
+REM-SPoSE,1,all,fa,0.2094579771590407,1600
+REM-SPoSE,1,all,cr,-0.26700257505394476,1600
+REM-SPoSE,1,all,dprime,-0.26598131495675187,1600
+REM-SPoSE,all,all,hit,-0.1744627604346534,1600
+REM-SPoSE,all,all,fa,0.11226549006081238,1600
+REM-SPoSE,all,all,cr,-0.17004257428377814,1600
+REM-SPoSE,all,all,dprime,-0.17274043326485422,1600
+HGCM-list,0.05,all,hit,0.5739309247090479,1600
+HGCM-list,0.05,all,fa,0.7531592988910146,1600
+HGCM-list,0.05,all,cr,-0.3191315494030388,1600
+HGCM-list,0.05,all,dprime,-0.6328377783779262,1600
+HGCM-list,0.1,all,hit,0.5432811294320132,1600
+HGCM-list,0.1,all,fa,0.7251611292433578,1600
+HGCM-list,0.1,all,cr,-0.3191980137847623,1600
+HGCM-list,0.1,all,dprime,-0.6164443847312049,1600
+HGCM-list,0.2,all,hit,0.5305352510049003,1600
+HGCM-list,0.2,all,fa,0.7131572272167948,1600
+HGCM-list,0.2,all,cr,-0.31882996285812504,1600
+HGCM-list,0.2,all,dprime,-0.6091898896939777,1600
+HGCM-list,0.4,all,hit,0.519234796739242,1600
+HGCM-list,0.4,all,fa,0.7024785793693249,1600
+HGCM-list,0.4,all,cr,-0.31806902310441393,1600
+HGCM-list,0.4,all,dprime,-0.6026438475717653,1600
+HGCM-list,1,all,hit,0.5123477539342555,1600
+HGCM-list,1,all,fa,0.6958612660117374,1600
+HGCM-list,1,all,cr,-0.31745779337077873,1600
+HGCM-list,1,all,dprime,-0.5985199108931974,1600
+HGCM-list,all,all,hit,0.5091695123872934,1600
+HGCM-list,all,all,fa,0.6927155618151235,1600
+HGCM-list,all,all,cr,-0.3171406267415855,1600
+HGCM-list,all,all,dprime,-0.5965252060080705,1600
+maintained,0.05,all,hit,0.047501457883228966,970
+maintained,0.05,all,fa,0.20751650941714936,970
+maintained,0.05,all,cr,-0.08942027603563989,970
+maintained,0.05,all,dprime,-0.1260847122942853,970
+maintained,0.05,within category,hit,0.03507815218945244,657
+maintained,0.05,within category,fa,0.14415513937606497,657
+maintained,0.05,within category,cr,-0.043089800395339495,657
+maintained,0.05,within category,dprime,-0.0592754058886708,657
+maintained,0.1,all,hit,0.005436106002193948,970
+maintained,0.1,all,fa,0.25447485782167006,970
+maintained,0.1,all,cr,-0.14919873984817533,970
+maintained,0.1,all,dprime,-0.18708813323425422,970
+maintained,0.1,within category,hit,-0.00975545004939473,657
+maintained,0.1,within category,fa,0.16172280043534312,657
+maintained,0.1,within category,cr,-0.10277732545658695,657
+maintained,0.1,within category,dprime,-0.1141761368231422,657
+maintained,0.2,all,hit,-0.0802183000089663,970
+maintained,0.2,all,fa,0.31439303432014026,970
+maintained,0.2,all,cr,-0.2507551599064148,970
+maintained,0.2,all,dprime,-0.28541534995590234,970
+maintained,0.2,within category,hit,-0.08507932165027018,657
+maintained,0.2,within category,fa,0.19653710528480742,657
+maintained,0.2,within category,cr,-0.18893799064176997,657
+maintained,0.2,within category,dprime,-0.19189410312345573,657
+maintained,0.4,all,hit,-0.22423346390111082,970
+maintained,0.4,all,fa,0.3638926315820472,970
+maintained,0.4,all,cr,-0.3929291608728155,970
+maintained,0.4,all,dprime,-0.4162270990938438,970
+maintained,0.4,within category,hit,-0.12831037655290375,657
+maintained,0.4,within category,fa,0.20732908681379672,657
+maintained,0.4,within category,cr,-0.22910618578733874,657
+maintained,0.4,within category,dprime,-0.22792333457832306,657
+maintained,1,all,hit,-0.3069117707215945,970
+maintained,1,all,fa,0.36801754487692273,970
+maintained,1,all,cr,-0.4595944651660406,970
+maintained,1,all,dprime,-0.47339469496402886,970
+maintained,1,within category,hit,-0.14197558087707474,657
+maintained,1,within category,fa,0.2025741679376645,657
+maintained,1,within category,cr,-0.2355600536962996,657
+maintained,1,within category,dprime,-0.23288554223042546,657
+maintained,all,all,hit,-0.3340786655483707,970
+maintained,all,all,fa,0.35794908236170336,970
+maintained,all,all,cr,-0.47478879023398235,970
+maintained,all,all,dprime,-0.48327569093598366,970
+maintained,all,within category,hit,-0.1471654477213619,657
+maintained,all,within category,fa,0.19795985940690805,657
+maintained,all,within category,cr,-0.2361078110441106,657
+maintained,all,within category,dprime,-0.23265285643238667,657
+changed,0.05,all,hit,-0.14363016908553247,527
+changed,0.05,all,fa,0.4634281487389731,527
+changed,0.05,all,cr,-0.3961793929535726,527
+changed,0.05,all,dprime,-0.4466339378196274,527
+changed,0.05,within category,hit,-0.06078759490700751,444
+changed,0.05,within category,fa,0.2842229940879881,444
+changed,0.05,within category,cr,-0.24086439333291232,444
+changed,0.05,within category,dprime,-0.24152849306371152,444
+changed,0.1,all,hit,-0.13024305092088878,527
+changed,0.1,all,fa,0.478342945625599,527
+changed,0.1,all,cr,-0.3989957270848216,527
+changed,0.1,all,dprime,-0.453663970199615,527
+changed,0.1,within category,hit,-0.07991009836346502,444
+changed,0.1,within category,fa,0.2820154841051446,444
+changed,0.1,within category,cr,-0.2571531366370355,444
+changed,0.1,within category,dprime,-0.2549653005633607,444
+changed,0.2,all,hit,-0.12672478777135093,527
+changed,0.2,all,fa,0.5005349390613392,527
+changed,0.2,all,cr,-0.41961992955785216,527
+changed,0.2,all,dprime,-0.4764236738961043,527
+changed,0.2,within category,hit,-0.058102843625910866,444
+changed,0.2,within category,fa,0.29192532086444634,444
+changed,0.2,within category,cr,-0.2500426977989461,444
+changed,0.2,within category,dprime,-0.25299642054843885,444
+changed,0.4,all,hit,-0.11183322173192439,527
+changed,0.4,all,fa,0.5035607566027401,527
+changed,0.4,all,cr,-0.4183389466182548,527
+changed,0.4,all,dprime,-0.47606132729540857,527
+changed,0.4,within category,hit,-0.041304931020807074,444
+changed,0.4,within category,fa,0.2930182792585853,444
+changed,0.4,within category,cr,-0.24063523219805127,444
+changed,0.4,within category,dprime,-0.24904152313248934,444
+changed,1,all,hit,-0.08851682138536937,527
+changed,1,all,fa,0.4977402620681106,527
+changed,1,all,cr,-0.4039570763310997,527
+changed,1,all,dprime,-0.46293723918291424,527
+changed,1,within category,hit,-0.022340983155136655,444
+changed,1,within category,fa,0.27819876700348445,444
+changed,1,within category,cr,-0.21814440010012356,444
+changed,1,within category,dprime,-0.23001230669971026,444
+changed,all,all,hit,-0.0736408745796965,527
+changed,all,all,fa,0.49268083407059965,527
+changed,all,all,cr,-0.39155890946327093,527
+changed,all,all,dprime,-0.45193795580028323,527
+changed,all,within category,hit,-0.013871249227211791,444
+changed,all,within category,fa,0.25661551216237627,444
+changed,all,within category,cr,-0.19634050301040487,444
+changed,all,within category,dprime,-0.2087245198772771,444
+reduced,0.05,all,hit,0.10771203067537202,1057
+reduced,0.05,all,fa,0.15298347831132225,1057
+reduced,0.05,all,cr,0.003226400389822681,1057
+reduced,0.05,all,dprime,-0.043392466549856484,1057
+reduced,0.05,within category,hit,-0.03564016344336575,754
+reduced,0.05,within category,fa,0.09279051706775321,754
+reduced,0.05,within category,cr,-0.10095840365008467,754
+reduced,0.05,within category,dprime,-0.1084602879393283,754
+reduced,0.1,all,hit,0.10044228254409085,1057
+reduced,0.1,all,fa,0.1500644976923212,1057
+reduced,0.1,all,cr,-0.0010183118872780024,1057
+reduced,0.1,all,dprime,-0.0457612179339604,1057
+reduced,0.1,within category,hit,-0.03383779575422306,754
+reduced,0.1,within category,fa,0.0694093469323822,754
+reduced,0.1,within category,cr,-0.08407044380764496,754
+reduced,0.1,within category,dprime,-0.08520079340026783,754
+reduced,0.2,all,hit,0.0689009778556132,1057
+reduced,0.2,all,fa,0.1623284753746004,1057
+reduced,0.2,all,cr,-0.03029119926697606,1057
+reduced,0.2,all,dprime,-0.07193871970634388,1057
+reduced,0.2,within category,hit,-0.046725829804547196,754
+reduced,0.2,within category,fa,0.07306145013802,754
+reduced,0.2,within category,cr,-0.09488153584662228,754
+reduced,0.2,within category,dprime,-0.09273460506853931,754
+reduced,0.4,all,hit,0.029824325526732698,1057
+reduced,0.4,all,fa,0.17979611486335745,1057
+reduced,0.4,all,cr,-0.06806133045583504,1057
+reduced,0.4,all,dprime,-0.10600243989694534,1057
+reduced,0.4,within category,hit,-0.05420548704914299,754
+reduced,0.4,within category,fa,0.08403091705727858,754
+reduced,0.4,within category,cr,-0.1051986983147383,754
+reduced,0.4,within category,dprime,-0.10158047664707485,754
+reduced,1,all,hit,-0.02538858050615347,1057
+reduced,1,all,fa,0.18364628578709252,1057
+reduced,1,all,cr,-0.11431916890963201,1057
+reduced,1,all,dprime,-0.14263316691167527,1057
+reduced,1,within category,hit,-0.05937790033546367,754
+reduced,1,within category,fa,0.08576492353220186,754
+reduced,1,within category,cr,-0.10905212720606854,754
+reduced,1,within category,dprime,-0.10431508955398867,754
+reduced,all,all,hit,-0.07268449933845018,1057
+reduced,all,all,fa,0.18007536880591793,1057
+reduced,all,all,cr,-0.15034732861251432,1057
+reduced,all,all,dprime,-0.1697572963670769,1057
+reduced,all,within category,hit,-0.06411526900518036,754
+reduced,all,within category,fa,0.08724874530274455,754
+reduced,all,within category,cr,-0.11291598393491553,754
+reduced,all,within category,dprime,-0.10783243414113756,754
+THINGS,0.05,all,hit,0.1859124177077839,1854
+THINGS,0.05,all,fa,0.43703446074697055,1854
+THINGS,0.05,all,cr,0.12880955800965802,1854
+THINGS,0.05,all,dprime,-0.1341306319059233,1854
+THINGS,0.05,within category,hit,0.03003750503400277,1324
+THINGS,0.05,within category,fa,0.0835343679253361,1324
+THINGS,0.05,within category,cr,0.01791104798148715,1324
+THINGS,0.05,within category,dprime,-0.031495488312940946,1324
+THINGS,0.1,all,hit,0.16871465412632183,1854
+THINGS,0.1,all,fa,0.42171658673640433,1854
+THINGS,0.1,all,cr,0.11308834805099509,1854
+THINGS,0.1,all,dprime,-0.14253702018594547,1854
+THINGS,0.1,within category,hit,0.012728225116946506,1324
+THINGS,0.1,within category,fa,0.06387694804591657,1324
+THINGS,0.1,within category,cr,0.0013641944645763834,1324
+THINGS,0.1,within category,dprime,-0.03898662218122158,1324
+THINGS,0.2,all,hit,0.12199106446641572,1854
+THINGS,0.2,all,fa,0.40010187940918307,1854
+THINGS,0.2,all,cr,0.06861162570975812,1854
+THINGS,0.2,all,dprime,-0.17265464223842172,1854
+THINGS,0.2,within category,hit,-0.012145325654697557,1324
+THINGS,0.2,within category,fa,0.0546025237073068,1324
+THINGS,0.2,within category,cr,-0.023545286780276727,1324
+THINGS,0.2,within category,dprime,-0.057834356604562064,1324
+THINGS,0.4,all,hit,0.05581842576938498,1854
+THINGS,0.4,all,fa,0.3431293025426739,1854
+THINGS,0.4,all,cr,0.009351273259698398,1854
+THINGS,0.4,all,dprime,-0.19483387695541152,1854
+THINGS,0.4,within category,hit,-0.043259831926368016,1324
+THINGS,0.4,within category,fa,0.03603171667498925,1324
+THINGS,0.4,within category,cr,-0.05203250115718256,1324
+THINGS,0.4,within category,dprime,-0.07457145726671219,1324
+THINGS,1,all,hit,-0.03461897531167797,1854
+THINGS,1,all,fa,0.23064176856347135,1854
+THINGS,1,all,cr,-0.06703114171011791,1854
+THINGS,1,all,dprime,-0.20095855279380567,1854
+THINGS,1,within category,hit,-0.058900959310372404,1324
+THINGS,1,within category,fa,0.021433699316431284,1324
+THINGS,1,within category,cr,-0.06499742841140714,1324
+THINGS,1,within category,dprime,-0.07751744434116728,1324
+THINGS,all,all,hit,-0.1042871029998009,1854
+THINGS,all,all,fa,0.1305720894430403,1854
+THINGS,all,all,cr,-0.12395286026737955,1854
+THINGS,all,all,dprime,-0.19589882912062767,1854
+THINGS,all,within category,hit,-0.06422703934442374,1324
+THINGS,all,within category,fa,0.014006597216393045,1324
+THINGS,all,within category,cr,-0.06856350763908521,1324
+THINGS,all,within category,dprime,-0.07516011903630898,1324

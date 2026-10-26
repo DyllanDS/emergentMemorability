@@ -1,0 +1,15 @@
+quantity,value
+concepts in both image sets (shared concepts),559
+"participants kept, maintained set",150
+"participants kept, reduced set",150
+features,49
+percent reduction (mean over resamples),34.108188772057154
+"percent reduction, 2.5th percentile (95% CI low)",4.182831618009001
+"percent reduction, 97.5th percentile (95% CI high)",57.02045262818448
+two-sided bootstrap p (twice the smaller tail),0.0322
+"summed rho^2, maintained set, shared concepts, full sample",0.7645124772015215
+"summed rho^2, reduced set, shared concepts, full sample",0.5087944922655687
+"drop in summed rho^2 (maintained minus reduced), full sample",0.25571798493595277
+"percent reduction, full sample",33.448503793162665
+bootstrap resamples,10000
+seed (numpy default_rng),20261013

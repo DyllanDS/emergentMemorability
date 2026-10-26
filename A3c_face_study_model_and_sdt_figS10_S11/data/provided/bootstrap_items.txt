@@ -1,0 +1,13 @@
+What the contrasts rest on: participants, or faces?
+==============================================================
+
+The registered interval resamples participants. The rare condition rests on six
+pairs, so it carries no information about how much the estimate depends on which
+six. Resampling the faces adds that.
+
+INTERACTION (rare: never-studied minus own foil)
+  items          n= 1000   [+0.276, +1.227]   p = 0.0000   excludes zero
+
+WHAT THE FEATURE BUYS (rare own-foil minus ordinary)
+  items          n= 1000   [-0.427, +0.416]   p = 0.9800   INCLUDES ZERO
+

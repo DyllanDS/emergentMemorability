@@ -1,0 +1,28 @@
+quantity,value,paper_run_value,difference
+"percent reduction in summed rho^2 (mean over resamples)",27.312083112781,27.312083112781,0
+"one-sided bootstrap p (reduced >= maintained)",0.036,0.036,0
+"summed rho^2, maintained set (mean over resamples)",0.549332863930067,0.549332863930067,0
+"summed rho^2, maintained set, 2.5th percentile",0.411121169864882,0.411121169864882,0
+"summed rho^2, maintained set, 97.5th percentile",0.687989223882015,0.687989223882015,0
+"summed rho^2, reduced set (mean over resamples)",0.392955265377036,0.392955265377036,0
+"summed rho^2, reduced set, 2.5th percentile",0.290826676963718,0.290826676963718,0
+"summed rho^2, reduced set, 97.5th percentile",0.498742558312895,0.498742558312895,0
+"summed similarity, maintained set, mean over concepts",0.182313089189614,0.182313089189614,0
+"summed similarity, maintained set, SD over concepts",0.00322461855503322,0.00322461855503322,0
+"summed similarity, reduced set, mean over concepts",0.179761091209927,0.179761091209927,0
+"summed similarity, reduced set, SD over concepts",0.00155792737382853,0.00155792737382853,0
+"concepts in the maintained set",970,970,0
+"concepts in the reduced set",1057,1057,0
+"participants kept, maintained set",150,150,0
+"participants kept, reduced set",150,150,0
+"participants excluded (maintained and reduced sets)",107,107,0
+"bootstrap resamples",1000,1000,0
+"features",49,49,0
+"summed rho^2, maintained set, full sample (no resampling)",0.78194961702149,NaN,NaN
+"summed rho^2, reduced set, full sample (no resampling)",0.575110672114618,NaN,NaN
+"largest difference of the bootstrap correlations from the saved run, maintained set",0,NaN,NaN
+"largest difference of the bootstrap correlations from the saved run, reduced set",0,NaN,NaN
+"Fig. 7c histogram: summed similarity of all 1,854 concepts to the maintained set, mean",0.180609588548644,NaN,NaN
+"Fig. 7c histogram: summed similarity of all 1,854 concepts to the maintained set, SD",0.00364189066754117,NaN,NaN
+"Fig. 7b histogram: summed similarity of all 1,854 concepts to the reduced set, mean",0.179729499874285,NaN,NaN
+"Fig. 7b histogram: summed similarity of all 1,854 concepts to the reduced set, SD",0.00155707482780904,NaN,NaN
